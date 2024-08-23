@@ -1,1 +1,127 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_4a80oJIQEeuL-MUP5XawZg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DIBASICS:_PrduIIsIEeugjIc9eFApkA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "DIBASICS:_WRihwIyeEeuPBZ1XhXtCWQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "DIBASICS:_izOnEIymEeuPBZ1XhXtCWQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "DIBASICS:_t7j9kI4_EeuK3asf3JhTYA",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_HZE9oJINEeuL-MUP5XawZg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA - salescustomers",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA - salesproducts",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA - salesstaging",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_PrduIIsIEeugjIc9eFApkA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_VzSCwPoQEeiN-rovZB9rdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_VzSCwPoQEeiN-rovZB9rdA - CustomersMetadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_WRihwIyeEeuPBZ1XhXtCWQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_aNXlQPoMEeiN-rovZB9rdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_aNXlQPoMEeiN-rovZB9rdA - ProductMetadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_izOnEIymEeuPBZ1XhXtCWQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_8RU20O2rEeimJLseTyzfCA - SalesShopsMetadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_VzSCwPoQEeiN-rovZB9rdA - CustomersMetadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_t7j9kI4_EeuK3asf3JhTYA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA - salescustomers",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA - salesproducts",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA - salesstaging",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
