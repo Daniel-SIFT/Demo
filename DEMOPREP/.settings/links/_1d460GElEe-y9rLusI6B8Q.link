@@ -1,0 +1,26 @@
+{
+  "itemId" : "_1d460GElEe-y9rLusI6B8Q",
+  "contextList" : [ {
+    "contextName" : "Development",
+    "repoId" : "__O78IGE7Ee-y9rLusI6B8Q",
+    "parameterList" : [ {
+      "id" : "__PRTWGE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Port"
+    }, {
+      "id" : "__PRTWWE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Database"
+    }, {
+      "id" : "__PRTWmE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_AdditionalParams"
+    }, {
+      "id" : "__PRTW2E7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Login"
+    }, {
+      "id" : "__PRTXGE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Password"
+    }, {
+      "id" : "__PRTXWE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Server"
+    } ]
+  } ]
+}
