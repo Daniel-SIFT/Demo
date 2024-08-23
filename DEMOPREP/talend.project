@@ -4,4 +4,5 @@
     <migrationTask xmi:id="_w_CAUGEZEe-QHs3Q2VcOyA" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_w-Dv8WEZEe-QHs3Q2VcOyA" login="daniel.d@siftanalyticsgrouppteltd_nfr" firstName="Daniel" lastName="Dae Wah" type="DQ"/>
+  <TalendProperties:User xmi:id="_dE5s0GEcEe-enIU0xCiVAg" login="daniel.d@sift-ag.com"/>
 </xmi:XMI>
