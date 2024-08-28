@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_HhgYUGT3Ee-g7JvTHx_dZw" name="Email Column Analysis" creationDate="2024-08-28T11:36:39.621+0700" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/Talend101_0.1.item#_xWjRsGT5Ee-g7JvTHx_dZw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_xWrNgmT5Ee-g7JvTHx_dZw"/>
+    <taggedValue xmi:id="_HhgYUWT3Ee-g7JvTHx_dZw" tag="Status" value="development"/>
+    <taggedValue xmi:id="_HhgYUmT3Ee-g7JvTHx_dZw" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+    <taggedValue xmi:id="_HhgYU2T3Ee-g7JvTHx_dZw" tag="Purpose" value="Check Email"/>
+    <taggedValue xmi:id="_HhgYVGT3Ee-g7JvTHx_dZw" tag="Description" value="Email patterns"/>
+    <taggedValue xmi:id="_HhgYVWT3Ee-g7JvTHx_dZw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_xWUoMWT5Ee-g7JvTHx_dZw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_xWUoMmT5Ee-g7JvTHx_dZw" tag="PREVIEW_ROW_NUMBER" value="500"/>
+    <taggedValue xmi:id="_xWUoM2T5Ee-g7JvTHx_dZw" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_xWnjIGT5Ee-g7JvTHx_dZw" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_HhgYVmT3Ee-g7JvTHx_dZw">
+      <connection href="../../metadata/connections/Talend101_0.1.item#_BnnFsGEmEe-y9rLusI6B8Q"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_nGSVXWRVEe-4aopAiWKOxw"/>
+    </context>
+    <results xmi:id="_HhgYV2T3Ee-g7JvTHx_dZw">
+      <resultMetadata xmi:id="_HhgYWGT3Ee-g7JvTHx_dZw" executionDate="2024-08-28T11:56:14.158+0700" executionDuration="1625" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_xWV2UGT5Ee-g7JvTHx_dZw" count="497" computed="true">
+        <parameters xmi:id="_xWV2UWT5Ee-g7JvTHx_dZw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_nGSVXWRVEe-4aopAiWKOxw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_2irYUGT5Ee-g7JvTHx_dZw" body="SELECT COUNT(*) FROM `talend101dev`.`detailcalllogs` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_2hzOkGT5Ee-g7JvTHx_dZw" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_2hzOkWT5Ee-g7JvTHx_dZw" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_2hzOkmT5Ee-g7JvTHx_dZw" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_2hzOk2T5Ee-g7JvTHx_dZw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_xWV2UmT5Ee-g7JvTHx_dZw" count="497" computed="true" distinctValueCount="50">
+        <parameters xmi:id="_xWV2U2T5Ee-g7JvTHx_dZw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_nGSVXWRVEe-4aopAiWKOxw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_2irYUWT5Ee-g7JvTHx_dZw" body="SELECT COUNT(*) FROM (SELECT DISTINCT `Email` FROM `talend101dev`.`detailcalllogs` ) A" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_2h248GT5Ee-g7JvTHx_dZw" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_2h248WT5Ee-g7JvTHx_dZw" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_2h248mT5Ee-g7JvTHx_dZw" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_2h2482T5Ee-g7JvTHx_dZw" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_xWV2VGT5Ee-g7JvTHx_dZw" count="497" computed="true" uniqueValueCount="0">
+        <parameters xmi:id="_xWV2VWT5Ee-g7JvTHx_dZw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_nGSVXWRVEe-4aopAiWKOxw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_2ismcGT5Ee-g7JvTHx_dZw" body="SELECT COUNT(*) FROM (SELECT `Email`, COUNT(*) mycount FROM `talend101dev`.`detailcalllogs`  GROUP BY `Email` HAVING mycount = 1) AS myquery" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_2h58QGT5Ee-g7JvTHx_dZw" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_2h58QWT5Ee-g7JvTHx_dZw" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_2h58QmT5Ee-g7JvTHx_dZw" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_2h58Q2T5Ee-g7JvTHx_dZw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_2h58RGT5Ee-g7JvTHx_dZw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_2h58RWT5Ee-g7JvTHx_dZw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_2h58RmT5Ee-g7JvTHx_dZw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_2h58R2T5Ee-g7JvTHx_dZw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_2h58SGT5Ee-g7JvTHx_dZw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_2h58SWT5Ee-g7JvTHx_dZw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:PatternFreqIndicator" xmi:id="_xWhcgGT5Ee-g7JvTHx_dZw" count="497" computed="true" distinctValueCount="10" valueToFreq="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C7708000000100000000A7400184161616161616161612E416161614061616161612E6161617372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000000000000001074001841616161612E41616161616161406161616161612E6161617371007E0003000000000000000E74001A416161616161612E41616161616140616161616161612E61616171007E00077400174161616161612E4161616140616161616161612E6161617371007E0003000000000000001674001841616161612E41616161616140616161616161612E6161617371007E0003000000000000001974001741616161612E416161616140616161616161612E6161617371007E0003000000000000001474001541616161616161612E41616161406161612E6161617371007E0003000000000000000D7400184161616161612E416161616161404161616161612E6161617371007E0003000000000000001574001A4161616161612E4161616161614041616161616161612E61616171007E00107400164161616161612E41616161614041616161612E61616171007E001078">
+        <parameters xmi:id="_xWhcgWT5Ee-g7JvTHx_dZw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_nGSVXWRVEe-4aopAiWKOxw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Frequency Statistics/Pattern_Frequency_Table_0.1.definition#_kQzTsJR-Ed2XO-JvLwVAwg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_2ismcWT5Ee-g7JvTHx_dZw" body="SELECT BINARY REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(`Email`,'a','a'),'b','a'),'c','a'),'d','a'),'e','a'),'f','a'),'g','a'),'h','a'),'i','a'),'j','a'),'k','a'),'l','a'),'m','a'),'n','a'),'o','a'),'p','a'),'q','a'),'r','a'),'s','a'),'t','a'),'u','a'),'v','a'),'w','a'),'x','a'),'y','a'),'z','a'),'ç','a'),'â','a'),'ê','a'),'î','a'),'ô','a'),'û','a'),'é','a'),'è','a'),'ù','a'),'ï','a'),'ö','a'),'ü','a'),'A','A'),'B','A'),'C','A'),'D','A'),'E','A'),'F','A'),'G','A'),'H','A'),'I','A'),'J','A'),'K','A'),'L','A'),'M','A'),'N','A'),'O','A'),'P','A'),'Q','A'),'R','A'),'S','A'),'T','A'),'U','A'),'V','A'),'W','A'),'X','A'),'Y','A'),'Z','A'),'Ç','A'),'Â','A'),'Ê','A'),'Î','A'),'Ô','A'),'Û','A'),'É','A'),'È','A'),'Ù','A'),'Ï','A'),'Ö','A'),'Ü','A'),'0','9'),'1','9'),'2','9'),'3','9'),'4','9'),'5','9'),'6','9'),'7','9'),'8','9'),'9','9'), COUNT(*) c FROM `talend101dev`.`detailcalllogs` t  GROUP BY BINARY REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(`Email`,'a','a'),'b','a'),'c','a'),'d','a'),'e','a'),'f','a'),'g','a'),'h','a'),'i','a'),'j','a'),'k','a'),'l','a'),'m','a'),'n','a'),'o','a'),'p','a'),'q','a'),'r','a'),'s','a'),'t','a'),'u','a'),'v','a'),'w','a'),'x','a'),'y','a'),'z','a'),'ç','a'),'â','a'),'ê','a'),'î','a'),'ô','a'),'û','a'),'é','a'),'è','a'),'ù','a'),'ï','a'),'ö','a'),'ü','a'),'A','A'),'B','A'),'C','A'),'D','A'),'E','A'),'F','A'),'G','A'),'H','A'),'I','A'),'J','A'),'K','A'),'L','A'),'M','A'),'N','A'),'O','A'),'P','A'),'Q','A'),'R','A'),'S','A'),'T','A'),'U','A'),'V','A'),'W','A'),'X','A'),'Y','A'),'Z','A'),'Ç','A'),'Â','A'),'Ê','A'),'Î','A'),'Ô','A'),'Û','A'),'É','A'),'È','A'),'Ù','A'),'Ï','A'),'Ö','A'),'Ü','A'),'0','9'),'1','9'),'2','9'),'3','9'),'4','9'),'5','9'),'6','9'),'7','9'),'8','9'),'9','9') ORDER BY c DESC LIMIT 10" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_2ifLEGT5Ee-g7JvTHx_dZw" name="Pattern Frequency Table" label="Pattern Frequency Table">
+          <taggedValue xmi:id="_2ifLEWT5Ee-g7JvTHx_dZw" tag="Description" value="counts the number of records for each distinct pattern"/>
+          <taggedValue xmi:id="_2ifLEmT5Ee-g7JvTHx_dZw" tag="Purpose" value="evaluates the most frequent patterns"/>
+          <sqlGenericExpression xmi:id="_2ifLE2T5Ee-g7JvTHx_dZw" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="SQL"/>
+          <sqlGenericExpression xmi:id="_2ifLFGT5Ee-g7JvTHx_dZw" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_2ifLFWT5Ee-g7JvTHx_dZw" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) AS c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_2ifLFmT5Ee-g7JvTHx_dZw" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) AS c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="PostgreSQL"/>
+          <sqlGenericExpression xmi:id="_2ifLF2T5Ee-g7JvTHx_dZw" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="DB2"/>
+          <sqlGenericExpression xmi:id="_2ifLGGT5Ee-g7JvTHx_dZw" body="SELECT &lt;%=__COLUMN_NAMES__%> , COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_2ifLGWT5Ee-g7JvTHx_dZw" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) AS c FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="Informix"/>
+          <sqlGenericExpression xmi:id="_2ifLGmT5Ee-g7JvTHx_dZw" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="AS/400"/>
+          <sqlGenericExpression xmi:id="_2ifLG2T5Ee-g7JvTHx_dZw" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_2ifLHGT5Ee-g7JvTHx_dZw" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) AS c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="Vertica Database"/>
+          <sqlGenericExpression xmi:id="_2ifLHWT5Ee-g7JvTHx_dZw" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) AS c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="Netezza"/>
+          <charactersMapping xmi:id="_2ifLHmT5Ee-g7JvTHx_dZw" language="SQL" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_2ifLH2T5Ee-g7JvTHx_dZw" name="Characters mapping on MySQL" language="MySQL" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_2ifLIGT5Ee-g7JvTHx_dZw" name="Characters mapping on Oracle" language="Oracle" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_2ifLIWT5Ee-g7JvTHx_dZw" name="Characters mapping on PostgreSQL" language="PostgreSQL" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_2ifLImT5Ee-g7JvTHx_dZw" name="Characters mapping on Microsoft SQL Server" language="Microsoft SQL Server" charactersToReplace="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_2ifLI2T5Ee-g7JvTHx_dZw" name="Characters mapping on DB2" language="DB2" charactersToReplace="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_2ifLJGT5Ee-g7JvTHx_dZw" name="Characters mapping on AS/400" language="AS/400" charactersToReplace="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_2ifLJWT5Ee-g7JvTHx_dZw" name="Characters mapping on Informix" language="Informix" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_2ifLJmT5Ee-g7JvTHx_dZw" name="Characters mapping on Teradata" language="Teradata" charactersToReplace="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_2ifLJ2T5Ee-g7JvTHx_dZw" name="Characters mapping on Vertica" language="Vertica Database" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_2ifLKGT5Ee-g7JvTHx_dZw" language="Netezza" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_2ifLKWT5Ee-g7JvTHx_dZw" name="Characters mapping on Hive" language="Hive" charactersToReplace="0123456789abcdefghijklmnopqrstuvwxyz?aê???éèù??üABCDEFGHIJKLMNOPQRSTUVWXYZ??ê???éèù??ü" replacementCharacters="9999999999aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_xWhcgmT5Ee-g7JvTHx_dZw" count="497" computed="true">
+        <parameters xmi:id="_xWhcg2T5Ee-g7JvTHx_dZw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_nGSVXWRVEe-4aopAiWKOxw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_2ismcmT5Ee-g7JvTHx_dZw" body="SELECT COUNT(`Email`) FROM `talend101dev`.`detailcalllogs` WHERE TRIM(`Email`) = '' " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_2ii1cGT5Ee-g7JvTHx_dZw" name="Blank Count" label="Blank Count">
+          <taggedValue xmi:id="_2ii1cWT5Ee-g7JvTHx_dZw" tag="Description" value="counts the number of blank rows. A blank is a non null textual data that contains only white spaces (or nothing). Note that Oracle does not distinguish between the empty string and the null value"/>
+          <taggedValue xmi:id="_2ii1cmT5Ee-g7JvTHx_dZw" tag="Purpose" value="evaluates the number of blank records"/>
+          <sqlGenericExpression xmi:id="_2ii1c2T5Ee-g7JvTHx_dZw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE TRIM(&lt;%=__COLUMN_NAMES__%>) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+          <sqlGenericExpression xmi:id="_2ii1dGT5Ee-g7JvTHx_dZw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE TRIM(&lt;%=__COLUMN_NAMES__%>) IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_2ii1dWT5Ee-g7JvTHx_dZw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+          <sqlGenericExpression xmi:id="_2ii1dmT5Ee-g7JvTHx_dZw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_2ii1d2T5Ee-g7JvTHx_dZw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_xWhchGT5Ee-g7JvTHx_dZw" name="Email Address" count="497" computed="true" matchingValueCount="497">
+        <parameters xmi:id="_xWhchWT5Ee-g7JvTHx_dZw">
+          <dataValidDomain xmi:id="_xWhchmT5Ee-g7JvTHx_dZw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_rC5TcD4XEd24WPpU35gV1A"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_nGSVXWRVEe-4aopAiWKOxw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_2it0kGT5Ee-g7JvTHx_dZw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Email`,'^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$','c') THEN 1 END), COUNT(*) FROM `talend101dev`.`detailcalllogs` " language="MySQL"/>
+      </indicators>
+    </results>
+    <parameters xmi:id="_HhgYWWT3Ee-g7JvTHx_dZw" dataFilter="_xWve8GT5Ee-g7JvTHx_dZw" analysisType="Multiple Column Analysis"/>
+    <contextType xmi:id="_xWUoMGT5Ee-g7JvTHx_dZw" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_xWve8GT5Ee-g7JvTHx_dZw" name="Email Column Analysis">
+    <ranges xmi:id="_xWve8WT5Ee-g7JvTHx_dZw">
+      <expressions xmi:id="_xWve8mT5Ee-g7JvTHx_dZw">
+        <expression xsi:type="relational:TdExpression" xmi:id="_xWve82T5Ee-g7JvTHx_dZw" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>
