@@ -1,5 +1,28 @@
 [ {
   "baseItem" : {
+    "id" : "_1J3-kJ0KEeuvS-xFzKFgQg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_D0jQAOScEeaaN4bqKCHblw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_D0jQAOScEeaaN4bqKCHblw - StateCodesSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ - USCustomersSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_4a80oJIQEeuL-MUP5XawZg",
     "version" : "0.1",
     "type" : "job"
@@ -20,6 +43,52 @@
     "id" : "DIBASICS:_t7j9kI4_EeuK3asf3JhTYA",
     "version" : "Latest",
     "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_C3C1AJ0SEeuvS-xFzKFgQg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_D0jQAOScEeaaN4bqKCHblw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_D0jQAOScEeaaN4bqKCHblw - StateCodesSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ - USCustomersSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_DpX28J1sEeufaeTN060kDA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_hYrN4J1rEeufaeTN060kDA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_xjeTcJ1pEeufaeTN060kDA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_zYzugONZEei7d_Ptb1tv1w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_zYzugONZEei7d_Ptb1tv1w - customers_retail",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -62,6 +131,17 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_LJatEPSqEeiFhc4YRIn5Dw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_D0jQAOScEeaaN4bqKCHblw - StateCodesSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_PrduIIsIEeugjIc9eFApkA",
     "version" : "0.1",
     "type" : "job"
@@ -80,6 +160,48 @@
     "type" : "property"
   }, {
     "id" : "_VzSCwPoQEeiN-rovZB9rdA - CustomersMetadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_S7lrgJ1mEeufaeTN060kDA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_hYrN4J1rEeufaeTN060kDA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_xjeTcJ1pEeufaeTN060kDA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_zYzugONZEei7d_Ptb1tv1w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_zYzugONZEei7d_Ptb1tv1w - customers_retail",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_TwsoAJ05EeuMFeGT_5Gtkg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_sXa8wGQeEe-4aopAiWKOxw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA - salesstaging",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -193,6 +315,21 @@
     "id" : "_dSbU4PoQEeiN-rovZB9rdA",
     "version" : "Latest",
     "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_tMKlUJ0DEeuvS-xFzKFgQg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ - USCustomersSchema",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {

@@ -1,0 +1,62 @@
+{
+  "itemId" : "_S7lrgJ1mEeufaeTN060kDA",
+  "contextList" : [ {
+    "contextName" : "Development",
+    "repoId" : "_xjeTcJ1pEeufaeTN060kDA",
+    "parameterList" : [ {
+      "id" : "_xjxOYZ1pEeufaeTN060kDA",
+      "name" : "DBConnect_Database"
+    }, {
+      "id" : "_xjxOZJ1pEeufaeTN060kDA",
+      "name" : "DBConnect_Password"
+    }, {
+      "id" : "_xjxOZZ1pEeufaeTN060kDA",
+      "name" : "DBConnect_Server"
+    }, {
+      "id" : "_xjxOZp1pEeufaeTN060kDA",
+      "name" : "DBConnect_Port"
+    }, {
+      "id" : "_xjxOY51pEeufaeTN060kDA",
+      "name" : "DBConnect_AdditionalParams"
+    }, {
+      "id" : "_xjxOYp1pEeufaeTN060kDA",
+      "name" : "DBConnect_Login"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_hYrN4J1rEeufaeTN060kDA",
+    "parameterList" : [ {
+      "id" : "_hY-I0Z1rEeufaeTN060kDA",
+      "name" : "Limit"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_xjeTcJ1pEeufaeTN060kDA",
+    "parameterList" : [ {
+      "id" : "_xjxOaJ1pEeufaeTN060kDA",
+      "name" : "DBConnect_Database"
+    }, {
+      "id" : "_xjxOa51pEeufaeTN060kDA",
+      "name" : "DBConnect_Password"
+    }, {
+      "id" : "_xjxObJ1pEeufaeTN060kDA",
+      "name" : "DBConnect_Server"
+    }, {
+      "id" : "_xjxObZ1pEeufaeTN060kDA",
+      "name" : "DBConnect_Port"
+    }, {
+      "id" : "_xjxOap1pEeufaeTN060kDA",
+      "name" : "DBConnect_AdditionalParams"
+    }, {
+      "id" : "_xjxOaZ1pEeufaeTN060kDA",
+      "name" : "DBConnect_Login"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_hYrN4J1rEeufaeTN060kDA",
+    "parameterList" : [ {
+      "id" : "_hY-I051rEeufaeTN060kDA",
+      "name" : "Limit"
+    } ]
+  } ]
+}
