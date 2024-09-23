@@ -2,4 +2,6 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:softwaredeployment="http://www.talend.org/cwm/foundation/softwaredeployment/2010">
   <softwaredeployment:TdSoftwareSystem xmi:id="_Bpq7MGEmEe-y9rLusI6B8Q" name="MySQL" subtype="MySQL" version="8.0.39"/>
   <softwaredeployment:TdSoftwareSystem xmi:id="_yk-WEGQcEe-4aopAiWKOxw" name="MySQL" subtype="MySQL" version="5.7.18-log"/>
+  <softwaredeployment:TdSoftwareSystem xmi:id="_woRCIHTNEe-z9oe9hfBa-Q" name="MySQL" subtype="MySQL" version="5.7.33-log"/>
+  <softwaredeployment:TdSoftwareSystem xmi:id="_woV6oHTNEe-z9oe9hfBa-Q" name="MySQL" subtype="MySQL" version="5.6.25-log"/>
 </xmi:XMI>
