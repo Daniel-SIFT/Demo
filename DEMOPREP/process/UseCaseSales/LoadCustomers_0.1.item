@@ -113,7 +113,7 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
   </parameters>
-  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="160">
+  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_dSbU4PoQEeiN-rovZB9rdA"/>
@@ -136,7 +136,7 @@
     <elementParameter field="TEXT" name="LABEL" value="ConnectSalesDB"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="320">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_VzSCwPoQEeiN-rovZB9rdA"/>
@@ -271,7 +271,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="320">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -416,7 +416,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="480">
+  <node componentName="tMysqlCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBCommit_1"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
     <elementParameter field="CHECK" name="CLOSE" value="true"/>
@@ -449,13 +449,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ff8cc2ee-180c-4ce9-bc6f-5747c631fdbd"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LaCOuF8Ubo/RybDgu19xt0SNFcDEr0erUek1MzqE/+rJPyu6VBKFfr45iEvd/oGI9cjFHi21MC6W&#13;
-HjLTWukPlw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3efaaea5-e4f2-473f-95f4-6d68a012fa8a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IqDjbm1jUyFZ95xCTYL3AuNMN+up5IiyAahY1HDElZ6pO2GZlGE6Y2jgVwtAG4G9EXA1QEnIl0pG&#13;
-RDW3is9t3w==</DigestValue></Reference></SignedInfo><SignatureValue>CWWcgVEXUrm8jm9XkuzXkipcCtpX5gMMybMeA6kqblYVHQug837hkBKb/Th5ksn+4Kr4oCdjTvTO&#13;
-ubnF8i35IZDkxgfc6NfT0U3YvvMPd6Jvo+hWxfDtvJq0WNFw4Q8DO4HsoRbGfAfr086NIr0pz27U&#13;
-R1ntA8V6lTfRCRbl7ctzkD136+vK8mHsDX0nxaKQrlol9z2kMp229T9CXU6aI2sLrXZ23JXJ2MXH&#13;
-H0Oh5NkZ9DwlijcsRa+sYknJOGcCK+ly3uBzjGw/RCFR6iwe4K0VN8V+OiSjSrvT3489fQWSzOU8&#13;
-XaiuNHt/j0/AhjahJ4TjHOOAWfhxWoRIN6DtyQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e820b77a-9158-4819-8905-b76e0f462145"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>F7iYD2L/q4VlG+hzFCyRGhjSW5Q+15wJZCIpB+DRLkJnd6anvSU8sX2jTEbhWi+hJjKYVr34YzuZ&#13;
+9wx2HAT+ag==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_60ec58b0-9b78-4837-96b7-0d71e300ac30"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AyPW7T/L3C3lqG6M8w/3k+6Afcdu/cv0Lb+2j2/UeXq6UpOAIPMwCbb9mIw6YQerU59laK32U0hq&#13;
+Man0oZyVzA==</DigestValue></Reference></SignedInfo><SignatureValue>YErpUrphxSq4zMjOKeU1iWNYheU6J4Qt1pFxw2vg6rr0XzKfPk7GsKz0+anNbaksFwq6G539xxtH&#13;
+5kUKYh6xXbOlYtxYapbV6r7y+7+47IyZYiwtf7Cg6IacSKSQwHqu9lbHZUnux6de4svbLWgD8/ro&#13;
+SCedse6PLMsDFpA7gdsVw0FG+qNKvO41qkKGYS8swe1079XxcjC0NNYWV0jWI4YdfIuUotl5u4pw&#13;
+YYM2UuU3Z++n3iVMSZm2PGliLt76T0y5NKI4S5Si23NpIe4Q70FaQ7iCohoiCQ7kRxhfCsGt9HFB&#13;
+hfGAqy4m34V4UWAPpDfwy0asjE6KFi6JBPgfzw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -477,4 +477,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3efaaea5-e4f2-473f-95f4-6d68a012fa8a" Target="#_ff8cc2ee-180c-4ce9-bc6f-5747c631fdbd"><Timestamp>2024-08-27 04:04:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_60ec58b0-9b78-4837-96b7-0d71e300ac30" Target="#_e820b77a-9158-4819-8905-b76e0f462145"><Timestamp>2024-10-22 06:31:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
