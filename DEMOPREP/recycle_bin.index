@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
   <deletedFolders>process/ExecutionControl</deletedFolders>
+  <deletedItems id="_mpDWsJG7Ee-AHqLrHXMEvw" path="" type="JOBLET"/>
   <deletedItems id="_7V9lUO2sEeimJLseTyzfCA" path="ExecutionControl" type="PROCESS"/>
   <deletedItems id="_DD5ZAJ41EeuCEd7-41lRQQ" path="ExecutionControl" type="PROCESS"/>
   <deletedItems id="_FJP0kJ44EeuCEd7-41lRQQ" path="ExecutionControl" type="PROCESS"/>

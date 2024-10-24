@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_w-Dv8GEZEe-QHs3Q2VcOyA" label="DemoPrep" description="demo" language="java" technicalLabel="DEMOPREP" author="_w-Dv8WEZEe-QHs3Q2VcOyA" productVersion="Qlik Talend Cloud Enterprise Edition-8.0.1.20240718_0800-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/Daniel-SIFT/Demo.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_w-Dv8GEZEe-QHs3Q2VcOyA" label="DemoPrep" description="demo" language="java" technicalLabel="DEMOPREP" author="_w-Dv8WEZEe-QHs3Q2VcOyA" productVersion="Qlik Talend Cloud Enterprise Edition-8.0.1.20241016_1624-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/Daniel-SIFT/Demo.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_w_CAUGEZEe-QHs3Q2VcOyA" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_w-Dv8WEZEe-QHs3Q2VcOyA" login="daniel.d@siftanalyticsgrouppteltd_nfr" firstName="Daniel" lastName="Dae Wah" type="DQ"/>
   <TalendProperties:User xmi:id="_dE5s0GEcEe-enIU0xCiVAg" login="daniel.d@sift-ag.com"/>
   <TalendProperties:User xmi:id="_wDUfwJBdEe-nzdHFTUHeiA" login="savalapash.v@siftanalyticsgrouppteltd_nfr" firstName="Savalapash" lastName="Plengsupsin" type="DQ"/>
   <TalendProperties:User xmi:id="_wDUfwZBdEe-nzdHFTUHeiA" login="kanatee.r@siftanalyticsgrouppteltd_nfr" firstName="Kanatee" lastName="Raveesuwan" type="DQ"/>
+  <TalendProperties:User xmi:id="_kctjgJHSEe-vMeNrfIkSkQ" login="nuttakorn.u@siftanalyticsgrouppteltd_nfr" firstName="Nuttakorn" lastName="Umpin" type="DQ"/>
+  <TalendProperties:User xmi:id="_kctjgZHSEe-vMeNrfIkSkQ" login="budsabong.k@siftanalyticsgrouppteltd_nfr" firstName="Budsabong" lastName="Kachintararojn" type="DQ"/>
+  <TalendProperties:User xmi:id="_kctjgpHSEe-vMeNrfIkSkQ" login="poomchai.j@siftanalyticsgrouppteltd_nfr" firstName="Poomchai" lastName="Jitchai" type="DQ"/>
+  <TalendProperties:User xmi:id="_kctjg5HSEe-vMeNrfIkSkQ" login="petchpragai.t@siftanalyticsgrouppteltd_nfr" firstName="Rak" lastName="Tan" type="DQ"/>
 </xmi:XMI>
