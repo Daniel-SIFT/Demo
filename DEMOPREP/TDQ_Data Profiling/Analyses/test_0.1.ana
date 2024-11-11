@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_v0WtQJ_gEe-RetZb5DmihQ" name="test" creationDate="2024-11-11T10:55:10.209+0700" defaultContext="Default">
+  <clientDependency href="../../metadata/connections/SalesDB_0.1.item#_wCR0gJ_gEe-RetZb5DmihQ"/>
+  <taggedValue xmi:id="_v0WtQZ_gEe-RetZb5DmihQ" tag="PREVIEW_ROW_NUMBER" value="10000"/>
+  <taggedValue xmi:id="_v0WtQp_gEe-RetZb5DmihQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_v0WtQ5_gEe-RetZb5DmihQ" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+  <taggedValue xmi:id="_v0WtRJ_gEe-RetZb5DmihQ" tag="Purpose" value="test"/>
+  <taggedValue xmi:id="_v0WtRZ_gEe-RetZb5DmihQ" tag="Description" value="testt"/>
+  <taggedValue xmi:id="_v0WtRp_gEe-RetZb5DmihQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_v_ci8J_gEe-RetZb5DmihQ" tag="TEMP_DATA_DIR" value=""/>
+  <taggedValue xmi:id="_v_ci8Z_gEe-RetZb5DmihQ" tag="MAX_BUFFER_SIZE" value="200000"/>
+  <taggedValue xmi:id="_v_ci8p_gEe-RetZb5DmihQ" tag="STORE_ON_DISK" value="false"/>
+  <taggedValue xmi:id="_v_niEJ_gEe-RetZb5DmihQ" tag="DRILL_DOWN" value="true"/>
+  <taggedValue xmi:id="_wCP_UZ_gEe-RetZb5DmihQ" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <context xmi:id="_v0WtR5_gEe-RetZb5DmihQ">
+    <connection href="../../metadata/connections/SalesDB_0.1.item#_n_4WEPoQEeiN-rovZB9rdA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5oW8uEe-EtMAV-H-QuA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5pW8uEe-EtMAV-H-QuA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5qW8uEe-EtMAV-H-QuA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5rW8uEe-EtMAV-H-QuA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5sW8uEe-EtMAV-H-QuA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5tW8uEe-EtMAV-H-QuA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5uW8uEe-EtMAV-H-QuA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5vW8uEe-EtMAV-H-QuA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5wW8uEe-EtMAV-H-QuA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5xW8uEe-EtMAV-H-QuA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5yW8uEe-EtMAV-H-QuA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5zW8uEe-EtMAV-H-QuA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu50W8uEe-EtMAV-H-QuA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu51W8uEe-EtMAV-H-QuA"/>
+  </context>
+  <results xmi:id="_v0WtSJ_gEe-RetZb5DmihQ">
+    <resultMetadata xmi:id="_v0WtSZ_gEe-RetZb5DmihQ"/>
+    <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_v0XUUJ_gEe-RetZb5DmihQ"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_v0XUUZ_gEe-RetZb5DmihQ">
+      <builtInMatchRuleDefinition xmi:id="_v0XUUp_gEe-RetZb5DmihQ">
+        <matchRules xmi:id="_v8G7EJ_gEe-RetZb5DmihQ" name="Match Rule 1"/>
+      </builtInMatchRuleDefinition>
+    </indicators>
+  </results>
+  <parameters xmi:id="_v0XUU5_gEe-RetZb5DmihQ" analysisType="Match Analysis"/>
+  <contextType xmi:id="_wCP_UJ_gEe-RetZb5DmihQ" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.analysis:Analysis>
