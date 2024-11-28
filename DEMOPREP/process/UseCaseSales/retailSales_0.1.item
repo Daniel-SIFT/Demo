@@ -208,7 +208,7 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="JoinTables"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="CombinedSales">
+    <metadata connector="FLOW" name="CombinedSales2">
       <column comment="" key="false" length="10" name="Shopname" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -247,7 +247,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="CombinedSales" columnNameFilter="">
+      <outputTables sizeState="INTERMEDIATE" name="CombinedSales2" columnNameFilter="">
         <mapperTableEntries name="Shopname" expression="Sales.Shopname " type="id_String" nullable="true"/>
         <mapperTableEntries name="CustomerName" expression="Customers.CustomerName " type="id_String" nullable="true"/>
         <mapperTableEntries name="ProductName" expression="Products.ProductName " type="id_String" nullable="true"/>
@@ -841,9 +841,9 @@
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDBCommit_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="CombinedSales" lineStyle="0" metaname="CombinedSales" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tDBOutput_1">
+  <connection connectorName="FLOW" label="CombinedSales2" lineStyle="0" metaname="CombinedSales2" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tDBOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="CombinedSales" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="CombinedSales2" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="Rejects" lineStyle="0" metaname="Rejects" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tSortRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
