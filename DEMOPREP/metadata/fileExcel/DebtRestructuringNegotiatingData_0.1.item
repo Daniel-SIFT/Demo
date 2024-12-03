@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_iXl8oLE4Ee-_Zp2kbksoBQ" name="DebtRestructuringNegotiatingData" dataPackage="_iXl8obE4Ee-_Zp2kbksoBQ" Server="Localhost 127.0.0.1" FilePath="G:/My Drive/Qlik/IAM Sample Data/Debt_Restructuring_Negotiation_Data.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_iXl8obE4Ee-_Zp2kbksoBQ" name="default" dataManager="_iXl8oLE4Ee-_Zp2kbksoBQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_iXl8orE4Ee-_Zp2kbksoBQ" id="_Z5mcoLE4Ee-_Zp2kbksoBQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iXl8o7E4Ee-_Zp2kbksoBQ" label="Debtor_Name" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iXl8pLE4Ee-_Zp2kbksoBQ" label="Debtor_Code" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iXl8pbE4Ee-_Zp2kbksoBQ" label="Debtor_Type" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_iXl8prE4Ee-_Zp2kbksoBQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iXl8p7E4Ee-_Zp2kbksoBQ" label="Negotiation_Start_Date" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iXl8qLE4Ee-_Zp2kbksoBQ" label="Negotiation_Status" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iXl8qbE4Ee-_Zp2kbksoBQ" label="Outcome" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iXl8qrE4Ee-_Zp2kbksoBQ" label="Outstanding_Debt__Pre_Negotiation" length="8" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iXl8q7E4Ee-_Zp2kbksoBQ" label="Outstanding_Debt__Post_Negotiation" length="8" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iXl8rLE4Ee-_Zp2kbksoBQ" label="Remaining_Installments" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iXl8rbE4Ee-_Zp2kbksoBQ" label="Accrued_Interest" length="7" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iXl8rrE4Ee-_Zp2kbksoBQ" label="Negotiator" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

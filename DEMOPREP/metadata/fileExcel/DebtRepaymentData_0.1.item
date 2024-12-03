@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_C_LvUbE4Ee-_Zp2kbksoBQ" name="DebtRepaymentData" dataPackage="_C_LvUrE4Ee-_Zp2kbksoBQ" Server="Localhost 127.0.0.1" FilePath="G:/My Drive/Qlik/IAM Sample Data/Debt_Repayment_Data.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_C_LvUrE4Ee-_Zp2kbksoBQ" name="default" dataManager="_C_LvUbE4Ee-_Zp2kbksoBQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_C_LvU7E4Ee-_Zp2kbksoBQ" id="_4Gw0QLE3Ee-_Zp2kbksoBQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C_LvVLE4Ee-_Zp2kbksoBQ" label="Debtor_Name" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C_LvVbE4Ee-_Zp2kbksoBQ" label="Payment_Date" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C_LvVrE4Ee-_Zp2kbksoBQ" label="Payment_Amount" length="7" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C_LvV7E4Ee-_Zp2kbksoBQ" label="Payment_Channel" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C_LvWLE4Ee-_Zp2kbksoBQ" label="Interest_Payment" length="6" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C_LvWbE4Ee-_Zp2kbksoBQ" label="Outstanding_Balance" length="8" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C_LvWrE4Ee-_Zp2kbksoBQ" label="Payment_Type" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C_LvW7E4Ee-_Zp2kbksoBQ" label="Payment_Status" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
