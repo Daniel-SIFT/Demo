@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_zQxE4LIXEe-QvNFdKaFnbA" name="Test Analysis" creationDate="2024-12-04T15:14:36.582+0700">
+  <taggedValue xmi:id="_zQxE4bIXEe-QvNFdKaFnbA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_zQxE4rIXEe-QvNFdKaFnbA" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+  <taggedValue xmi:id="_zQxE47IXEe-QvNFdKaFnbA" tag="Purpose" value="test"/>
+  <taggedValue xmi:id="_zQxE5LIXEe-QvNFdKaFnbA" tag="Description" value="est"/>
+  <taggedValue xmi:id="_zQxE5bIXEe-QvNFdKaFnbA" tag="Version" value="0.1"/>
+  <context xmi:id="_zQxE5rIXEe-QvNFdKaFnbA"/>
+  <results xmi:id="_zQxE57IXEe-QvNFdKaFnbA">
+    <resultMetadata xmi:id="_zQxE6LIXEe-QvNFdKaFnbA"/>
+  </results>
+  <parameters xmi:id="_zQxE6bIXEe-QvNFdKaFnbA" analysisType="Functional Dependency"/>
+</dataquality.analysis:Analysis>

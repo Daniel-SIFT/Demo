@@ -148,5 +148,6 @@
   </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_xWjRsGT5Ee-g7JvTHx_dZw" kind="Usage" supplier="_BnnFsGEmEe-y9rLusI6B8Q">
     <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/Email_Column_Analysis_0.1.ana#_HhgYUGT3Ee-g7JvTHx_dZw"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/Test_Analysis2_0.1.ana#_d3FVEbIYEe-QvNFdKaFnbA"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
