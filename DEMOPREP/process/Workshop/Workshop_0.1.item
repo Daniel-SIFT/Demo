@@ -153,18 +153,18 @@
     <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="busID"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="busName"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="addressLine1"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="suburb"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="postCode"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="state"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="busID" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="busName" id="2"/>
+      <elementValue elementRef="TRIM" value="false" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="addressLine1" id="4"/>
+      <elementValue elementRef="TRIM" value="false" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="suburb" id="6"/>
+      <elementValue elementRef="TRIM" value="false" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="postCode" id="8"/>
+      <elementValue elementRef="TRIM" value="false" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="state" id="10"/>
+      <elementValue elementRef="TRIM" value="false" id="11"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="&lt;b>DB Input&lt;/b>&lt;br>Business"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -203,18 +203,18 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="busID"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="busName"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="addressLine1"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="suburb"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="postCode"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="state"/>
-      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="busID" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="busName" id="2"/>
+      <elementValue elementRef="LENGTH" value="10" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="addressLine1" id="4"/>
+      <elementValue elementRef="LENGTH" value="10" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="suburb" id="6"/>
+      <elementValue elementRef="LENGTH" value="10" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="postCode" id="8"/>
+      <elementValue elementRef="LENGTH" value="10" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="state" id="10"/>
+      <elementValue elementRef="LENGTH" value="10" id="11"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -242,24 +242,18 @@
   </node>
   <node componentName="JIRAOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="680" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJIRAOutput_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="Output" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="amlyYSNKSVJBI091dHB1dA" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" value="amlyYSNKSVJBI2RhdGFzdG9yZSNKaXJh" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="1" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="JIRA" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_k8Dy0K4qEe-zmbAgcyGR5g"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.jiraURL" value="&quot;https://qlik-siftth.atlassian.net&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authenticationType" value="PAT"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pat" value="enc:system.encryption.key.v1:Grqp8yTdzhDWTqKXHgjg8eO2PF2KRm/tEm2jlgOkaJy+nrxPeK+aswrtzWWedJX0QxBpbLaRnbFlauH12BngXIKTTbCX/npn456fh2T/piqLZh97ZxOsIrM6OTs0vUO0+VH+0pO5ztaE4lWb1VKhdbtcGsSsoVteza2AV4M8DNoX/YMImyympuNP2rbugaPADddTnofBIh+aOM/YX10+rBPErHiarhPDpbUaDmK6lKhyoZfylkKNJODwgNXGiYbd0+5wL/tnnXwtJu+T0Mi4yhFiNIgImLtqXUGfl2yN"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.jiraURL" value="&quot;https://qlik-siftth.atlassian.net/&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authenticationType" value="BASIC"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pat" value="enc:system.encryption.key.v1:A3wVRcIsIY7CUOycgYMp2dfNCeG1wEURhM13wf+irFWLzYp6CtS1B3VCcY17vDz82Lt81BuQCZYXL4bVrmmpHpBYVzZeiM4puIxnXer1p16kFj8OhQb6fFxiDVsev6d88BtIY89/YtPuI6xGG3waPHdSTvYNZdSnO2M6GrjShePZBOSgPWiwyxkzGxVEfNbYvDuLc+9Rt5Dh92Ysrms1JcUNRtpuM1HLxTBaKtId6DUiglgXrW1sIEOoYBea03R7YJyXTXuqhVhFWhC7Q0YXt5sBGOLah4/7n6aNpjDW" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.user" value="&quot;daniel.d@sift-ag.com&quot;"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pass" value="enc:system.encryption.key.v1:i6KVAudd0wfJU3QHZyS48NwzPka4svErHaaahqEda8E6LEQ0oS1+XW+ossQdplQ="/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.resourceType" value="PROJECT"/>
     <elementParameter field="CLOSED_LIST" name="configuration.outputAction" value="UPDATE"/>
     <elementParameter field="CHECK" name="configuration.deleteSubtasks" value="true" show="false"/>

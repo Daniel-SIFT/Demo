@@ -99,23 +99,124 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
-  <node componentName="JIRAInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="280" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJIRAInput_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="amlyYSNKSVJBI0lucHV0" show="false"/>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="120">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/danie/Desktop/project.json&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="0"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/danie/workspace&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="json" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="json" id="0"/>
+      <elementValue elementRef="DECODE" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputDelimited_1">
+      <column comment="" key="false" length="-1" name="json" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="json" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="JIRAOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="120">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJIRAOutput_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="Output" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="amlyYSNKSVJBI091dHB1dA" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" value="amlyYSNKSVJBI2RhdGFzdG9yZSNKaXJh" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="1" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="JIRA" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_k8Dy0K4qEe-zmbAgcyGR5g"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="LABEL" value="QTC"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.jiraURL" value="&quot;https://qlik-siftth.atlassian.net&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authenticationType" value="PAT"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pat" value="enc:system.encryption.key.v1:zYXZ9dQFLRm1reBwBkEmzeilj6WZfc7jz8+X4z+3iJjo0EYUKVQQzqyX3Knn3tDPkubbKQ37ShJcAkiqPMA1KI5waIrb3pNyxbMMxQL6X1S7nWhN1G1h/7GZ6gKqt8HcPS7WHdxYgnmtrR+M2irjdT7bnZUts2bS/y0ojWzYyRzuBJyKVtfO3lfdQA2bgLGire25g6kKT+8YcYh+wPnxlL7Ki90UERX1OTlrf26Sfx2wL0QSvBTWFJ+CrZ+a2/K/vBAQ0jSWB72QdKiTVW9VxDd6qKfwlDV/okUgqT6C"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.jiraURL" value="&quot;https://qlik-siftth.atlassian.net/&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authenticationType" value="BASIC"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pat" value="enc:system.encryption.key.v1:CJ1sLhFa6U/xNF6z74h7/AberTKP+3KqwoTkm+M64DG18DAPQq5tPrk3T66SA9XaJ4sepAdvZDeIdzsJMzTe3sC1Hv6IADfyL9mH8gQMltcVdiLMpvjlTNwAzsma95026i9ptq/qiEwj5rDYjLfttnS8FEOyiPl9zbROdZIPqD8BAjtC3/9OEz+VvpXw8sFbLcEiVZhFR49JmobvWz8/M4ZTQQucPFNVB0NiDqQvv7lgseY4lR4A2ovpG8J4nuoRAIengHF7yogvqtX2JzqWLOUqZIFOwfvsOIp+mozg" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.user" value="&quot;daniel.d@sift-ag.com&quot;"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pass" value="enc:system.encryption.key.v1:tn6WE5Uvjc3r4ThDuo5FI2egULx6d5pDmEsxXxHgAHCj1Bqjuc8vwdx+thEgAEE="/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.resourceType" value="ISSUE"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.outputAction" value="CREATE"/>
+    <elementParameter field="CHECK" name="configuration.deleteSubtasks" value="true" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataset.__version" value="-1" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" value="-1" show="false"/>
+    <metadata connector="FLOW" name="tJIRAOutput_1">
+      <column comment="" key="false" length="-1" name="json" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="LOOKUP" name="LOOKUP">
+      <column comment="" key="false" length="-1" name="json" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="MERGE" name="MERGE">
+      <column comment="" key="false" length="-1" name="json" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="json" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="JIRAInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="200" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJIRAInput_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="Input" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="amlyYSNKSVJBI0lucHV0" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" value="amlyYSNKSVJBI2RhdGFzdG9yZSNKaXJh" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="1" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="JIRA" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_k8Dy0K4qEe-zmbAgcyGR5g"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.jiraURL" value="&quot;https://qlik-siftth.atlassian.net/&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authenticationType" value="BASIC"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pat" value="enc:system.encryption.key.v1:6/BtkYttWcPSb1N16IjkNfNTrY3M99idNqBNelLnJQZtmZl5cAL01pBr1JRf4tj5wcsLe1xIujx4Wsnb0TYAfggzGbv8HxeVjqDrtfnw6NRSU41LPte0hdi4/YPnlf6XXMXLeXM1iTEt7w4UFu3gjLZFlD/qAwdoaAifCw4+e0uYoZg0eFh+6E+aQpOBYAn9sgJWB5sfPijbAKx6aFG+QoarfIDWth9CDB2oaKbTpCnwPt1gA0sTkp4nd0mr1E1rseqqpI4ySwZI3mUmlKoYQZt5zg5Vn79VKiCt/Y6D" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.user" value="&quot;daniel.d@sift-ag.com&quot;"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pass" value="enc:system.encryption.key.v1:6G3sUSA1ZfJEdTpvlb7m47B4v6x01+45puNADTp1U4nTV2Z5b4Dd3oInhRkOb6k="/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.resourceType" value="ISSUE"/>
     <elementParameter field="CHECK" name="configuration.useJQL" value="true"/>
-    <elementParameter field="TEXT" name="configuration.jql" value="summary ~ &quot;some word&quot; AND project='SCRUM'"/>
-    <elementParameter field="TEXT" name="configuration.projectId" value="&quot;project = 'SCRUM'&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.jql" value="&quot;project = DOC ORDER BY created DESC&quot;"/>
     <elementParameter field="TEXT" name="configuration.batchSize" value="50"/>
     <elementParameter field="TECHNICAL" name="configuration.dataset.__version" value="-1" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" value="-1" show="false"/>
@@ -126,7 +227,89 @@
       <column comment="" key="false" length="-1" name="json" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="520" posY="160">
+  <node componentName="tExtractJSONFields" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="360" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tExtractJSONFields_1" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="READ_BY" value="JSONPATH"/>
+    <elementParameter field="CLOSED_LIST" name="JSON_PATH_VERSION" value="2_1_0"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="JSONFIELD" value="json"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/bills/bill/line&quot;" show="false"/>
+    <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id" id="0"/>
+      <elementValue elementRef="QUERY" value="" id="1"/>
+      <elementValue elementRef="NODECHECK" value="false" id="2"/>
+      <elementValue elementRef="ISARRAY" value="false" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="key" id="4"/>
+      <elementValue elementRef="QUERY" value="" id="5"/>
+      <elementValue elementRef="NODECHECK" value="false" id="6"/>
+      <elementValue elementRef="ISARRAY" value="false" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="project" id="8"/>
+      <elementValue elementRef="QUERY" value="" id="9"/>
+      <elementValue elementRef="NODECHECK" value="false" id="10"/>
+      <elementValue elementRef="ISARRAY" value="false" id="11"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="description" id="12"/>
+      <elementValue elementRef="QUERY" value="" id="13"/>
+      <elementValue elementRef="NODECHECK" value="false" id="14"/>
+      <elementValue elementRef="ISARRAY" value="false" id="15"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="summary" id="16"/>
+      <elementValue elementRef="QUERY" value="" id="17"/>
+      <elementValue elementRef="NODECHECK" value="false" id="18"/>
+      <elementValue elementRef="ISARRAY" value="false" id="19"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id" id="0"/>
+      <elementValue elementRef="QUERY" value="&quot;$.id&quot;" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="key" id="2"/>
+      <elementValue elementRef="QUERY" value="&quot;$.key&quot;" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="project" id="4"/>
+      <elementValue elementRef="QUERY" value="&quot;$.fields.project.key&quot;" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="description" id="6"/>
+      <elementValue elementRef="QUERY" value="&quot;$.fields.description&quot;" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="summary" id="8"/>
+      <elementValue elementRef="QUERY" value="&quot;$.fields.summary&quot;" id="9"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="JDK_VERSION" value="JDK_8" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8" show="false"/>
+    <elementParameter field="CHECK" name="USE_LOOP_AS_ROOT" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT_LIST" value="true" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tExtractJSONFields_1">
+      <column comment="" key="false" length="-1" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="project" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="description" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="summary" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="project" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="description" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="summary" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorJSONField" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputJSON" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputJSON_1" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/danie/Desktop/issueinfo.json&quot;"/>
+    <elementParameter field="CHECK" name="GENERATE_JSON_ARRAY" value="false"/>
+    <elementParameter field="TEXT" name="DATABLOCKNAME" value="&quot;issue&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputJSON_1">
+      <column comment="" key="false" length="-1" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="project" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="description" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="summary" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="720" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
@@ -140,20 +323,74 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="json" id="0"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="id" id="0"/>
       <elementValue elementRef="LENGTH" value="10" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="key" id="2"/>
+      <elementValue elementRef="LENGTH" value="10" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="project" id="4"/>
+      <elementValue elementRef="LENGTH" value="10" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="description" id="6"/>
+      <elementValue elementRef="LENGTH" value="10" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="summary" id="8"/>
+      <elementValue elementRef="LENGTH" value="10" id="9"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_1">
-      <column comment="" key="false" length="-1" name="json" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="project" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="description" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="summary" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tJIRAInput_1" offsetLabelX="0" offsetLabelY="0" source="tJIRAInput_1" target="tLogRow_1">
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tJIRAOutput_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="json" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tJIRAInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tJIRAInput_1" offsetLabelX="0" offsetLabelY="0" source="tJIRAInput_1" target="tExtractJSONFields_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tExtractJSONFields_1" offsetLabelX="0" offsetLabelY="0" source="tExtractJSONFields_1" target="tFileOutputJSON_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="summary" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+      <elementValue elementRef="TRACE_COLUMN" value="project" id="3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="4"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="5"/>
+      <elementValue elementRef="TRACE_COLUMN" value="description" id="6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="7"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="8"/>
+      <elementValue elementRef="TRACE_COLUMN" value="id" id="9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="10"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="11"/>
+      <elementValue elementRef="TRACE_COLUMN" value="key" id="12"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="13"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="14"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tFileOutputJSON_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputJSON_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJIRAInput_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
