@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_xM_ucGp1Eem0SqmV0vh_Ag" name="StagingDB_CRM" supplierDependency="_uExFEGssEemiyPj-HC5GLw" id="_xMGWkGp1Eem0SqmV0vh_Ag" label="StagingDB_CRM" dataPackage="_Oqvn3aVhEe-mrPJUjk1Gqw" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/dataquality?noDatetimeStringSync=true" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="enc:system.encryption.key.v1:laI/gprX5ax5V31diCDUuMjHQydT1DuQaeZQm8NKzMOm8w==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="dataquality" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
     <taggedValue xmi:id="_ZYVH8WWqEem0SqmV0vh_Ag" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_ZbnFcGWqEem0SqmV0vh_Ag" tag="package filter" value=""/>
@@ -15,7 +15,16 @@
     <parameters xmi:id="_ZYVH8mWqEem0SqmV0vh_Ag" key="CONN_PARA_KEY_USERNAME" value="root"/>
     <parameters xmi:id="_08TRwGp1Eem0SqmV0vh_Ag" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_Oqvn3aVhEe-mrPJUjk1Gqw" name="dataquality" dataManager="_xM_ucGp1Eem0SqmV0vh_Ag"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_Oqvn3aVhEe-mrPJUjk1Gqw" name="dataquality" dataManager="_xM_ucGp1Eem0SqmV0vh_Ag">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_B27TCLxKEe-i863zj7Jq_g" name="address" id="_B27TALxKEe-i863zj7Jq_g" label="address" tableType="TABLE"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_B27TCbxKEe-i863zj7Jq_g" name="address_master" id="_B27TAbxKEe-i863zj7Jq_g" label="address_master" tableType="TABLE"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_B27TCrxKEe-i863zj7Jq_g" name="claim" id="_B27TArxKEe-i863zj7Jq_g" label="claim" tableType="TABLE"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_B27TC7xKEe-i863zj7Jq_g" name="contract" id="_B27TA7xKEe-i863zj7Jq_g" label="contract" tableType="TABLE"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_B27TDLxKEe-i863zj7Jq_g" name="country" id="_B27TBLxKEe-i863zj7Jq_g" label="country" tableType="TABLE"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_B27TDbxKEe-i863zj7Jq_g" name="customer" id="_B27TBbxKEe-i863zj7Jq_g" label="customer" tableType="TABLE"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_B27TDrxKEe-i863zj7Jq_g" name="customer_clean_country_codes" id="_B27TBrxKEe-i863zj7Jq_g" label="customer_clean_country_codes" tableType="TABLE"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_B27TD7xKEe-i863zj7Jq_g" name="customer_iban" id="_B27TB7xKEe-i863zj7Jq_g" label="customer_iban" tableType="TABLE"/>
+  </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_uExFEGssEemiyPj-HC5GLw" kind="Usage" supplier="_xM_ucGp1Eem0SqmV0vh_Ag">
     <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/CRM_Analysis/Match_Address_T-Swoosh_Master_0.1.ana#_NyGEYWsrEemiyPj-HC5GLw"/>
   </orgomg.cwm.objectmodel.core:Dependency>

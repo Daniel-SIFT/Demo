@@ -1,0 +1,70 @@
+{
+  "itemId" : "_e0hxELg0Ee-Lr4owoOfjxg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "__O78IGE7Ee-y9rLusI6B8Q",
+    "parameterList" : [ {
+      "id" : "__PRTWGE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Port"
+    }, {
+      "id" : "__PRTWWE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Database"
+    }, {
+      "id" : "__PRTWmE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_AdditionalParams"
+    }, {
+      "id" : "__PRTW2E7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Login"
+    }, {
+      "id" : "__PRTXGE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Password"
+    }, {
+      "id" : "__PRTXWE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Server"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "__O78IGE7Ee-y9rLusI6B8Q",
+    "parameterList" : [ {
+      "id" : "__PRTUWE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Port"
+    }, {
+      "id" : "__PRTUmE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Database"
+    }, {
+      "id" : "__PRTU2E7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_AdditionalParams"
+    }, {
+      "id" : "__PRTVGE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Login"
+    }, {
+      "id" : "__PRTVWE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Password"
+    }, {
+      "id" : "__PRTVmE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Server"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "__O78IGE7Ee-y9rLusI6B8Q",
+    "parameterList" : [ {
+      "id" : "__PRTWGE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Port"
+    }, {
+      "id" : "__PRTWWE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Database"
+    }, {
+      "id" : "__PRTWmE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_AdditionalParams"
+    }, {
+      "id" : "__PRTW2E7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Login"
+    }, {
+      "id" : "__PRTXGE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Password"
+    }, {
+      "id" : "__PRTXWE7Ee-y9rLusI6B8Q",
+      "name" : "Talend101_Server"
+    } ]
+  } ]
+}
