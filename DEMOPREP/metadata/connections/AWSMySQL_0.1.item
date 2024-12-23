@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_N8hwgMD4Ee-yLNKnzYIdMA" name="AWSMySQL" id="_D4uJQMD4Ee-yLNKnzYIdMA" label="AWSMySQL" dataPackage="_OTKH0MD4Ee-yLNKnzYIdMA" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://talendsunrise.c1uxsvqbmjol.ap-southeast-1.rds.amazonaws.com:3306/talenddemo?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="admin" Password="enc:system.encryption.key.v1:/svHpUyjXR1XvpqONUC6qBd1RROuNjnuupmGag/u5jK3Fr7Sl2/q" ServerName="talendsunrise.c1uxsvqbmjol.ap-southeast-1.rds.amazonaws.com" DatasourceName="" FileFieldName="" SID="talenddemo" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_N8hwgcD4Ee-yLNKnzYIdMA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_N9YFEMD4Ee-yLNKnzYIdMA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_N9fZ0MD4Ee-yLNKnzYIdMA" tag="Status" value=""/>
+    <taggedValue xmi:id="_N9fZ0cD4Ee-yLNKnzYIdMA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_N9fZ0sD4Ee-yLNKnzYIdMA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_N9fZ08D4Ee-yLNKnzYIdMA" tag="Description" value=""/>
+    <taggedValue xmi:id="_N9fZ1MD4Ee-yLNKnzYIdMA" tag="Author" value=""/>
+    <taggedValue xmi:id="_N9fZ1cD4Ee-yLNKnzYIdMA" tag="otherParameter"/>
+    <taggedValue xmi:id="_OIX0IMD4Ee-yLNKnzYIdMA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_OIX0IcD4Ee-yLNKnzYIdMA" tag="DB ProductVersion" value="8.0.35"/>
+    <taggedValue xmi:id="_OIX0IsD4Ee-yLNKnzYIdMA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_N8hwgsD4Ee-yLNKnzYIdMA" key="CONN_PARA_KEY_USERNAME" value="admin"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_OTKH0MD4Ee-yLNKnzYIdMA" name="talenddemo" dataManager="_N8hwgMD4Ee-yLNKnzYIdMA"/>
+</xmi:XMI>
