@@ -102,19 +102,10 @@
   </parameters>
   <node componentName="JIRAInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="360">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJIRAInput_2" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="Input" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="amlyYSNKSVJBI0lucHV0" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" value="amlyYSNKSVJBI2RhdGFzdG9yZSNKaXJh" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="1" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="JIRA" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_k8Dy0K4qEe-zmbAgcyGR5g"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_kddu8MjcEe-QUZYYtvXb4g"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -122,7 +113,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authenticationType" value="BASIC"/>
     <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pat" value="enc:system.encryption.key.v1:Z5JPHFsTGivh+x1vk/pjnknk//Aol+JcO0XliKcL9LbBZP+sH+7mUMU1t/PrTLAepeIogBKIcDMUXnANVY2eGNpLqmrH1h0pJWIOGIaD9w3vmidYJxUz3kxL4RvBMC4avWnK/vchoT6cd0sOo2FTkx39dpxIANReWAPUHMyrWmv//4nTtYIDocJHtcvqf6t77p7H+br3pyUHaJxljrFTjB4ZWUpECiGYA/4RycqcWMZFVAz7QGrTlFvhGdcFeBbzI+yQO87WfuAe+sFuBhhmIf1XXKTGpzhTvk6MO9/I" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.user" value="&quot;daniel.d@sift-ag.com&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pass" value="enc:system.encryption.key.v1:J0gOi2CUzdm9ylB5YfhCRvMYSsdTAZYhxA/K3kdPNJVCBXtJK9SI/UF+su9I/IA="/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pass" value="enc:system.encryption.key.v1:uJc0A07EiIEDwsLrR9B7Kn5yVNUutOgUrCqgkn9Xv5DHYB8pdOqcPFK015cLD6jvi7yP4DQezLJ3s9TJoEq6zWMq9VaoF6h+AURDYSRcL2lMNM7k9xljlzebSIpZlfcESIFwa+Z6l6Ex33Bg86XfaQ9/6yMSHZbhsuvM6CrzjDek0kMEz+xUyz2mQb/N5PfljwJLZAbItNTWID2HF1zGxVS3R4mjcW/JhAWI4+BlxNS7jHdThtyysiguli7WPTZlsQiKGknHZtC2hrA+6nG3guBYf/1Za7E+d22AJlgh"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.resourceType" value="ISSUE"/>
     <elementParameter field="CHECK" name="configuration.useJQL" value="true"/>
     <elementParameter field="TEXT" name="configuration.jql" value="&quot;project = DOC ORDER BY created DESC&quot;"/>
@@ -193,7 +184,7 @@
       <elementValue elementRef="INPUT_COLUMN" value="summary" id="0"/>
       <elementValue elementRef="FUNCTION" value="" id="1"/>
       <elementValue elementRef="OPERATOR" value="==" id="2"/>
-      <elementValue elementRef="RVALUE" value="&quot;test Jira connector N&quot;" id="3"/>
+      <elementValue elementRef="RVALUE" value="&quot;Add the documentation for new components tJIRA&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
     <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;" show="false"/>
@@ -276,18 +267,10 @@
   </node>
   <node componentName="JIRAOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="680" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJIRAOutput_2" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="Output" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="amlyYSNKSVJBI091dHB1dA" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" value="amlyYSNKSVJBI2RhdGFzdG9yZSNKaXJh" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="1" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="JIRA" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_k8Dy0K4qEe-zmbAgcyGR5g"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_kddu8MjcEe-QUZYYtvXb4g"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -295,7 +278,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authenticationType" value="BASIC"/>
     <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pat" value="enc:system.encryption.key.v1:IXQhJjIEcy069LMezFaKFg5QOi8xmWyXmetR6tIS/n999LdA7gmb3XVY++vjM7qETm9UKGziUTdty9MCXk7hu6QhDo40gX8NvKNvhvsTCNqua7a7h9Y8giQjsOZxH7CU9yhuP5SsbdYEauPWutulT1yy072p8khIvtdFNLz4PrNaLTEJcsTlf0jYktANe5w8fBdqTTPPJaFyiZyn2qHKxMLmsPCG1pZDZeDeztLll0Hd3tvCIi6fA7k2ZDCGZtIRARZ6N1RBAfcrS+6/Ez3SyHL84ET8EEpTbxfJuKS2" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.user" value="&quot;daniel.d@sift-ag.com&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pass" value="enc:system.encryption.key.v1:ciA37hLb/0YDlfNCKLsSnag8J0wtwjw6Rhcx9anl6SzmQZd0HKkR5boZR7WJt9w="/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pass" value="enc:system.encryption.key.v1:yAGpvLsdmI2RTvnX7ETK3/VAydOMvip7BB7B/R3Qv6z4oq46jRRZTKYpJIvNq6Wh97ED9YIpopGi6CYz6et+0PjIi7NPbpHyupEIvroq7cvFY5n17Dy9jj29EGxp+HpgaTiiwCc+gsgdEclVJC7ajwYj9pkWwFgmJXYnXKfIk7IA4FpOw5dIlQPTn2OlAaheyZMHCHX6pfDzu4THHXu3R9tTAxEVJOaF4+9RJCmvIJRiUnWQwCGFn3vcrI/2qLAmoZF6USiuFEMbKVAbYuCMgV5uytytSQwCW8sMiOul"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.resourceType" value="ISSUE"/>
     <elementParameter field="CLOSED_LIST" name="configuration.outputAction" value="UPDATE"/>
     <elementParameter field="CHECK" name="configuration.deleteSubtasks" value="true" show="false"/>
@@ -328,19 +311,10 @@
   </node>
   <node componentName="JIRAInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="600">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJIRAInput_3" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="Input" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="amlyYSNKSVJBI0lucHV0" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" value="amlyYSNKSVJBI2RhdGFzdG9yZSNKaXJh" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="1" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="JIRA" show="false"/>
-    <elementParameter field="CHECK" name="START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_k8Dy0K4qEe-zmbAgcyGR5g"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_kddu8MjcEe-QUZYYtvXb4g"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -348,7 +322,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authenticationType" value="BASIC"/>
     <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pat" value="enc:system.encryption.key.v1:/SVco3Ve573UfC378h+7M7xJ0ipUFWm/LWeZJkWjelMKvLiRXT5Sml/wI4igHERfKkanCo7uh1nmIZl6ilhdX95+nxN37UD3ue0crWgLgMBqgFeQ+81n8X5QPKycNtQDYl/lT0PS7gILnVdcayB+gIhdqpLZg7Kis29kEr1dg8k07sy+m+8JbDVUIKD2vwl6md+HRhDhDuLIic4k0sY2ilGkmFOR+begPmaI0i+H9w1OE0kQTD+TXAQJEB0KUK+0DUORQY4M6awcodd2nUHvAG+Fn1d3pmCCAIdME6Ed" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.user" value="&quot;daniel.d@sift-ag.com&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pass" value="enc:system.encryption.key.v1:Dw2+DSdRrBUUPOon5ilQcux4J6mgA0xm45AC2q1TWHrxSkRS0CIMUiktUXwmARw="/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pass" value="enc:system.encryption.key.v1:7wXWRuyue9ajU7arrC6LxhG3P2dqW/3E45dc/Ziw/p360I7yI87MJvY8hr28dYYp4kYYfTfYitV0Xv9hmztuQIBc8oPlS8WiDLuXT1rFaB+Q81O7ivqWloqtC5ItM9kx1nTZIVVcl9FL7UmFzHYNrq1J7szanxbyHysgWR6N3Zg0/2c8ijE5klak4T31qISFkVKnMgTbFPmtpfcd1BZ7OQddDw/QiEoJ6xZAHqy9nA39o7m1qzScO0t3SBCj4Q2MfsFZAFiLUlsH1tddpvjdYLSqLdhF/x2AL/KWxeUu"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.resourceType" value="ISSUE"/>
     <elementParameter field="CHECK" name="configuration.useJQL" value="false"/>
     <elementParameter field="TEXT" name="configuration.jql" value="summary ~ &quot;test Jira connector N&quot; AND project=10200" show="false"/>
