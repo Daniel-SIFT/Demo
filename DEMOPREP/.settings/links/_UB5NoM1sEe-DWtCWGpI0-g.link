@@ -1,0 +1,70 @@
+{
+  "itemId" : "_UB5NoM1sEe-DWtCWGpI0-g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_sXa8wGQeEe-4aopAiWKOxw",
+    "parameterList" : [ {
+      "id" : "_sX6E-GQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Login"
+    }, {
+      "id" : "_sX6E-WQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Port"
+    }, {
+      "id" : "_sX6E-mQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_AdditionalParams"
+    }, {
+      "id" : "_sX6E-2QeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Server"
+    }, {
+      "id" : "_sX6E_GQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Database"
+    }, {
+      "id" : "_sX6E_WQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Password"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_sXa8wGQeEe-4aopAiWKOxw",
+    "parameterList" : [ {
+      "id" : "_sX6E8WQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Login"
+    }, {
+      "id" : "_sX6E8mQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Port"
+    }, {
+      "id" : "_sX6E82QeEe-4aopAiWKOxw",
+      "name" : "SalesDB_AdditionalParams"
+    }, {
+      "id" : "_sX6E9GQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Server"
+    }, {
+      "id" : "_sX6E9WQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Database"
+    }, {
+      "id" : "_sX6E9mQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Password"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_sXa8wGQeEe-4aopAiWKOxw",
+    "parameterList" : [ {
+      "id" : "_sX6E-GQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Login"
+    }, {
+      "id" : "_sX6E-WQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Port"
+    }, {
+      "id" : "_sX6E-mQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_AdditionalParams"
+    }, {
+      "id" : "_sX6E-2QeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Server"
+    }, {
+      "id" : "_sX6E_GQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Database"
+    }, {
+      "id" : "_sX6E_WQeEe-4aopAiWKOxw",
+      "name" : "SalesDB_Password"
+    } ]
+  } ]
+}

@@ -113,6 +113,7 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_p15iwA0QEeqQ96NUWHog4Q" name="d"/>
   </parameters>
   <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
@@ -166,14 +167,14 @@
     <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Shopname"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerID"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ProductID"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Shopname" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerID" id="2"/>
+      <elementValue elementRef="TRIM" value="false" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ProductID" id="4"/>
+      <elementValue elementRef="TRIM" value="false" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity" id="6"/>
+      <elementValue elementRef="TRIM" value="false" id="7"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="SalesDataIn"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -208,7 +209,7 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="JoinTables"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="CombinedSales2">
+    <metadata connector="FLOW" name="CombinedSales">
       <column comment="" key="false" length="10" name="Shopname" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -247,7 +248,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="CombinedSales2" columnNameFilter="">
+      <outputTables sizeState="INTERMEDIATE" name="CombinedSales" columnNameFilter="">
         <mapperTableEntries name="Shopname" expression="Sales.Shopname " type="id_String" nullable="true"/>
         <mapperTableEntries name="CustomerName" expression="Customers.CustomerName " type="id_String" nullable="true"/>
         <mapperTableEntries name="ProductName" expression="Products.ProductName " type="id_String" nullable="true"/>
@@ -320,34 +321,34 @@
     <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerID"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerName"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerAddress"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="idState"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="id2"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RegTime"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RegisterTime"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Sum1"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Sum2"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Sum3"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Sum4"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Sum5"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Sum6"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Sum7"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerID" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerName" id="2"/>
+      <elementValue elementRef="TRIM" value="false" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerAddress" id="4"/>
+      <elementValue elementRef="TRIM" value="false" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="idState" id="6"/>
+      <elementValue elementRef="TRIM" value="false" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="id2" id="8"/>
+      <elementValue elementRef="TRIM" value="false" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RegTime" id="10"/>
+      <elementValue elementRef="TRIM" value="false" id="11"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RegisterTime" id="12"/>
+      <elementValue elementRef="TRIM" value="false" id="13"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Sum1" id="14"/>
+      <elementValue elementRef="TRIM" value="false" id="15"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Sum2" id="16"/>
+      <elementValue elementRef="TRIM" value="false" id="17"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Sum3" id="18"/>
+      <elementValue elementRef="TRIM" value="false" id="19"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Sum4" id="20"/>
+      <elementValue elementRef="TRIM" value="false" id="21"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Sum5" id="22"/>
+      <elementValue elementRef="TRIM" value="false" id="23"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Sum6" id="24"/>
+      <elementValue elementRef="TRIM" value="false" id="25"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Sum7" id="26"/>
+      <elementValue elementRef="TRIM" value="false" id="27"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="CustomerDataIn"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -426,10 +427,10 @@
     <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ProductID"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ProductName"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ProductID" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ProductName" id="2"/>
+      <elementValue elementRef="TRIM" value="false" id="3"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="ProductsDataIn"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -473,26 +474,26 @@
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Shopname"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerName"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ProductName"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Shopname" id="0"/>
+      <elementValue elementRef="UPDATE_KEY" value="false" id="1"/>
+      <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="3"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="4"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerName" id="5"/>
+      <elementValue elementRef="UPDATE_KEY" value="false" id="6"/>
+      <elementValue elementRef="DELETE_KEY" value="false" id="7"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="8"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ProductName" id="10"/>
+      <elementValue elementRef="UPDATE_KEY" value="false" id="11"/>
+      <elementValue elementRef="DELETE_KEY" value="false" id="12"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="13"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="14"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity" id="15"/>
+      <elementValue elementRef="UPDATE_KEY" value="false" id="16"/>
+      <elementValue elementRef="DELETE_KEY" value="false" id="17"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="18"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="19"/>
     </elementParameter>
     <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
@@ -536,12 +537,12 @@
   <node componentName="tSortRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="680" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSortRow_1" show="false"/>
     <elementParameter field="TABLE" name="CRITERIA">
-      <elementValue elementRef="COLNAME" value="CustomerID"/>
-      <elementValue elementRef="SORT" value="num"/>
-      <elementValue elementRef="ORDER" value="asc"/>
-      <elementValue elementRef="COLNAME" value="ProductID"/>
-      <elementValue elementRef="SORT" value="num"/>
-      <elementValue elementRef="ORDER" value="asc"/>
+      <elementValue elementRef="COLNAME" value="CustomerID" id="0"/>
+      <elementValue elementRef="SORT" value="num" id="1"/>
+      <elementValue elementRef="ORDER" value="asc" id="2"/>
+      <elementValue elementRef="COLNAME" value="ProductID" id="3"/>
+      <elementValue elementRef="SORT" value="num" id="4"/>
+      <elementValue elementRef="ORDER" value="asc" id="5"/>
     </elementParameter>
     <elementParameter field="CHECK" name="EXTERNAL" value="false"/>
     <elementParameter field="DIRECTORY" name="TEMPFILE" value="&quot;C:/Users/student/workspace/temp&quot;" show="false"/>
@@ -567,18 +568,18 @@
   <node componentName="tUniqRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tUniqRow_1" show="false"/>
     <elementParameter field="TABLE" name="UNIQUE_KEY">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Shopname"/>
-      <elementValue elementRef="KEY_ATTRIBUTE" value="false"/>
-      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerID"/>
-      <elementValue elementRef="KEY_ATTRIBUTE" value="true"/>
-      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ProductID"/>
-      <elementValue elementRef="KEY_ATTRIBUTE" value="true"/>
-      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity"/>
-      <elementValue elementRef="KEY_ATTRIBUTE" value="false"/>
-      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Shopname" id="0"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="1"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false" id="2"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerID" id="3"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="true" id="4"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ProductID" id="6"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="true" id="7"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false" id="8"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity" id="9"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="10"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false" id="11"/>
     </elementParameter>
     <elementParameter field="CHECK" name="ONLY_ONCE_EACH_DUPLICATED_KEY" value="false"/>
     <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="false"/>
@@ -633,14 +634,14 @@
   <node componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="560" posY="520" sizeX="41" sizeY="41">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_1" show="false"/>
     <elementParameter field="TABLE" name="GROUPBYS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="ProductName"/>
-      <elementValue elementRef="INPUT_COLUMN" value="ProductName"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="ProductName" id="0"/>
+      <elementValue elementRef="INPUT_COLUMN" value="ProductName" id="1"/>
     </elementParameter>
     <elementParameter field="TABLE" name="OPERATIONS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="Quantity"/>
-      <elementValue elementRef="FUNCTION" value="sum"/>
-      <elementValue elementRef="INPUT_COLUMN" value="Quantity"/>
-      <elementValue elementRef="IGNORE_NULL" value="false"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Quantity" id="0"/>
+      <elementValue elementRef="FUNCTION" value="sum" id="1"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Quantity" id="2"/>
+      <elementValue elementRef="IGNORE_NULL" value="false" id="3"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;"/>
     <elementParameter field="CHECK" name="USE_FINANCIAL_PRECISION" value="true"/>
@@ -668,14 +669,14 @@
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="TABLE" name="ROOT_TAGS"/>
     <elementParameter field="TABLE" name="MAPPING">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ProductName"/>
-      <elementValue elementRef="AS_ATTRIBUTE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true"/>
-      <elementValue elementRef="LABEL" value="&quot;label&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity"/>
-      <elementValue elementRef="AS_ATTRIBUTE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true"/>
-      <elementValue elementRef="LABEL" value="&quot;label&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ProductName" id="0"/>
+      <elementValue elementRef="AS_ATTRIBUTE" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true" id="2"/>
+      <elementValue elementRef="LABEL" value="&quot;label&quot;" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity" id="4"/>
+      <elementValue elementRef="AS_ATTRIBUTE" value="false" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true" id="6"/>
+      <elementValue elementRef="LABEL" value="&quot;label&quot;" id="7"/>
     </elementParameter>
     <elementParameter field="CHECK" name="USE_DYNAMIC_GROUPING" value="false"/>
     <elementParameter field="TABLE" name="GROUP_BY" show="false"/>
@@ -729,16 +730,16 @@
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ProductName"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ProductName" id="0"/>
+      <elementValue elementRef="UPDATE_KEY" value="false" id="1"/>
+      <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="3"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="4"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity" id="5"/>
+      <elementValue elementRef="UPDATE_KEY" value="false" id="6"/>
+      <elementValue elementRef="DELETE_KEY" value="false" id="7"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="8"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="9"/>
     </elementParameter>
     <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
@@ -778,22 +779,22 @@
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="TABLE" name="ROOT_TAGS"/>
     <elementParameter field="TABLE" name="MAPPING">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Shopname"/>
-      <elementValue elementRef="AS_ATTRIBUTE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true"/>
-      <elementValue elementRef="LABEL" value="&quot;label&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerID"/>
-      <elementValue elementRef="AS_ATTRIBUTE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true"/>
-      <elementValue elementRef="LABEL" value="&quot;label&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ProductID"/>
-      <elementValue elementRef="AS_ATTRIBUTE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true"/>
-      <elementValue elementRef="LABEL" value="&quot;label&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity"/>
-      <elementValue elementRef="AS_ATTRIBUTE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true"/>
-      <elementValue elementRef="LABEL" value="&quot;label&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Shopname" id="0"/>
+      <elementValue elementRef="AS_ATTRIBUTE" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true" id="2"/>
+      <elementValue elementRef="LABEL" value="&quot;label&quot;" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerID" id="4"/>
+      <elementValue elementRef="AS_ATTRIBUTE" value="false" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true" id="6"/>
+      <elementValue elementRef="LABEL" value="&quot;label&quot;" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ProductID" id="8"/>
+      <elementValue elementRef="AS_ATTRIBUTE" value="false" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true" id="10"/>
+      <elementValue elementRef="LABEL" value="&quot;label&quot;" id="11"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity" id="12"/>
+      <elementValue elementRef="AS_ATTRIBUTE" value="false" id="13"/>
+      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true" id="14"/>
+      <elementValue elementRef="LABEL" value="&quot;label&quot;" id="15"/>
     </elementParameter>
     <elementParameter field="CHECK" name="USE_DYNAMIC_GROUPING" value="false"/>
     <elementParameter field="TABLE" name="GROUP_BY" show="false"/>
@@ -841,9 +842,9 @@
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDBCommit_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="CombinedSales2" lineStyle="0" metaname="CombinedSales2" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tDBOutput_1">
+  <connection connectorName="FLOW" label="CombinedSales" lineStyle="0" metaname="CombinedSales" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tDBOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="CombinedSales2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="CombinedSales" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="Rejects" lineStyle="0" metaname="Rejects" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tSortRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
