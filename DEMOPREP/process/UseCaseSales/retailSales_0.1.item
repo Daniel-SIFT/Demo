@@ -246,7 +246,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="CombinedSales" columnNameFilter="">
         <mapperTableEntries name="Shopname" expression="Sales.Shopname " type="id_String" nullable="true"/>
@@ -734,56 +734,6 @@
       </column>
     </metadata>
   </node>
-  <node componentName="DataPrepRun" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="760" posY="280">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDataPrepRun_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="Run" show="false"/>
-    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="ZGF0YXByZXAjRGF0YVByZXAjUnVu" show="false"/>
-    <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" value="ZGF0YXByZXAjRGF0YVByZXAjZGF0YXN0b3JlI1ByZXBEYXRhU3RvcmU" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="1" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="DataPrep" show="false"/>
-    <elementParameter field="CHECK" name="START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_r6XLkGEkEe-y9rLusI6B8Q"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataStore.endpoint" value="AP"/>
-    <elementParameter field="TEXT" name="configuration.dataStore.endpointURL" value="&quot;http://localhost&quot;" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataStore.iamEndpoint" value="https://app.&lt;env>.cloud.talend.com" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataStore.authType" value="PAT"/>
-    <elementParameter field="TEXT" name="configuration.dataStore.passwordAuthentication.username" value="&quot;daniel.d@siftanalyticsgrouppteltd_nfr&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.dataStore.passwordAuthentication.password" value="enc:system.encryption.key.v1:N7PJr6s0nE4bAjJhDzZZt5K2BKKqNOR0+dHfXHi11S7AM9Yx39tzSbb3uDzz3cwfpmFQILxDk8rcc0uFe41BUfBAb7K09IeqmNBLAI/t8Q/7fhW4xDiIwk0+v8JMCQ==" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.dataStore.patAuthentication.pat" value="enc:system.encryption.key.v1:GO2JqiISN+QW7j1pmnk0Yv+i4/ULeoNvj+GB/VB/c5SwZduE3/mOWuqTzj0UBzZL5s7jQgbF8wa+SaMOTcaMGgIz3dNYTcY64guJvh/atxqJ36ags6Ti3lAJDdqPrA=="/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.preparationIdentifier" value="13c2cd16-2480-498c-b414-101eb1faece8"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.version" value="HEAD"/>
-    <elementParameter field="TABLE" name="configuration.references.references"/>
-    <elementParameter field="TEXT" name="configuration.dataStore.vaultEndPoint" value="&quot;http://localhost&quot;" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataStore.dictionary" value="false"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataStore.dictionaryConfig.dictionaryVersion" value="0" show="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataStore.__version" value="2" show="false"/>
-    <metadata connector="FLOW" name="tDataPrepRun_1">
-      <column comment="" key="false" length="40" name="Shopname" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="255" name="CustomerName" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="255" name="ProductName" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="Quantity" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-    </metadata>
-    <metadata connector="LOOKUP" name="LOOKUP"/>
-    <metadata connector="MERGE" name="MERGE"/>
-    <metadata connector="REJECT" name="REJECT"/>
-  </node>
   <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
@@ -892,7 +842,7 @@
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDBCommit_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="CombinedSales" lineStyle="0" metaname="CombinedSales" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tDataPrepRun_1">
+  <connection connectorName="FLOW" label="CombinedSales" lineStyle="0" metaname="CombinedSales" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tDBOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="CombinedSales" show="false"/>
   </connection>
@@ -927,10 +877,6 @@
   <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tFileOutputXML_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputXML_1" target="tDBOutput_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tDataPrepRun_1" offsetLabelX="0" offsetLabelY="0" source="tDataPrepRun_1" target="tDBOutput_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="CHECK" name="COLLAPSED" value="true" show="false"/>

@@ -29,6 +29,7 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_qYu5qW8uEe-EtMAV-H-QuA" name="CustomerAddress" id="CustomerAddress" label="CustomerAddress" length="255" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_qYu5qm8uEe-EtMAV-H-QuA" tag="Comment" value=""/>
+        <taggedValue xmi:id="_QpoEz82BEe-RkIr62j2m3A" tag="Content Type" value="Nominal"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_qYu5q28uEe-EtMAV-H-QuA" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_qYu5rG8uEe-EtMAV-H-QuA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
@@ -152,5 +153,6 @@
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_wCR0gJ_gEe-RetZb5DmihQ" kind="Usage" supplier="_n_4WEPoQEeiN-rovZB9rdA">
     <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/test_0.1.ana#_v0WtQJ_gEe-RetZb5DmihQ"/>
     <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/test1_0.1.ana#_43KKgZ_gEe-RetZb5DmihQ"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/Address_Column_Check_0.1.ana#_B_dWYM2BEe-RkIr62j2m3A"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_B_dWYM2BEe-RkIr62j2m3A" name="Address Column Check" creationDate="2025-01-08T12:25:53.978+0700" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/SalesDB_0.1.item#_wCR0gJ_gEe-RetZb5DmihQ"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/address/Companies_House_0.1.pattern#_QpoE1c2BEe-RkIr62j2m3A"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Random_sequence_of_text_0.1.pattern#_QpwAlM2BEe-RkIr62j2m3A"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/No_special_chart_0.1.pattern#_Qp0SBM2BEe-RkIr62j2m3A"/>
+    <taggedValue xmi:id="_B_dWYc2BEe-RkIr62j2m3A" tag="Status" value="development"/>
+    <taggedValue xmi:id="_B_dWYs2BEe-RkIr62j2m3A" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+    <taggedValue xmi:id="_B_dWY82BEe-RkIr62j2m3A" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_B_dWZM2BEe-RkIr62j2m3A" tag="Description" value=""/>
+    <taggedValue xmi:id="_B_dWZc2BEe-RkIr62j2m3A" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_QpoEwc2BEe-RkIr62j2m3A" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_QpoEws2BEe-RkIr62j2m3A" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_QpoEw82BEe-RkIr62j2m3A" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_QpoE0M2BEe-RkIr62j2m3A" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_B_dWZs2BEe-RkIr62j2m3A">
+      <connection href="../../metadata/connections/SalesDB_0.1.item#_n_4WEPoQEeiN-rovZB9rdA"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5qW8uEe-EtMAV-H-QuA"/>
+    </context>
+    <results xmi:id="_B_d9cM2BEe-RkIr62j2m3A">
+      <resultMetadata xmi:id="_B_d9cc2BEe-RkIr62j2m3A" executionDate="2025-01-08T12:27:34.397+0700" executionDuration="806" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:PatternFreqIndicator" xmi:id="_QpoExM2BEe-RkIr62j2m3A" computed="true" distinctValueCount="10" valueToFreq="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C7708000000100000000A7400103939392041616161616161612041612E7372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000094740011393939204161616161616161204161612E7371007E000300000000000000B874000E393939204161616161612041612E7371007E0003000000000000008B74000F39393939204161616161612041612E7371007E0003000000000000006B740011393939392041616161616161612041612E7371007E00030000000000000097740011393939392041616161616161204161612E7371007E000300000000000000A874001439393939204161616161616161612041616161617371007E000300000000000000897400103939393920416161616161612041612E7371007E0003000000000000005F74001239393939204161616161616161612041612E7371007E00030000000000000091740010393939204161616161612041616161617371007E0003000000000000005B78">
+        <parameters xmi:id="_QpoExc2BEe-RkIr62j2m3A"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5qW8uEe-EtMAV-H-QuA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Frequency Statistics/Pattern_Frequency_Table_0.1.definition#_kQzTsJR-Ed2XO-JvLwVAwg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Q9JdsM2BEe-RkIr62j2m3A" body="SELECT BINARY REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(`CustomerAddress`,'a','a'),'b','a'),'c','a'),'d','a'),'e','a'),'f','a'),'g','a'),'h','a'),'i','a'),'j','a'),'k','a'),'l','a'),'m','a'),'n','a'),'o','a'),'p','a'),'q','a'),'r','a'),'s','a'),'t','a'),'u','a'),'v','a'),'w','a'),'x','a'),'y','a'),'z','a'),'ç','a'),'â','a'),'ê','a'),'î','a'),'ô','a'),'û','a'),'é','a'),'è','a'),'ù','a'),'ï','a'),'ö','a'),'ü','a'),'A','A'),'B','A'),'C','A'),'D','A'),'E','A'),'F','A'),'G','A'),'H','A'),'I','A'),'J','A'),'K','A'),'L','A'),'M','A'),'N','A'),'O','A'),'P','A'),'Q','A'),'R','A'),'S','A'),'T','A'),'U','A'),'V','A'),'W','A'),'X','A'),'Y','A'),'Z','A'),'Ç','A'),'Â','A'),'Ê','A'),'Î','A'),'Ô','A'),'Û','A'),'É','A'),'È','A'),'Ù','A'),'Ï','A'),'Ö','A'),'Ü','A'),'0','9'),'1','9'),'2','9'),'3','9'),'4','9'),'5','9'),'6','9'),'7','9'),'8','9'),'9','9'), COUNT(*) c FROM `demodev`.`salescustomers` t  GROUP BY BINARY REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(`CustomerAddress`,'a','a'),'b','a'),'c','a'),'d','a'),'e','a'),'f','a'),'g','a'),'h','a'),'i','a'),'j','a'),'k','a'),'l','a'),'m','a'),'n','a'),'o','a'),'p','a'),'q','a'),'r','a'),'s','a'),'t','a'),'u','a'),'v','a'),'w','a'),'x','a'),'y','a'),'z','a'),'ç','a'),'â','a'),'ê','a'),'î','a'),'ô','a'),'û','a'),'é','a'),'è','a'),'ù','a'),'ï','a'),'ö','a'),'ü','a'),'A','A'),'B','A'),'C','A'),'D','A'),'E','A'),'F','A'),'G','A'),'H','A'),'I','A'),'J','A'),'K','A'),'L','A'),'M','A'),'N','A'),'O','A'),'P','A'),'Q','A'),'R','A'),'S','A'),'T','A'),'U','A'),'V','A'),'W','A'),'X','A'),'Y','A'),'Z','A'),'Ç','A'),'Â','A'),'Ê','A'),'Î','A'),'Ô','A'),'Û','A'),'É','A'),'È','A'),'Ù','A'),'Ï','A'),'Ö','A'),'Ü','A'),'0','9'),'1','9'),'2','9'),'3','9'),'4','9'),'5','9'),'6','9'),'7','9'),'8','9'),'9','9') ORDER BY c DESC LIMIT 10" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_Q4CUMM2BEe-RkIr62j2m3A" name="Pattern Frequency Table" label="Pattern Frequency Table">
+          <taggedValue xmi:id="_Q4CUMc2BEe-RkIr62j2m3A" tag="Description" value="counts the number of records for each distinct pattern"/>
+          <taggedValue xmi:id="_Q4CUMs2BEe-RkIr62j2m3A" tag="Purpose" value="evaluates the most frequent patterns"/>
+          <sqlGenericExpression xmi:id="_Q4CUM82BEe-RkIr62j2m3A" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="SQL"/>
+          <sqlGenericExpression xmi:id="_Q4CUNM2BEe-RkIr62j2m3A" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_Q4CUNc2BEe-RkIr62j2m3A" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) AS c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_Q4CUNs2BEe-RkIr62j2m3A" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) AS c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="PostgreSQL"/>
+          <sqlGenericExpression xmi:id="_Q4CUN82BEe-RkIr62j2m3A" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="DB2"/>
+          <sqlGenericExpression xmi:id="_Q4CUOM2BEe-RkIr62j2m3A" body="SELECT &lt;%=__COLUMN_NAMES__%> , COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_Q4CUOc2BEe-RkIr62j2m3A" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) AS c FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="Informix"/>
+          <sqlGenericExpression xmi:id="_Q4CUOs2BEe-RkIr62j2m3A" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="AS/400"/>
+          <sqlGenericExpression xmi:id="_Q4CUO82BEe-RkIr62j2m3A" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_Q4CUPM2BEe-RkIr62j2m3A" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) AS c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="Vertica Database"/>
+          <sqlGenericExpression xmi:id="_Q4CUPc2BEe-RkIr62j2m3A" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) AS c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="Netezza"/>
+          <charactersMapping xmi:id="_Q4CUPs2BEe-RkIr62j2m3A" language="SQL" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_Q4CUP82BEe-RkIr62j2m3A" name="Characters mapping on MySQL" language="MySQL" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_Q4CUQM2BEe-RkIr62j2m3A" name="Characters mapping on Oracle" language="Oracle" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_Q4CUQc2BEe-RkIr62j2m3A" name="Characters mapping on PostgreSQL" language="PostgreSQL" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_Q4CUQs2BEe-RkIr62j2m3A" name="Characters mapping on Microsoft SQL Server" language="Microsoft SQL Server" charactersToReplace="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_Q4CUQ82BEe-RkIr62j2m3A" name="Characters mapping on DB2" language="DB2" charactersToReplace="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_Q4CURM2BEe-RkIr62j2m3A" name="Characters mapping on AS/400" language="AS/400" charactersToReplace="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_Q4CURc2BEe-RkIr62j2m3A" name="Characters mapping on Informix" language="Informix" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_Q4CURs2BEe-RkIr62j2m3A" name="Characters mapping on Teradata" language="Teradata" charactersToReplace="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_Q4CUR82BEe-RkIr62j2m3A" name="Characters mapping on Vertica" language="Vertica Database" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_Q4CUSM2BEe-RkIr62j2m3A" language="Netezza" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
+          <charactersMapping xmi:id="_Q4CUSc2BEe-RkIr62j2m3A" name="Characters mapping on Hive" language="Hive" charactersToReplace="0123456789abcdefghijklmnopqrstuvwxyz?aê???éèù??üABCDEFGHIJKLMNOPQRSTUVWXYZ??ê???éèù??ü" replacementCharacters="9999999999aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_QpoExs2BEe-RkIr62j2m3A" name="Companies House" count="5000" computed="true" notMatchingValueCount="5000">
+        <parameters xmi:id="_QpoEx82BEe-RkIr62j2m3A">
+          <dataValidDomain xmi:id="_QpoEyM2BEe-RkIr62j2m3A">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/address/Companies_House_0.1.pattern#_KErdkIyeEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5qW8uEe-EtMAV-H-QuA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Q9Jdsc2BEe-RkIr62j2m3A" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`CustomerAddress`,'^[0-9]{3}[-|/]{1}[0-9]{6}[-|/]{1}[0-9]{6}$','c') THEN 1 END), COUNT(*) FROM `demodev`.`salescustomers` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_QpoEyc2BEe-RkIr62j2m3A" name="Random sequence of text" count="5000" computed="true" notMatchingValueCount="5000">
+        <parameters xmi:id="_QpoEys2BEe-RkIr62j2m3A">
+          <dataValidDomain xmi:id="_QpoEy82BEe-RkIr62j2m3A">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Random_sequence_of_text_0.1.pattern#_gDqDcP9eEd2mwaQf90ozSg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5qW8uEe-EtMAV-H-QuA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Q9KEwM2BEe-RkIr62j2m3A" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`CustomerAddress`,'[zrtypqsdfghjklmwxcvbnZRTYPQSDFGHJKLMWXCVBN]{4,}$','c') THEN 1 END), COUNT(*) FROM `demodev`.`salescustomers` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_QpoEzM2BEe-RkIr62j2m3A" name="No special chart" count="5000" computed="true" notMatchingValueCount="5000">
+        <parameters xmi:id="_QpoEzc2BEe-RkIr62j2m3A">
+          <dataValidDomain xmi:id="_QpoEzs2BEe-RkIr62j2m3A">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/No_special_chart_0.1.pattern#_6rm3QIycEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/SalesDB_0.1.item#_qYu5qW8uEe-EtMAV-H-QuA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Q9KEwc2BEe-RkIr62j2m3A" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`CustomerAddress`,'^[A-Za-z0-9]{3}$','c') THEN 1 END), COUNT(*) FROM `demodev`.`salescustomers` " language="MySQL"/>
+      </indicators>
+    </results>
+    <parameters xmi:id="_B_d9cs2BEe-RkIr62j2m3A" dataFilter="_Qp5xkM2BEe-RkIr62j2m3A" analysisType="Multiple Column Analysis"/>
+    <contextType xmi:id="_QpoEwM2BEe-RkIr62j2m3A" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_Qp5xkM2BEe-RkIr62j2m3A" name="Address Column Check">
+    <ranges xmi:id="_Qp5xkc2BEe-RkIr62j2m3A">
+      <expressions xmi:id="_Qp5xks2BEe-RkIr62j2m3A">
+        <expression xsi:type="relational:TdExpression" xmi:id="_Qp5xk82BEe-RkIr62j2m3A" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>
