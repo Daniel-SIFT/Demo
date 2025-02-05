@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="path of the log file to be downloaded from Dropbox" name="parameter_download_path" prompt="parameter_download_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Talend/StreamingResultsLog_CloudRun.csv" internalId="_9XFWcEk2Eey9XJ5BPmRVFQ"/>
+    <contextParameter comment="path of the log file to be downloaded from Dropbox" name="parameter_download_path" prompt="parameter_download_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Talend/StreamingResultsLog.csv" internalId="_9XFWcEk2Eey9XJ5BPmRVFQ"/>
     <contextParameter comment="path to upload the result file to on Dropbox" name="parameter_upload_path" prompt="parameter_upload_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Talend/CloudRun_CustomersPerMovie.csv" internalId="_9XFWcUk2Eey9XJ5BPmRVFQ"/>
     <contextParameter comment="" name="connection_dropbox_access_token" prompt="connection_dropbox_access_token?" promptNeeded="false" repositoryContextId="_UmAHsH-UEeSh_srZ_0iReQ" type="id_String" value="sl.B-uuo1OBzmTiAaNslTj7V83ZpLF-_hMfrLlhbM6q-hcqarNKQ-u6B6oKfn68q9Y9NocFK-hgnM0B9P7Yol2b5w5x2JHySsteq9aE7QMolpsAYjTJqRX_IuPIMOo9EQljI7uwHaLcpKe1vkV4Tu3N" internalId="_xEIKsIn1Ee-R-omjCYMAvQ"/>
   </context>
@@ -112,10 +112,11 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_p15iwA0QEeqQ96NUWHog4Q" name="d"/>
   </parameters>
   <node componentName="tDropboxConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDropboxConnection_1" show="false"/>
-    <elementParameter field="TEXT" name="ACCESS_TOKEN" value="context.connection_dropbox_access_token"/>
+    <elementParameter field="TEXT" name="ACCESS_TOKEN" value="&quot;sl.u.AFfkfFB2PCoaT4WzzhcciaEA3jRT-ayJQFn9Ss2Ouqhc-7zsW4tewAmjrr4J1vUr3MJF53Tr_46xiR_eDpyzQm87RGa0zXA9R_i7oCXrJ6wXQqrZ5JEFLq-1rJ2oxfqtGKornOlYZPUIqo2hFcC9zPuVBmSa3nis4TRUBVAf_Xm1Psn6TlWW1_QzjnnJUvS0Y-0ZtpRUVjNRNV0n4B_0wzrivA5HCz7AT4AUSCWsEDwMcKm0DNieTb4Tz2Fapgfe2pu4LK1Kp28TfaQEbdXhvEarT4i0p17aPr5z6LxEonAdaK3dHTkScIQMHSBTxOeud-KWb4STMsXeaS6UwBrwaGg47nrn0M8LBJY8BNK7FNvLk2s5o9ILlRiTkLPRozl0iWX3XDy5wZTXJ9Qd1V1N8n28zmrE-xef2aY5qJZTRFwYHtet2MY7MA0Ds6zjBgXu5vJr-W8BB03UxeywKeaPccDE3yOi079Qm-iRtN5FgErolBH-NZHRYq6tdByIjOi7GGP5MLmrL00DUTs66OlaT7jzuNs9d-4lcIO4nXd0fpLjTEHk6FeNxDj8utaeENtKxAygbZYxAvHeDwVGAUEkbkrl2V9izNlZH7B3O2QXDz2RvkooH45k0LvCBezADdKYjiE3zXRG4pM84MJxyNiAc6QO5VdT2ke7HnwYWnRPGqXLLsAU8JfH6O5UcTBMiiXM6QlkyAqS4vknvK4Mkwn6pCrN6W3ePAMSwf7S7wHcRevJWJwvUdy0qguLqYz2Kycf1D0zSJGxHiwI3WtXtR4tj08E_UwQ3wVDFIIhz9hOBG9sLAigz9TBJnHsPph-DmBPq8vLECLrNgfrlwoBg-AyUFhfb-_1OaeZlh7Njn3KtWzxB_o_2U418HnZwFGqtCPzrXyxankMKuH4-QxaQE6R3k4yWhUHQG-SUYmJFJXekMNBqB-8Zh_JCvVURHT77zDOEnsrmuQOSjz2s-3sjLAKiAGpLqDols8mda7bF679Jn6KsLwjTAamePtkRnWNm6mQAd0GBXQqxIAP5G10BT1HQlAlk60d4JwZBfdyDHUT0Vz4gt3ZuiHGPkA9nS3_eaTuC4ocyvOceP5qhmozPR32AA2s0tsjP48OrBj7eSuTHbKQEJ7KFLEnly8ZJzBUwpC30XpJOL2R5q4jsUvyPMZzFNpSMiPeDWzn9Nfla5Eozzdwneu2xUr6WzbSpveghufQjRXDw19SMhXhPDMNQbsD_i502uyt4yE5g3YJYqZ8-AEqFZthwVMfrpIknChjrZTpsyybt0iG3Rnmz0k3qBPrgRG6cclcoK8feNmkY9yyyng9OFO_e28Yetnskb0NQiKCFLemFPvLOfScf-fD1JRna2U7k4H4ywsu9DBYF-fq1bO6TJxp58FFoRjlckzHDLoHnJBVfIyx2B_HbBCwSVqHwbOy682uYmi80jrYxQoGkn8Jpg&quot;"/>
     <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
     <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;192.20.1.160&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROXY_PORT" value="1090" show="false"/>
@@ -184,14 +185,14 @@
     <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
     <elementParameter field="CHECK" name="TRIMALL" value="false"/>
     <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="customerId"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="movieID"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="movieDurationMinutes"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PercentWatched"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="customerId" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="movieID" id="2"/>
+      <elementValue elementRef="TRIM" value="false" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="movieDurationMinutes" id="4"/>
+      <elementValue elementRef="TRIM" value="false" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PercentWatched" id="6"/>
+      <elementValue elementRef="TRIM" value="false" id="7"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
@@ -200,14 +201,14 @@
     <elementParameter field="CHECK" name="SPLITRECORD" value="false" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
     <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="customerId"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="movieID"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="movieDurationMinutes"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PercentWatched"/>
-      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="customerId" id="0"/>
+      <elementValue elementRef="DECODE" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="movieID" id="2"/>
+      <elementValue elementRef="DECODE" value="false" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="movieDurationMinutes" id="4"/>
+      <elementValue elementRef="DECODE" value="false" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PercentWatched" id="6"/>
+      <elementValue elementRef="DECODE" value="false" id="7"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
@@ -231,14 +232,14 @@
   <node componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="520" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_1" show="false"/>
     <elementParameter field="TABLE" name="GROUPBYS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="movieID"/>
-      <elementValue elementRef="INPUT_COLUMN" value="movieID"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="movieID" id="0"/>
+      <elementValue elementRef="INPUT_COLUMN" value="movieID" id="1"/>
     </elementParameter>
     <elementParameter field="TABLE" name="OPERATIONS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="NbCustomers"/>
-      <elementValue elementRef="FUNCTION" value="count"/>
-      <elementValue elementRef="INPUT_COLUMN" value="customerId"/>
-      <elementValue elementRef="IGNORE_NULL" value="false"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="NbCustomers" id="0"/>
+      <elementValue elementRef="FUNCTION" value="count" id="1"/>
+      <elementValue elementRef="INPUT_COLUMN" value="customerId" id="2"/>
+      <elementValue elementRef="IGNORE_NULL" value="false" id="3"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;"/>
     <elementParameter field="CHECK" name="USE_FINANCIAL_PRECISION" value="true"/>
@@ -299,10 +300,10 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="movieID"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NbCustomers"/>
-      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="movieID" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NbCustomers" id="2"/>
+      <elementValue elementRef="LENGTH" value="10" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -357,12 +358,12 @@
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDropboxGet_1" offsetLabelX="0" offsetLabelY="0" source="tDropboxGet_1" target="tFlowToIterate_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="fileName"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="content"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fileName" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+      <elementValue elementRef="TRACE_COLUMN" value="content" id="3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="4"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="5"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>

@@ -23,5 +23,6 @@
     <client xsi:type="dataquality.analysis:Analysis" href="../../../../TDQ_Data Profiling/Analyses/Email_Column_Analysis_0.1.ana#_HhgYUGT3Ee-g7JvTHx_dZw"/>
     <client xsi:type="dataquality.analysis:Analysis" href="../../../../TDQ_Data Profiling/Analyses/Test_Analysis2_0.1.ana#_d3FVEbIYEe-QvNFdKaFnbA"/>
     <client xsi:type="dataquality.analysis:Analysis" href="../../../../TDQ_Data Profiling/Analyses/Basic_Column_Analysis_0.1.ana#_qtIs8LxJEe-i863zj7Jq_g"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../../TDQ_Data Profiling/Analyses/EmailTestAnalysis_0.1.ana#_WiONkNMYEe-YaM0DFnTzOQ"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
