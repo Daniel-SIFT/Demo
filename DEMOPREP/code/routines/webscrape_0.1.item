@@ -1,0 +1,26 @@
+package routines;
+import java.io.IOException;
+import java.util.StringJoiner;
+
+import org.jsoup.*;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+public class webscrape {
+
+    public static String getweb(String url, String keyword) throws IOException
+    {
+    Document doc = Jsoup.connect(url).get();
+    Elements elementos = doc.getElementsByTag("a");
+    StringJoiner st = new StringJoiner("");
+    for(Element x : elementos)
+    {
+    	if (x.text().contains(keyword))
+    	{
+    		st.add(x.text() + ";");
+    	}
+    }
+    	return st.toString();
+    }
+}

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>code/routines/HTMLScrapingTools</deletedFolders>
   <deletedFolders>process/ExecutionControl</deletedFolders>
   <deletedItems id="_mpDWsJG7Ee-AHqLrHXMEvw" path="" type="JOBLET"/>
   <deletedItems id="_A0dMYGT9Edyrh8knyihGHw" path="" type="PROCESS"/>

@@ -1,0 +1,54 @@
+package routines;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import org.jsoup.*;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+
+
+public class HTMLScrapingTools {
+
+
+    /**
+     * findLinks
+     * 
+     * This method is used to return any links found in the HTML body supplied. It returns an ArrayList of HashMaps
+     * 
+     * @param body
+     * @return
+     */
+    public static ArrayList<HashMap<String,String>> findLinks(String body) {
+    	
+    	ArrayList<HashMap<String,String>> returnVal = new ArrayList<HashMap<String,String>>();
+    	
+    	Document doc = Jsoup.parse(body);
+    	
+    	
+    	Elements links = doc.select("a");
+    	
+    	if(links.size()>0) {
+    	
+    		java.util.Iterator<Element> it = links.iterator();
+    	
+    		while(it.hasNext()) {
+    			HashMap<String,String> tmpHash = new HashMap<String,String>();
+    			Element tmpEl = it.next();
+    			
+    			tmpHash.put("href", tmpEl.attr("href"));
+    			tmpHash.put("text", tmpEl.text());
+    			tmpHash.put("title", tmpEl.ownText());
+    			
+    			returnVal.add(tmpHash);
+    	
+    		}
+    	}
+    	
+    	return returnVal;
+    
+    }
+
+
+}
