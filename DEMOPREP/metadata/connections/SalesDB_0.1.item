@@ -90,7 +90,7 @@
       </feature>
     </ownedElement>
     <ownedElement xsi:type="relational:TdTable" xmi:id="_qY1AQW8uEe-EtMAV-H-QuA" name="salestotal" id="_qY1AQG8uEe-EtMAV-H-QuA" label="salestotal" tableType="TABLE">
-      <feature xsi:type="relational:TdColumn" xmi:id="_qY1AQm8uEe-EtMAV-H-QuA" name="Shopname" id="Shopname" label="Shopname" length="10" sourceType="VARCHAR" talendType="id_String">
+      <feature xsi:type="relational:TdColumn" xmi:id="_qY1AQm8uEe-EtMAV-H-QuA" name="Shopname" id="Shopname" label="Shopname" length="255" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_qY1AQ28uEe-EtMAV-H-QuA" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_qY1ARG8uEe-EtMAV-H-QuA" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_qY1ARW8uEe-EtMAV-H-QuA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>

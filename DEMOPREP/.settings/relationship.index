@@ -2802,6 +2802,10 @@
     "version" : "Latest",
     "type" : "property"
   }, {
+    "id" : "d",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
     "id" : "_aNXlQPoMEeiN-rovZB9rdA - ProductMetadata",
     "version" : "Latest",
     "type" : "schema"
@@ -3457,6 +3461,10 @@
     "version" : "Latest",
     "type" : "property"
   }, {
+    "id" : "d",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
     "id" : "_8RU20O2rEeimJLseTyzfCA - SalesShopsMetadata",
     "version" : "Latest",
     "type" : "schema"
@@ -3717,6 +3725,33 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_oZIewPWIEe-Ls8dBHQapow",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_sXa8wGQeEe-4aopAiWKOxw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Ud1gwM2CEe-cD-NtvSKHfA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "d",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA - salestotal",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_ojyzgIf0Ed2Bye_XRHWwSA",
     "version" : "0.1",
     "type" : "job"
@@ -3885,6 +3920,14 @@
     "id" : "d",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA - salescustomers",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA - salesproducts",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
