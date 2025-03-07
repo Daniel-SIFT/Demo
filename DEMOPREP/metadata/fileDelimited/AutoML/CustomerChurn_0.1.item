@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_7gNNUfsaEe-0D4DRmaIHIQ" name="CustomerChurn" dataPackage="_7gNNUvsaEe-0D4DRmaIHIQ" Server="Localhost 127.0.0.1" FilePath="G:/My Drive/Talend/Use Cases/Customer Churn.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_7gNNUvsaEe-0D4DRmaIHIQ" name="default" dataManager="_7gNNUfsaEe-0D4DRmaIHIQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_7gNNU_saEe-0D4DRmaIHIQ" id="_vPYU4PsaEe-0D4DRmaIHIQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNVPsaEe-0D4DRmaIHIQ" label="Customer_ID" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNVfsaEe-0D4DRmaIHIQ" label="Number_of_Outstanding_Support_Tickets" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNVvsaEe-0D4DRmaIHIQ" label="Repeat_Customer" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNV_saEe-0D4DRmaIHIQ" label="Tenure_in_Months" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNWPsaEe-0D4DRmaIHIQ" label="Tier" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNWfsaEe-0D4DRmaIHIQ" label="Number_of_Logins" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNWvsaEe-0D4DRmaIHIQ" label="Size" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNW_saEe-0D4DRmaIHIQ" label="Length_of_Session" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNXPsaEe-0D4DRmaIHIQ" label="Number_of_licenses" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNXfsaEe-0D4DRmaIHIQ" label="Industry" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNXvsaEe-0D4DRmaIHIQ" label="Region" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNX_saEe-0D4DRmaIHIQ" label="Product" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNYPsaEe-0D4DRmaIHIQ" label="Customer_Value__1000s" length="255" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gNNYfsaEe-0D4DRmaIHIQ" label="Churn" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

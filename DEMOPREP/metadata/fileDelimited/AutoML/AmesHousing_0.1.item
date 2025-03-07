@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_TZOrMPsLEe-0D4DRmaIHIQ" name="AmesHousing" dataPackage="_TZOrMfsLEe-0D4DRmaIHIQ" Server="Localhost 127.0.0.1" FilePath="G:/My Drive/Talend/Use Cases/AmesHousing.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_TZOrMfsLEe-0D4DRmaIHIQ" name="default" dataManager="_TZOrMPsLEe-0D4DRmaIHIQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TZOrMvsLEe-0D4DRmaIHIQ" id="_cGNUUPsJEe-0D4DRmaIHIQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrM_sLEe-0D4DRmaIHIQ" label="Order" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrNPsLEe-0D4DRmaIHIQ" label="PID" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrNfsLEe-0D4DRmaIHIQ" label="MS_SubClass" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrNvsLEe-0D4DRmaIHIQ" label="MS_Zoning" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrN_sLEe-0D4DRmaIHIQ" label="Lot_Frontage" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrOPsLEe-0D4DRmaIHIQ" label="Lot_Area" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrOfsLEe-0D4DRmaIHIQ" label="Street" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrOvsLEe-0D4DRmaIHIQ" label="Alley" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrO_sLEe-0D4DRmaIHIQ" label="Lot_Shape" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrPPsLEe-0D4DRmaIHIQ" label="Land_Contour" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrPfsLEe-0D4DRmaIHIQ" label="Utilities" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrPvsLEe-0D4DRmaIHIQ" label="Lot_Config" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrP_sLEe-0D4DRmaIHIQ" label="Land_Slope" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrQPsLEe-0D4DRmaIHIQ" label="Neighborhood" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrQfsLEe-0D4DRmaIHIQ" label="Condition_1" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrQvsLEe-0D4DRmaIHIQ" label="Condition_2" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrQ_sLEe-0D4DRmaIHIQ" label="Bldg_Type" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrRPsLEe-0D4DRmaIHIQ" label="House_Style" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrRfsLEe-0D4DRmaIHIQ" label="Overall_Qual" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrRvsLEe-0D4DRmaIHIQ" label="Overall_Cond" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrR_sLEe-0D4DRmaIHIQ" label="Year_Built" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrSPsLEe-0D4DRmaIHIQ" label="Year_Remod_Add" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrSfsLEe-0D4DRmaIHIQ" label="Roof_Style" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrSvsLEe-0D4DRmaIHIQ" label="Roof_Matl" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrS_sLEe-0D4DRmaIHIQ" label="Exterior_1st" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrTPsLEe-0D4DRmaIHIQ" label="Exterior_2nd" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrTfsLEe-0D4DRmaIHIQ" label="Mas_Vnr_Type" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrTvsLEe-0D4DRmaIHIQ" label="Mas_Vnr_Area" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrT_sLEe-0D4DRmaIHIQ" label="Exter_Qual" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrUPsLEe-0D4DRmaIHIQ" label="Exter_Cond" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrUfsLEe-0D4DRmaIHIQ" label="Foundation" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrUvsLEe-0D4DRmaIHIQ" label="Bsmt_Qual" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrU_sLEe-0D4DRmaIHIQ" label="Bsmt_Cond" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrVPsLEe-0D4DRmaIHIQ" label="Bsmt_Exposure" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrVfsLEe-0D4DRmaIHIQ" label="BsmtFin_Type_1" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrVvsLEe-0D4DRmaIHIQ" label="BsmtFin_SF_1" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrV_sLEe-0D4DRmaIHIQ" label="BsmtFin_Type_2" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrWPsLEe-0D4DRmaIHIQ" label="BsmtFin_SF_2" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrWfsLEe-0D4DRmaIHIQ" label="Bsmt_Unf_SF" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrWvsLEe-0D4DRmaIHIQ" label="Total_Bsmt_SF" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrW_sLEe-0D4DRmaIHIQ" label="Heating" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrXPsLEe-0D4DRmaIHIQ" label="Heating_QC" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrXfsLEe-0D4DRmaIHIQ" label="Central_Air" length="255" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrXvsLEe-0D4DRmaIHIQ" label="Electrical" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrX_sLEe-0D4DRmaIHIQ" label="_st_Flr_SF" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrYPsLEe-0D4DRmaIHIQ" label="_nd_Flr_SF" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrYfsLEe-0D4DRmaIHIQ" label="Low_Qual_Fin_SF" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrYvsLEe-0D4DRmaIHIQ" label="Gr_Liv_Area" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrY_sLEe-0D4DRmaIHIQ" label="Bsmt_Full_Bath" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrZPsLEe-0D4DRmaIHIQ" label="Bsmt_Half_Bath" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrZfsLEe-0D4DRmaIHIQ" label="Full_Bath" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrZvsLEe-0D4DRmaIHIQ" label="Half_Bath" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrZ_sLEe-0D4DRmaIHIQ" label="Bedroom_AbvGr" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOraPsLEe-0D4DRmaIHIQ" label="Kitchen_AbvGr" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrafsLEe-0D4DRmaIHIQ" label="Kitchen_Qual" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOravsLEe-0D4DRmaIHIQ" label="TotRms_AbvGrd" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOra_sLEe-0D4DRmaIHIQ" label="Functional" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrbPsLEe-0D4DRmaIHIQ" label="Fireplaces" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrbfsLEe-0D4DRmaIHIQ" label="Fireplace_Qu" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrbvsLEe-0D4DRmaIHIQ" label="Garage_Type" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrb_sLEe-0D4DRmaIHIQ" label="Garage_Yr_Blt" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrcPsLEe-0D4DRmaIHIQ" label="Garage_Finish" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrcfsLEe-0D4DRmaIHIQ" label="Garage_Cars" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrcvsLEe-0D4DRmaIHIQ" label="Garage_Area" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrc_sLEe-0D4DRmaIHIQ" label="Garage_Qual" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrdPsLEe-0D4DRmaIHIQ" label="Garage_Cond" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrdfsLEe-0D4DRmaIHIQ" label="Paved_Drive" length="255" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrdvsLEe-0D4DRmaIHIQ" label="Wood_Deck_SF" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrd_sLEe-0D4DRmaIHIQ" label="Open_Porch_SF" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrePsLEe-0D4DRmaIHIQ" label="Enclosed_Porch" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrefsLEe-0D4DRmaIHIQ" label="_Ssn_Porch" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrevsLEe-0D4DRmaIHIQ" label="Screen_Porch" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOre_sLEe-0D4DRmaIHIQ" label="Pool_Area" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrfPsLEe-0D4DRmaIHIQ" label="Pool_QC" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrffsLEe-0D4DRmaIHIQ" label="Fence" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrfvsLEe-0D4DRmaIHIQ" label="Misc_Feature" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrf_sLEe-0D4DRmaIHIQ" label="Misc_Val" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrgPsLEe-0D4DRmaIHIQ" label="Mo_Sold" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrgfsLEe-0D4DRmaIHIQ" label="Yr_Sold" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrgvsLEe-0D4DRmaIHIQ" label="Sale_Type" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrg_sLEe-0D4DRmaIHIQ" label="Sale_Condition" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZOrhPsLEe-0D4DRmaIHIQ" label="SalePrice" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
