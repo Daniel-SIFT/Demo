@@ -130,7 +130,11 @@
   }, {
     "id" : "org.talend.studio.components.tck.box.feature.feature.group"
   }, {
+    "id" : "org.talend.studio.components.tck.chunk.feature.feature.group"
+  }, {
     "id" : "org.talend.studio.components.tck.cyberarkrest.connector.feature.feature.group"
+  }, {
+    "id" : "org.talend.studio.components.tck.embeddingAI.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.google.analytics.feature.feature.group"
   }, {
@@ -146,7 +150,11 @@
   }, {
     "id" : "org.talend.studio.components.tck.kudu.feature.feature.group"
   }, {
+    "id" : "org.talend.studio.components.tck.milvus.feature.feature.group"
+  }, {
     "id" : "org.talend.studio.components.tck.odata.feature.feature.group"
+  }, {
+    "id" : "org.talend.studio.components.tck.ollama.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.openai.connector.feature.feature.group"
   }, {

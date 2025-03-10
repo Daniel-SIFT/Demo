@@ -1234,6 +1234,10 @@
     "version" : "Latest",
     "type" : "property"
   }, {
+    "id" : "d",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
     "id" : "_dSbU4PoQEeiN-rovZB9rdA - salestotal",
     "version" : "Latest",
     "type" : "schema"
@@ -2494,17 +2498,6 @@
     "id" : "_1d460GElEe-y9rLusI6B8Q - customers",
     "version" : "Latest",
     "type" : "schema"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_RypEwORKEe-aSK7gbajdiA",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "d",
-    "version" : "Latest",
-    "type" : "routine"
   } ]
 }, {
   "baseItem" : {
