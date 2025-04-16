@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_PV6ScBqWEfChnd0WMPQLJQ" name="Failures" dataPackage="_PV6ScRqWEfChnd0WMPQLJQ" Server="Localhost 127.0.0.1" FilePath="G:/My Drive/Talend/Use Cases/Predictive Maintenance PI OSISOFT/PdM_failures.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_PV6ScRqWEfChnd0WMPQLJQ" name="default" dataManager="_PV6ScBqWEfChnd0WMPQLJQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_PV6SchqWEfChnd0WMPQLJQ" id="_Fia_IBqWEfChnd0WMPQLJQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PV6ScxqWEfChnd0WMPQLJQ" label="datetime" length="255" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PV6SdBqWEfChnd0WMPQLJQ" label="machineID" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PV6SdRqWEfChnd0WMPQLJQ" label="failure" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
