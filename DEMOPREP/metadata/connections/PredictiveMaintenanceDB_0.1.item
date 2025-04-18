@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_JTw_IBwdEfC_NOLURaV59A" name="PredictiveMaintenanceDB" id="_JR1FcBwdEfC_NOLURaV59A" label="PredictiveMaintenanceDB" dataPackage="_Tzpo_hweEfC_NOLURaV59A" ContextMode="true" ContextId="_SQ9HIBweEfC_NOLURaV59A" contextName="Development" DatabaseType="MySQL" DriverJarPath="" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/predictivemaintenancedev?noDatetimeStringSync=true" dbVersionString="MYSQL_8" Port="context.PredictiveMaintenanceDB_Port" Username="context.PredictiveMaintenanceDB_Login" Password="context.PredictiveMaintenanceDB_Password" ServerName="context.PredictiveMaintenanceDB_Server" DatasourceName="" FileFieldName="" SID="context.PredictiveMaintenanceDB_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" DBRootPath="" AdditionalParams="context.PredictiveMaintenanceDB_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_n_4WEfoQEeiN-rovZB9rdA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_oBITQPoQEeiN-rovZB9rdA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_oBI6UPoQEeiN-rovZB9rdA" tag="Status" value=""/>
+    <taggedValue xmi:id="_oBI6UfoQEeiN-rovZB9rdA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_oBI6UvoQEeiN-rovZB9rdA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_oBI6U_oQEeiN-rovZB9rdA" tag="Description" value=""/>
+    <taggedValue xmi:id="_oBI6VPoQEeiN-rovZB9rdA" tag="Author" value=""/>
+    <taggedValue xmi:id="_oBI6VfoQEeiN-rovZB9rdA" tag="otherParameter"/>
+    <taggedValue xmi:id="_oBPoAPoQEeiN-rovZB9rdA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_oBPoAfoQEeiN-rovZB9rdA" tag="DB ProductVersion" value="8.0.39"/>
+    <taggedValue xmi:id="_oBPoAvoQEeiN-rovZB9rdA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_n_4WEvoQEeiN-rovZB9rdA" key="CONN_PARA_KEY_USERNAME" value="context.PredictiveMaintenanceDB_Login"/>
+    <parameters xmi:id="_5-WnAIjOEeubF7kkiIUesQ" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_Tzpo_hweEfC_NOLURaV59A" name="predictivemaintenancedev" dataManager="_JTw_IBwdEfC_NOLURaV59A">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_Z42v0BwiEfC_NOLURaV59A" name="errors" id="_Z40TkBwiEfC_NOLURaV59A" label="errors" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z42v0RwiEfC_NOLURaV59A" name="datetime" label="datetime" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Z42v0hwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z42v0xwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z42v1BwiEfC_NOLURaV59A" name="DATETIME" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z42v1RwiEfC_NOLURaV59A" name="machineID" label="machineID" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_Z42v1hwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z42v1xwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z42v2BwiEfC_NOLURaV59A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z42v2RwiEfC_NOLURaV59A" name="errorID" label="errorID" length="255" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_Z42v2hwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z42v2xwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z42v3BwiEfC_NOLURaV59A" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_Z4_SsRwiEfC_NOLURaV59A" name="telemetry" id="_Z4_SsBwiEfC_NOLURaV59A" label="telemetry" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z4_SshwiEfC_NOLURaV59A" name="datetime" label="datetime" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Z4_SsxwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z4_StBwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z4_StRwiEfC_NOLURaV59A" name="DATETIME" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z4_SthwiEfC_NOLURaV59A" name="machineID" label="machineID" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_Z4_StxwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z4_SuBwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z4_SuRwiEfC_NOLURaV59A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z4_SuhwiEfC_NOLURaV59A" name="volt" label="volt" length="255" precision="10" sourceType="FLOAT" talendType="id_Float">
+        <taggedValue xmi:id="_Z4_SuxwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z4_SvBwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z4_SvRwiEfC_NOLURaV59A" name="FLOAT" numericPrecision="10" numericPrecisionRadix="10" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z4_SvhwiEfC_NOLURaV59A" name="rotate" label="rotate" length="255" precision="10" sourceType="FLOAT" talendType="id_Float">
+        <taggedValue xmi:id="_Z4_SvxwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z4_SwBwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z4_SwRwiEfC_NOLURaV59A" name="FLOAT" numericPrecision="10" numericPrecisionRadix="10" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z4_SwhwiEfC_NOLURaV59A" name="pressure" label="pressure" length="255" precision="10" sourceType="FLOAT" talendType="id_Float">
+        <taggedValue xmi:id="_Z4_SwxwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z4_SxBwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z4_SxRwiEfC_NOLURaV59A" name="FLOAT" numericPrecision="10" numericPrecisionRadix="10" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z4_SxhwiEfC_NOLURaV59A" name="vibration" label="vibration" length="255" precision="10" sourceType="FLOAT" talendType="id_Float">
+        <taggedValue xmi:id="_Z4_SxxwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z4_SyBwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z4_SyRwiEfC_NOLURaV59A" name="FLOAT" numericPrecision="10" numericPrecisionRadix="10" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_Z5IcoRwiEfC_NOLURaV59A" name="maintenancerecords" id="_Z5IcoBwiEfC_NOLURaV59A" label="maintenancerecords" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z5IcohwiEfC_NOLURaV59A" name="datetime" label="datetime" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Z5IcoxwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z5IcpBwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z5IcpRwiEfC_NOLURaV59A" name="DATETIME" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z5IcphwiEfC_NOLURaV59A" name="machineID" label="machineID" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_Z5IcpxwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z5IcqBwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z5IcqRwiEfC_NOLURaV59A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z5IcqhwiEfC_NOLURaV59A" name="comp" label="comp" length="255" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_Z5IcqxwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z5IcrBwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z5IcrRwiEfC_NOLURaV59A" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_Z5Q_gRwiEfC_NOLURaV59A" name="failures" id="_Z5Q_gBwiEfC_NOLURaV59A" label="failures" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z5Q_ghwiEfC_NOLURaV59A" name="datetime" label="datetime" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Z5Q_gxwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z5Q_hBwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z5Q_hRwiEfC_NOLURaV59A" name="DATETIME" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z5Q_hhwiEfC_NOLURaV59A" name="machineID" label="machineID" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_Z5Q_hxwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z5Q_iBwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z5Q_iRwiEfC_NOLURaV59A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Z5Q_ihwiEfC_NOLURaV59A" name="failure" label="failure" length="255" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_Z5Q_ixwiEfC_NOLURaV59A" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_Z5Q_jBwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_Z5Q_jRwiEfC_NOLURaV59A" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

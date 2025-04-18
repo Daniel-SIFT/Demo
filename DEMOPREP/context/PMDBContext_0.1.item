@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_SRR3QBweEfC_NOLURaV59A" confirmationNeeded="false" hide="false" name="Development">
+    <contextParameter xmi:id="_SRR3QRweEfC_NOLURaV59A" comment="" name="PredictiveMaintenanceDB_Login" prompt="PredictiveMaintenanceDB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+    <contextParameter xmi:id="_SRR3QhweEfC_NOLURaV59A" comment="" name="PredictiveMaintenanceDB_AdditionalParams" prompt="PredictiveMaintenanceDB_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_SRR3QxweEfC_NOLURaV59A" comment="" name="PredictiveMaintenanceDB_Port" prompt="PredictiveMaintenanceDB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_SRR3RBweEfC_NOLURaV59A" comment="" name="PredictiveMaintenanceDB_Database" prompt="PredictiveMaintenanceDB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="predictivemaintenancedev"/>
+    <contextParameter xmi:id="_SRR3RRweEfC_NOLURaV59A" comment="" name="PredictiveMaintenanceDB_Server" prompt="PredictiveMaintenanceDB_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_SRR3RhweEfC_NOLURaV59A" comment="" name="PredictiveMaintenanceDB_Password" prompt="PredictiveMaintenanceDB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:vbu+iPLST5YGJBzxIsl03SkOEFxkZf9E18U3cIMxVM9Euw=="/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_SRR3RxweEfC_NOLURaV59A" confirmationNeeded="false" hide="false" name="Production">
+    <contextParameter xmi:id="_SRR3SBweEfC_NOLURaV59A" comment="" name="PredictiveMaintenanceDB_Login" prompt="PredictiveMaintenanceDB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+    <contextParameter xmi:id="_SRR3SRweEfC_NOLURaV59A" comment="" name="PredictiveMaintenanceDB_AdditionalParams" prompt="PredictiveMaintenanceDB_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_SRR3ShweEfC_NOLURaV59A" comment="" name="PredictiveMaintenanceDB_Port" prompt="PredictiveMaintenanceDB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_SRR3SxweEfC_NOLURaV59A" comment="" name="PredictiveMaintenanceDB_Database" prompt="PredictiveMaintenanceDB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="predictivemaintenanceprod"/>
+    <contextParameter xmi:id="_SRR3TBweEfC_NOLURaV59A" comment="" name="PredictiveMaintenanceDB_Server" prompt="PredictiveMaintenanceDB_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_SRR3TRweEfC_NOLURaV59A" comment="" name="PredictiveMaintenanceDB_Password" prompt="PredictiveMaintenanceDB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:/y2PfzkFUzf1o0yNvcTFDXeiF96hKM7qhtV0wfRKtW+Y0w=="/>
+  </talendfile:ContextType>
+</xmi:XMI>
