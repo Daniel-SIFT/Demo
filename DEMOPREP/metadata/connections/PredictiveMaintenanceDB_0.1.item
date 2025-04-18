@@ -99,5 +99,54 @@
         <sqlDataType xmi:id="_Z5Q_jRwiEfC_NOLURaV59A" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
     </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_AKbE8BwxEfCx76wHhyZ8Pg" name="equipment" id="_AKYosBwxEfCx76wHhyZ8Pg" label="equipment" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_AKbE8RwxEfCx76wHhyZ8Pg" name="machineID" label="machineID" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_AKbE8hwxEfCx76wHhyZ8Pg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_AKbE8xwxEfCx76wHhyZ8Pg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_AKbE9BwxEfCx76wHhyZ8Pg" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_AKbE9RwxEfCx76wHhyZ8Pg" name="model" label="model" length="255" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_AKbE9hwxEfCx76wHhyZ8Pg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_AKbE9xwxEfCx76wHhyZ8Pg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_AKbE-BwxEfCx76wHhyZ8Pg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_AKbE-RwxEfCx76wHhyZ8Pg" name="age" label="age" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_AKbE-hwxEfCx76wHhyZ8Pg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_AKbE-xwxEfCx76wHhyZ8Pg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_AKbE_BwxEfCx76wHhyZ8Pg" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_BjWikRw4EfCx76wHhyZ8Pg" name="equipmentrecs" id="_BjWikBw4EfCx76wHhyZ8Pg" label="equipmentrecs" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_BjY-0Bw4EfCx76wHhyZ8Pg" name="machineID" label="machineID" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_BjY-0Rw4EfCx76wHhyZ8Pg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_BjY-0hw4EfCx76wHhyZ8Pg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_BjY-0xw4EfCx76wHhyZ8Pg" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_BjY-1Bw4EfCx76wHhyZ8Pg" name="model" label="model" length="255" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_BjY-1Rw4EfCx76wHhyZ8Pg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_BjY-1hw4EfCx76wHhyZ8Pg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_BjY-1xw4EfCx76wHhyZ8Pg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_BjY-2Bw4EfCx76wHhyZ8Pg" name="errorID" label="errorID" length="255" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_BjY-2Rw4EfCx76wHhyZ8Pg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_BjY-2hw4EfCx76wHhyZ8Pg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_BjY-2xw4EfCx76wHhyZ8Pg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_BjY-3Bw4EfCx76wHhyZ8Pg" name="errordatetime" label="errordatetime" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_BjY-3Rw4EfCx76wHhyZ8Pg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_BjY-3hw4EfCx76wHhyZ8Pg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_BjY-3xw4EfCx76wHhyZ8Pg" name="DATETIME" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_BjY-4Bw4EfCx76wHhyZ8Pg" name="failure" label="failure" length="255" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_BjY-4Rw4EfCx76wHhyZ8Pg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_BjY-4hw4EfCx76wHhyZ8Pg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_BjY-4xw4EfCx76wHhyZ8Pg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_BjY-5Bw4EfCx76wHhyZ8Pg" name="failuredatetime" label="failuredatetime" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_BjY-5Rw4EfCx76wHhyZ8Pg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_BjY-5hw4EfCx76wHhyZ8Pg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_BjY-5xw4EfCx76wHhyZ8Pg" name="DATETIME" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>

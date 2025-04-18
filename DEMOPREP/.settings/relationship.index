@@ -15,6 +15,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_-j8LIBw3EfCx76wHhyZ8Pg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_SQ9HIBweEfC_NOLURaV59A",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_JR1FcBwdEfC_NOLURaV59A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "d",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_JR1FcBwdEfC_NOLURaV59A - equipmentrecs",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_-yMJwKnyEeyYztvbInSCXg",
     "version" : "0.1",
     "type" : "job"
@@ -3933,23 +3956,19 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_W8d0IBqWEfChnd0WMPQLJQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "d",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_JR1FcBwdEfC_NOLURaV59A - equipment",
+    "version" : "Latest",
+    "type" : "schema"
   }, {
     "id" : "_JR1FcBwdEfC_NOLURaV59A - errors",
     "version" : "Latest",
     "type" : "schema"
   }, {
     "id" : "_JR1FcBwdEfC_NOLURaV59A - failures",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_W8d0IBqWEfChnd0WMPQLJQ - metadata",
     "version" : "Latest",
     "type" : "schema"
   } ]
