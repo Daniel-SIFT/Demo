@@ -563,6 +563,7 @@
     <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="MachineRecordsOutput"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_1">
       <column comment="" key="false" length="255" name="machineID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
@@ -616,7 +617,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="NoRecords" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="ErrorDescription" lineStyle="8" metaname="tFileInputExcel_1" offsetLabelX="-4" offsetLabelY="-31" source="tFileInputExcel_1" target="tMap_1">
+  <connection connectorName="FLOW" label="ErrorDescription" lineStyle="8" metaname="tFileInputExcel_1" offsetLabelX="5" offsetLabelY="-50" source="tFileInputExcel_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="ErrorDescription" show="false"/>
   </connection>
