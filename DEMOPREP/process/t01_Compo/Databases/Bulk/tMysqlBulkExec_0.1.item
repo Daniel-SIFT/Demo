@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="demo" jobType="Standard">
-  <context confirmationNeeded="false" name="demo">
+  <context confirmationNeeded="false" hide="false" name="demo">
     <contextParameter comment="This var is just used on t04_Context/repositoryContext" name="sampleInt" prompt="please define an sample int:" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="100" internalId="_fhyU4DGAEeyj-4OGb9ev2g"/>
     <contextParameter comment="" name="root" prompt="root?" promptNeeded="false" repositoryContextId="_dn7XwGT9Edyrh8knyihGHw" type="id_String" value="C:\TalendDemoFiles\" internalId="_xUvecBLzEe2X1KTOOXgCJQ"/>
+    <contextParameter comment="" name="demoMysql_Login" prompt="demoMysql_Login?" promptNeeded="false" repositoryContextId="_ryIVYCpCEfCVW4wUXwrwFw" type="id_String" value="root" internalId="_t_SJcCpCEfCVW4wUXwrwFw"/>
+    <contextParameter comment="" name="demoMysql_Password" prompt="demoMysql_Password?" promptNeeded="false" repositoryContextId="_ryIVYCpCEfCVW4wUXwrwFw" type="id_Password" value="enc:system.encryption.key.v1:/aefiWsXEXax92g5HiWnwtFnScZkzVyclaPJ2E2qYZI=" internalId="_t_SJcSpCEfCVW4wUXwrwFw"/>
+    <contextParameter comment="" name="demoMysql_AdditionalParams" prompt="demoMysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_ryIVYCpCEfCVW4wUXwrwFw" type="id_String" value="" internalId="_t_SJcipCEfCVW4wUXwrwFw"/>
+    <contextParameter comment="" name="demoMysql_Port" prompt="demoMysql_Port?" promptNeeded="false" repositoryContextId="_ryIVYCpCEfCVW4wUXwrwFw" type="id_String" value="3306" internalId="_t_SJcypCEfCVW4wUXwrwFw"/>
+    <contextParameter comment="" name="demoMysql_Server" prompt="demoMysql_Server?" promptNeeded="false" repositoryContextId="_ryIVYCpCEfCVW4wUXwrwFw" type="id_String" value="localhost" internalId="_t_SJdCpCEfCVW4wUXwrwFw"/>
+    <contextParameter comment="" name="demoMysql_Database" prompt="demoMysql_Database?" promptNeeded="false" repositoryContextId="_ryIVYCpCEfCVW4wUXwrwFw" type="id_String" value="demoproject" internalId="_t_SJdSpCEfCVW4wUXwrwFw"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -101,26 +107,11 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <routinesParameter id="_BzsnoJWBEd2-2urAiuZBEg" name="DataOperation"/>
-    <routinesParameter id="_B9YvIJWBEd2-2urAiuZBEg" name="Mathematical"/>
-    <routinesParameter id="_B9rqE5WBEd2-2urAiuZBEg" name="Numeric"/>
-    <routinesParameter id="_B9rqF5WBEd2-2urAiuZBEg" name="Relational"/>
-    <routinesParameter id="_B91bE5WBEd2-2urAiuZBEg" name="StringHandling"/>
-    <routinesParameter id="_B91bF5WBEd2-2urAiuZBEg" name="TalendDataGenerator"/>
-    <routinesParameter id="_B9-lAJWBEd2-2urAiuZBEg" name="TalendDate"/>
-    <routinesParameter id="_B9-lBJWBEd2-2urAiuZBEg" name="TalendString"/>
     <routinesParameter id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
     <routinesParameter id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
-    <routinesParameter id="_k-cM8BLvEe2X1KTOOXgCJQ" name="DQTechnical"/>
-    <routinesParameter id="_k-XUcBLvEe2X1KTOOXgCJQ" name="DqStringHandling"/>
-    <routinesParameter id="_k93lMBLvEe2X1KTOOXgCJQ" name="MDM"/>
-    <routinesParameter id="_QKM7QBLqEe23xrGLbk9C2A" name="TalendStringUtil"/>
-    <routinesParameter id="_k-DLYBLvEe2X1KTOOXgCJQ" name="DataQuality"/>
-    <routinesParameter id="_QIm_0BLqEe23xrGLbk9C2A" name="SQLike"/>
-    <routinesParameter id="_k9-S4BLvEe2X1KTOOXgCJQ" name="DataMasking"/>
-    <routinesParameter id="_k-R04BLvEe2X1KTOOXgCJQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_p15iwA0QEeqQ96NUWHog4Q" name="d"/>
   </parameters>
-  <node componentName="tMysqlBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="320">
+  <node componentName="tMysqlBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="360" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlBulkExec_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_agCZsMvyEdu0-pmJiEk0sg" show="false"/>
@@ -132,7 +123,7 @@
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;demoproject&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:16xLMkHO/7+KH8vTaRYD5aNTI5kceHf9rR6izK6CQZ5wYg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kgpGyXc3qj7JFcCx+tFkCGIxXslx2LTxRPUlBaOk5G1slQ=="/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="LABEL" name="NOTE" value="Warning : this component configuration will automatically generate a commit before bulk insert" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;demotable&quot;"/>
@@ -157,7 +148,7 @@
       <column comment="" key="false" length="5" name="flag" nullable="false" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="360" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -180,16 +171,17 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="                                  __UNIQUE_NAME__                                            "/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b>&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <metadata connector="FLOW" name="tRunJob_1"/>
   </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tMysqlBulkExec_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
   </connection>
-  <note opaque="true" posX="32" posY="0" sizeHeight="129" sizeWidth="513" text="As a dedicated component, tMysqlBulkExec offers gains in performance&#xD;&#xA;while carrying out the Insert operations to a Mysql database.&#xD;&#xA;&#xD;&#xA;In this job, the tRunJob tMysqlOutputBulk is launch to create&#xD;&#xA;the data file will be insert by the tMysqlBulkExec."/>
+  <note opaque="true" posX="40" posY="0" sizeHeight="161" sizeWidth="641" text="As a dedicated component, tMysqlBulkExec offers gains in performance&#xD;&#xA;while carrying out the Insert operations to a Mysql database.&#xD;&#xA;&#xD;&#xA;In this job, the tRunJob tMysqlOutputBulk is launch to create&#xD;&#xA;the data file will be insert by the tMysqlBulkExec."/>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlBulkExec_1" show="false"/>

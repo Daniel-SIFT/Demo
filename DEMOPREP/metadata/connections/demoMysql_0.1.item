@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_xx3tgGD7EeCFQbmPuExx4A" name="demoMysql" dataPackage="_xyZ5AGD7EeCFQbmPuExx4A" DatabaseType="MySQL" URL="jdbc:mysql://localhost:3306/demoproject?" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="enc:system.encryption.key.v1:ZXapRPQlyi0cq0fG/Wuvb2RTH8E23CP+sqd7Lqx5mo8=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="demoproject" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" DBRootPath="" AdditionalParams="" StandardSQL="true" SQLMode="true" UiSchema="" supportNLS="false"/>
+  <TalendMetadata:DatabaseConnection xmi:id="_xx3tgGD7EeCFQbmPuExx4A" name="demoMysql" id="_agCZsMvyEdu0-pmJiEk0sg" label="demoMysql" dataPackage="_xyZ5AGD7EeCFQbmPuExx4A" contextName="Development" DatabaseType="MySQL" DriverJarPath="" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/demoproject?" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="enc:system.encryption.key.v1:h5k3OgSksghT7JbU6/cbd4YX+oG2DTUVxX9bnu7cVaE=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="demoproject" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" DBRootPath="" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_l7OzcCpCEfCVW4wUXwrwFw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_sCcCQCpCEfCVW4wUXwrwFw" tag="Status" value=""/>
+    <taggedValue xmi:id="_sCcCQSpCEfCVW4wUXwrwFw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_sCcCQipCEfCVW4wUXwrwFw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_sCcCQypCEfCVW4wUXwrwFw" tag="Description" value=""/>
+    <taggedValue xmi:id="_sCcCRCpCEfCVW4wUXwrwFw" tag="Author" value=""/>
+    <taggedValue xmi:id="_sCcCRSpCEfCVW4wUXwrwFw" tag="otherParameter"/>
+    <parameters xmi:id="_l5QdgCpCEfCVW4wUXwrwFw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+    <parameters xmi:id="_rzbV4CpCEfCVW4wUXwrwFw" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_xyZ5AGD7EeCFQbmPuExx4A" name="demoproject" dataManager="_xx3tgGD7EeCFQbmPuExx4A">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_xx0DIGD7EeCFQbmPuExx4A" name="state" id="_OTNUcDDqEd-mKPO5-zpv7Q" label="state" tableType="TABLE">
       <feature xsi:type="relational:TdColumn" xmi:id="_xxyN8GD7EeCFQbmPuExx4A" name="idusstate" label="idusstate" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">

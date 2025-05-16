@@ -179,7 +179,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.dataStore.authType" value="PAT"/>
     <elementParameter field="TEXT" name="configuration.dataStore.passwordAuthentication.username" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="configuration.dataStore.passwordAuthentication.password" value="enc:system.encryption.key.v1:WGBrtI9i6qEDaHEEUKqtZh7jMHxmEr6AtU+dyakC" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.dataStore.patAuthentication.pat" value="enc:system.encryption.key.v1:b04Q3Jz/qFJX27aS28alVaWIjKAup18KzDjCU9IezbOxSr2YEMju6BA5mlpGATQM3YsmosneG51R0MM4UbIy+6poJHxfyBDpWkf28+yuzCl87ebUHrdz9WtxFgpIkg=="/>
+    <elementParameter field="PASSWORD" name="configuration.dataStore.patAuthentication.pat" value="enc:system.encryption.key.v1:lX4wBk4QRo3T5Lu7HU1+mRgh4Ul2E7MeM4nT/MiHvtMoR/ESelZbh7sAg+COWB1oraGKQ5R3Sr0URLQDbK5Ra+Z0hZmr7R7N1Hc0ps7OoFxjBDdM7+g9R8+2ZhO3FA=="/>
     <elementParameter field="CHECK" name="configuration.useDynamicSelection" value="false"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.preparationIdentifier" value="13c2cd16-2480-498c-b414-101eb1faece8">
       <elementValue elementRef="suggestionLabel" value="salestotal Preparation, '/' (Daniel Dae, 1/8/25, 3:17 AM) - 13c2cd16-2480-498c-b414-101eb1faece8"/>

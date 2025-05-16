@@ -1,0 +1,70 @@
+{
+  "itemId" : "_UXphkCo6EfCVW4wUXwrwFw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_SQ9HIBweEfC_NOLURaV59A",
+    "parameterList" : [ {
+      "id" : "_SRR3QRweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Login"
+    }, {
+      "id" : "_SRR3QhweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_AdditionalParams"
+    }, {
+      "id" : "_SRR3QxweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Port"
+    }, {
+      "id" : "_SRR3RBweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Database"
+    }, {
+      "id" : "_SRR3RRweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Server"
+    }, {
+      "id" : "_SRR3RhweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Password"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_SQ9HIBweEfC_NOLURaV59A",
+    "parameterList" : [ {
+      "id" : "_SRR3SBweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Login"
+    }, {
+      "id" : "_SRR3SRweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_AdditionalParams"
+    }, {
+      "id" : "_SRR3ShweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Port"
+    }, {
+      "id" : "_SRR3SxweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Database"
+    }, {
+      "id" : "_SRR3TBweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Server"
+    }, {
+      "id" : "_SRR3TRweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Password"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_SQ9HIBweEfC_NOLURaV59A",
+    "parameterList" : [ {
+      "id" : "_SRR3QRweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Login"
+    }, {
+      "id" : "_SRR3QhweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_AdditionalParams"
+    }, {
+      "id" : "_SRR3QxweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Port"
+    }, {
+      "id" : "_SRR3RBweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Database"
+    }, {
+      "id" : "_SRR3RRweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Server"
+    }, {
+      "id" : "_SRR3RhweEfC_NOLURaV59A",
+      "name" : "PredictiveMaintenanceDB_Password"
+    } ]
+  } ]
+}

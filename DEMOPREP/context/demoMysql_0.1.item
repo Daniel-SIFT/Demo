@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_rybQUCpCEfCVW4wUXwrwFw" confirmationNeeded="false" hide="false" name="Development">
+    <contextParameter xmi:id="_rybQUSpCEfCVW4wUXwrwFw" comment="" name="demoMysql_Port" prompt="demoMysql_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_rybQUipCEfCVW4wUXwrwFw" comment="" name="demoMysql_Database" prompt="demoMysql_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="demoproject"/>
+    <contextParameter xmi:id="_rybQUypCEfCVW4wUXwrwFw" comment="" name="demoMysql_Password" prompt="demoMysql_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:2fFsT3DVL7pPXhdagqTlGLZxQmjA4RKsdPz6q8lhnfI="/>
+    <contextParameter xmi:id="_rybQVCpCEfCVW4wUXwrwFw" comment="" name="demoMysql_Server" prompt="demoMysql_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_rybQVSpCEfCVW4wUXwrwFw" comment="" name="demoMysql_AdditionalParams" prompt="demoMysql_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_rybQVipCEfCVW4wUXwrwFw" comment="" name="demoMysql_Login" prompt="demoMysql_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_rybQVypCEfCVW4wUXwrwFw" confirmationNeeded="false" hide="false" name="Production">
+    <contextParameter xmi:id="_rybQWCpCEfCVW4wUXwrwFw" comment="" name="demoMysql_Port" prompt="demoMysql_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_rybQWSpCEfCVW4wUXwrwFw" comment="" name="demoMysql_Database" prompt="demoMysql_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="demoproject"/>
+    <contextParameter xmi:id="_rybQWipCEfCVW4wUXwrwFw" comment="" name="demoMysql_Password" prompt="demoMysql_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:ZhrCZNERhBVncrS35Lt6bTD7XD752Ky/a5M8ACAOiSE="/>
+    <contextParameter xmi:id="_rybQWypCEfCVW4wUXwrwFw" comment="" name="demoMysql_Server" prompt="demoMysql_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_rybQXCpCEfCVW4wUXwrwFw" comment="" name="demoMysql_AdditionalParams" prompt="demoMysql_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_rybQXSpCEfCVW4wUXwrwFw" comment="" name="demoMysql_Login" prompt="demoMysql_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root"/>
+  </talendfile:ContextType>
+</xmi:XMI>
