@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Development" jobType="Standard">
-  <context confirmationNeeded="false" hide="false" name="Production">
-    <contextParameter comment="" name="Talend101_Port" prompt="Talend101_Port?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="3306" internalId="_ltRqUGE8Ee-y9rLusI6B8Q"/>
-    <contextParameter comment="" name="Talend101_Database" prompt="Talend101_Database?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="talend101" internalId="_ltRqUWE8Ee-y9rLusI6B8Q"/>
-    <contextParameter comment="" name="Talend101_AdditionalParams" prompt="Talend101_AdditionalParams?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_ltRqUmE8Ee-y9rLusI6B8Q"/>
-    <contextParameter comment="" name="Talend101_Login" prompt="Talend101_Login?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="root" internalId="_ltRqU2E8Ee-y9rLusI6B8Q"/>
-    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v1:NXRQVWhL4iyKsU1ajTAGidcZQk03LaICM2PPljzW38xIaA==" internalId="_ltRqVGE8Ee-y9rLusI6B8Q"/>
-    <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_ltRqVWE8Ee-y9rLusI6B8Q"/>
-  </context>
   <context confirmationNeeded="false" hide="false" name="Development">
-    <contextParameter comment="" name="Talend101_Port" prompt="Talend101_Port?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="3306" internalId="_ltRqVmE8Ee-y9rLusI6B8Q"/>
-    <contextParameter comment="" name="Talend101_Database" prompt="Talend101_Database?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="talend101dev" internalId="_ltRqV2E8Ee-y9rLusI6B8Q"/>
-    <contextParameter comment="" name="Talend101_AdditionalParams" prompt="Talend101_AdditionalParams?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_ltRqWGE8Ee-y9rLusI6B8Q"/>
-    <contextParameter comment="" name="Talend101_Login" prompt="Talend101_Login?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="root" internalId="_ltRqWWE8Ee-y9rLusI6B8Q"/>
-    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v1:LJ/65KRRM4As6VB3w6OyiqDX9gC+B8YW8kXyIpIi5efrxQ==" internalId="_ltRqWmE8Ee-y9rLusI6B8Q"/>
-    <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_ltRqW2E8Ee-y9rLusI6B8Q"/>
+    <contextParameter comment="" name="Talend101_AdditionalParams" prompt="Talend101_AdditionalParams?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_XtqfZmE9Ee-y9rLusI6B8Q"/>
+    <contextParameter comment="" name="Talend101_Login" prompt="Talend101_Login?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="root" internalId="_XtqfZ2E9Ee-y9rLusI6B8Q"/>
+    <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_XtqfaGE9Ee-y9rLusI6B8Q"/>
+    <contextParameter comment="" name="Talend101_Port" prompt="Talend101_Port?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="3306" internalId="_XtqfaWE9Ee-y9rLusI6B8Q"/>
+    <contextParameter comment="" name="Talend101_Database" prompt="Talend101_Database?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="talend101dev" internalId="_XtqfamE9Ee-y9rLusI6B8Q"/>
+    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v1:M+2plmjTdtPAQNDkZPa0NgMNqqp59D0WqgBrD/hL7NaETw==" internalId="_Xtqfa2E9Ee-y9rLusI6B8Q"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -115,5 +107,5 @@
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
     <routinesParameter id="_p15iwA0QEeqQ96NUWHog4Q" name="d"/>
   </parameters>
-  <note opaque="true" posX="600" posY="80" sizeHeight="80" sizeWidth="241" text="Load from CSV to MySQL DB"/>
+  <note opaque="false" posX="40" posY="40" sizeHeight="80" sizeWidth="241" text="Enrich and verify emails"/>
 </talendfile:ProcessType>
