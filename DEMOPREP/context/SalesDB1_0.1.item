@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_Ru13YDbfEfC9B51LFSKqog" confirmationNeeded="false" hide="false" name="DEV">
+    <contextParameter xmi:id="_Ru13YTbfEfC9B51LFSKqog" comment="" name="SalesDB1_Login" prompt="SalesDB1_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+    <contextParameter xmi:id="_Ru13YjbfEfC9B51LFSKqog" comment="" name="SalesDB1_Password" prompt="SalesDB1_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:LgeFqxXRzM/2VYEWbKaYVhcNwEdaJUMrfxgiyl8DB99OOA=="/>
+    <contextParameter xmi:id="_Ru13YzbfEfC9B51LFSKqog" comment="" name="SalesDB1_Database" prompt="SalesDB1_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="demodev"/>
+    <contextParameter xmi:id="_Ru13ZDbfEfC9B51LFSKqog" comment="" name="SalesDB1_Port" prompt="SalesDB1_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_Ru13ZTbfEfC9B51LFSKqog" comment="" name="SalesDB1_Server" prompt="SalesDB1_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_Ru13ZjbfEfC9B51LFSKqog" comment="" name="SalesDB1_AdditionalParams" prompt="SalesDB1_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_Ru13ZzbfEfC9B51LFSKqog" confirmationNeeded="false" hide="false" name="Prod">
+    <contextParameter xmi:id="_Ru13aDbfEfC9B51LFSKqog" comment="" name="SalesDB1_Login" prompt="SalesDB1_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+    <contextParameter xmi:id="_Ru13aTbfEfC9B51LFSKqog" comment="" name="SalesDB1_Password" prompt="SalesDB1_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:bARvQslUVByevGJ3gPvOjCORsK/h5X3DdyDPwPqKbYyYfA=="/>
+    <contextParameter xmi:id="_Ru13ajbfEfC9B51LFSKqog" comment="" name="SalesDB1_Database" prompt="SalesDB1_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="demo"/>
+    <contextParameter xmi:id="_Ru13azbfEfC9B51LFSKqog" comment="" name="SalesDB1_Port" prompt="SalesDB1_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_Ru13bDbfEfC9B51LFSKqog" comment="" name="SalesDB1_Server" prompt="SalesDB1_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_Ru13bTbfEfC9B51LFSKqog" comment="" name="SalesDB1_AdditionalParams" prompt="SalesDB1_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true"/>
+  </talendfile:ContextType>
+</xmi:XMI>

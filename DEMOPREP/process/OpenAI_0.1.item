@@ -7,6 +7,12 @@
     <contextParameter comment="" name="SalesDB_Server" prompt="SalesDB_Server?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="localhost" internalId="_0PcUiffwEe-yotHYuaT-Qw"/>
     <contextParameter comment="" name="SalesDB_Database" prompt="SalesDB_Database?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="demo" internalId="_0PcUivfwEe-yotHYuaT-Qw"/>
     <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v1:pcGZhuEYRVU/8VkHZrCnokHOfU9ttmPo02QpK7RRv7yy7A==" internalId="_0PcUi_fwEe-yotHYuaT-Qw"/>
+    <contextParameter comment="" name="SalesDB1_Password" prompt="SalesDB1_Password?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_Password" value="enc:system.encryption.key.v1:x6AhS5sIzbaCPdM9vpDOvAhx16mYLyd1PoByq0TmzMEfIA==" internalId="_Y1iNQDbfEfC9B51LFSKqog"/>
+    <contextParameter comment="" name="SalesDB1_Database" prompt="SalesDB1_Database?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="demodev" internalId="_Y1i0UDbfEfC9B51LFSKqog"/>
+    <contextParameter comment="" name="SalesDB1_Login" prompt="SalesDB1_Login?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="root" internalId="_Y1i0UTbfEfC9B51LFSKqog"/>
+    <contextParameter comment="" name="SalesDB1_Server" prompt="SalesDB1_Server?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="localhost" internalId="_Y1i0UjbfEfC9B51LFSKqog"/>
+    <contextParameter comment="" name="SalesDB1_AdditionalParams" prompt="SalesDB1_AdditionalParams?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="noDatetimeStringSync=true" internalId="_Y1i0UzbfEfC9B51LFSKqog"/>
+    <contextParameter comment="" name="SalesDB1_Port" prompt="SalesDB1_Port?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="3306" internalId="_Y1i0VDbfEfC9B51LFSKqog"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Development">
     <contextParameter comment="" name="SalesDB_Login" prompt="SalesDB_Login?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="root" internalId="_0PcUjPfwEe-yotHYuaT-Qw"/>
@@ -15,6 +21,12 @@
     <contextParameter comment="" name="SalesDB_Server" prompt="SalesDB_Server?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="localhost" internalId="_0PcUj_fwEe-yotHYuaT-Qw"/>
     <contextParameter comment="" name="SalesDB_Database" prompt="SalesDB_Database?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="demodev" internalId="_0PcUkPfwEe-yotHYuaT-Qw"/>
     <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v1:eebYMd3FoXVLA5t/luaiHj9vmZNKLP16ChYNvqK22nHtKQ==" internalId="_0PcUkffwEe-yotHYuaT-Qw"/>
+    <contextParameter comment="" name="SalesDB1_Password" prompt="SalesDB1_Password?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_Password" value="enc:system.encryption.key.v1:E3RNZvPEu65F34U+cyj0L/j5liyULInpCIy+jYtt9oBXtA==" internalId="_Y1i0VTbfEfC9B51LFSKqog"/>
+    <contextParameter comment="" name="SalesDB1_Database" prompt="SalesDB1_Database?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="demodev" internalId="_Y1i0VjbfEfC9B51LFSKqog"/>
+    <contextParameter comment="" name="SalesDB1_Login" prompt="SalesDB1_Login?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="root" internalId="_Y1i0VzbfEfC9B51LFSKqog"/>
+    <contextParameter comment="" name="SalesDB1_Server" prompt="SalesDB1_Server?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="localhost" internalId="_Y1i0WDbfEfC9B51LFSKqog"/>
+    <contextParameter comment="" name="SalesDB1_AdditionalParams" prompt="SalesDB1_AdditionalParams?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="noDatetimeStringSync=true" internalId="_Y1i0WTbfEfC9B51LFSKqog"/>
+    <contextParameter comment="" name="SalesDB1_Port" prompt="SalesDB1_Port?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="3306" internalId="_Y1i0WjbfEfC9B51LFSKqog"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -122,12 +134,12 @@
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.SalesDB_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.SalesDB_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.SalesDB_Database"/>
+    <elementParameter field="TEXT" name="HOST" value="context.SalesDB1_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.SalesDB1_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.SalesDB1_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.SalesDB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:S4Ve6sQYt/yLO7jBAoXxTvGfhpQ/Ag6LOMaTocevFkX9jReLqEKTwh9SpEsmQlFVh3GyPQ=="/>
+    <elementParameter field="TEXT" name="USER" value="context.SalesDB1_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:QrSe7h7v/y1MDLx6oRVVPqpu7bjbthP3SY2KmJHVdWhQUmE7zRaB2JJWAx2xqP0I/gZyTYY="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_dSbU4PoQEeiN-rovZB9rdA - salesforbi" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;salesforbi&quot;"/>
@@ -140,7 +152,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.SalesDB_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.SalesDB1_AdditionalParams"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
@@ -193,7 +205,7 @@
       <column comment="" key="false" length="-1" name="Quantity" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var"/>
       <outputTables sizeState="INTERMEDIATE" name="TestOutput">
         <mapperTableEntries name="ShopName" expression="row1.Shopname " type="id_String" nullable="true"/>

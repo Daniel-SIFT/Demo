@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_n_4WEPoQEeiN-rovZB9rdA" name="SalesDB" supplierDependency="_wCR0gJ_gEe-RetZb5DmihQ" id="_dSbU4PoQEeiN-rovZB9rdA" label="SalesDB" dataPackage="_WFevQGQfEe-4aopAiWKOxw" ContextMode="true" ContextId="_sXa8wGQeEe-4aopAiWKOxw" contextName="Development" DatabaseType="MySQL" DriverJarPath="" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/demodev?noDatetimeStringSync=true" dbVersionString="MYSQL_8" Port="context.SalesDB_Port" Username="context.SalesDB_Login" Password="context.SalesDB_Password" ServerName="context.SalesDB_Server" DatasourceName="" FileFieldName="" SID="context.SalesDB_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" DBRootPath="" AdditionalParams="context.SalesDB_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+  <TalendMetadata:DatabaseConnection xmi:id="_n_4WEPoQEeiN-rovZB9rdA" name="SalesDB" supplierDependency="_wCR0gJ_gEe-RetZb5DmihQ" id="_dSbU4PoQEeiN-rovZB9rdA" label="SalesDB" dataPackage="_WFevQGQfEe-4aopAiWKOxw" ContextMode="true" ContextId="_RuTE0DbfEfC9B51LFSKqog" contextName="DEV" DatabaseType="MySQL" DriverJarPath="" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/demodev?noDatetimeStringSync=true" dbVersionString="MYSQL_8" Port="context.SalesDB1_Port" Username="context.SalesDB1_Login" Password="context.SalesDB1_Password" ServerName="context.SalesDB1_Server" DatasourceName="" FileFieldName="" SID="context.SalesDB1_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" DBRootPath="" AdditionalParams="context.SalesDB1_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
     <taggedValue xmi:id="_n_4WEfoQEeiN-rovZB9rdA" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_oBITQPoQEeiN-rovZB9rdA" tag="package filter" value=""/>
     <taggedValue xmi:id="_oBI6UPoQEeiN-rovZB9rdA" tag="Status" value=""/>
@@ -12,7 +12,7 @@
     <taggedValue xmi:id="_oBPoAPoQEeiN-rovZB9rdA" tag="DB ProductName" value="MySQL"/>
     <taggedValue xmi:id="_oBPoAfoQEeiN-rovZB9rdA" tag="DB ProductVersion" value="8.0.39"/>
     <taggedValue xmi:id="_oBPoAvoQEeiN-rovZB9rdA" tag="DB IdentifierQuoteString" value="`"/>
-    <parameters xmi:id="_n_4WEvoQEeiN-rovZB9rdA" key="CONN_PARA_KEY_USERNAME" value="context.SalesDB_Login"/>
+    <parameters xmi:id="_n_4WEvoQEeiN-rovZB9rdA" key="CONN_PARA_KEY_USERNAME" value="context.SalesDB1_Login"/>
     <parameters xmi:id="_5-WnAIjOEeubF7kkiIUesQ" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_WFevQGQfEe-4aopAiWKOxw" name="demodev" dataManager="_n_4WEPoQEeiN-rovZB9rdA">
