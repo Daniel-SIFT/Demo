@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_QvFacUe9EfC4GuII6O-gRQ" name="AddressMatch" creationDate="2025-06-13T01:44:24.595+0700" defaultContext="Default">
+  <clientDependency href="../../metadata/connections/StagingDB_CRM_0.1.item#_uExFEGssEemiyPj-HC5GLw"/>
+  <taggedValue xmi:id="_QvFacke9EfC4GuII6O-gRQ" tag="PREVIEW_ROW_NUMBER" value="10000"/>
+  <taggedValue xmi:id="_QvFac0e9EfC4GuII6O-gRQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_QvFadEe9EfC4GuII6O-gRQ" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+  <taggedValue xmi:id="_QvFadUe9EfC4GuII6O-gRQ" tag="Purpose" value="AddressMatch"/>
+  <taggedValue xmi:id="_QvFadke9EfC4GuII6O-gRQ" tag="Description" value="DQ"/>
+  <taggedValue xmi:id="_QvFad0e9EfC4GuII6O-gRQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_Q1pVcEe9EfC4GuII6O-gRQ" tag="TEMP_DATA_DIR" value=""/>
+  <taggedValue xmi:id="_Q1pVcUe9EfC4GuII6O-gRQ" tag="MAX_BUFFER_SIZE" value="200000"/>
+  <taggedValue xmi:id="_Q1pVcke9EfC4GuII6O-gRQ" tag="STORE_ON_DISK" value="false"/>
+  <taggedValue xmi:id="_Q10UkEe9EfC4GuII6O-gRQ" tag="DRILL_DOWN" value="true"/>
+  <taggedValue xmi:id="_Q4CiIUe9EfC4GuII6O-gRQ" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <context xmi:id="_QvFaeEe9EfC4GuII6O-gRQ">
+    <connection href="../../metadata/connections/StagingDB_CRM_0.1.item#_xM_ucGp1Eem0SqmV0vh_Ag"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/StagingDB_CRM_0.1.item#_QigXAEe9EfC4GuII6O-gRQ"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/StagingDB_CRM_0.1.item#_QigXBEe9EfC4GuII6O-gRQ"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/StagingDB_CRM_0.1.item#_QigXCEe9EfC4GuII6O-gRQ"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/StagingDB_CRM_0.1.item#_QigXDEe9EfC4GuII6O-gRQ"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/StagingDB_CRM_0.1.item#_QigXEEe9EfC4GuII6O-gRQ"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/StagingDB_CRM_0.1.item#_QigXFEe9EfC4GuII6O-gRQ"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/StagingDB_CRM_0.1.item#_QigXGEe9EfC4GuII6O-gRQ"/>
+  </context>
+  <results xmi:id="_QvFaeUe9EfC4GuII6O-gRQ">
+    <resultMetadata xmi:id="_QvFaeke9EfC4GuII6O-gRQ" executionDate="2025-06-13T01:52:49.780+0700" executionDuration="2998" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+    <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_QvFae0e9EfC4GuII6O-gRQ" blockSize2frequency="ACED0005737200116A6176612E7574696C2E547265654D61700CC1F63E2D256AE60300014C000A636F6D70617261746F727400164C6A6176612F7574696C2F436F6D70617261746F723B7870707704000000057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000000187371007E000300000000000000017371007E0003000000000000005271007E00067371007E0003000000000000006371007E00067371007E0003000000000000015571007E00067371007E000300000000000001A671007E000678"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_QvFafEe9EfC4GuII6O-gRQ" count="968" groupSize2groupFrequency="ACED0005737200116A6176612E7574696C2E547265654D61700CC1F63E2D256AE60300014C000A636F6D70617261746F727400164C6A6176612F7574696C2F436F6D70617261746F723B787070770400000003740001317372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000000000000038E740001327371007E00040000000000000014740001337371007E0004000000000000000678" matchedRecordCount="47" suspectRecordCount="11">
+      <builtInMatchRuleDefinition xmi:id="_QvFafUe9EfC4GuII6O-gRQ">
+        <blockKeys xmi:id="_jcbqYEe9EfC4GuII6O-gRQ" name="Country_code" column="Country_code">
+          <preAlgorithm xmi:id="_jcbqYUe9EfC4GuII6O-gRQ" algorithmType="NON_ALGO" algorithmParameters=""/>
+          <algorithm xmi:id="_jcbqYke9EfC4GuII6O-gRQ" algorithmType="exact" algorithmParameters=""/>
+          <postAlgorithm xmi:id="_jcbqY0e9EfC4GuII6O-gRQ" algorithmType="NON_ALGO" algorithmParameters=""/>
+        </blockKeys>
+        <matchRules xmi:id="_Qyy1wEe9EfC4GuII6O-gRQ" name="Match Rule 1" matchInterval="0.75">
+          <matchKeys xmi:id="_0Ow_IEe9EfC4GuII6O-gRQ" name="Address_line" column="Address_line" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="Any order">
+            <algorithm xmi:id="_0Ow_IUe9EfC4GuII6O-gRQ" algorithmType="Q_GRAMS" algorithmParameters=""/>
+          </matchKeys>
+          <matchKeys xmi:id="_1VD40Ee9EfC4GuII6O-gRQ" name="Customer_code" column="Customer_code" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+            <algorithm xmi:id="_1VD40Ue9EfC4GuII6O-gRQ" algorithmType="EXACT" algorithmParameters=""/>
+          </matchKeys>
+          <matchKeys xmi:id="_1dLTAEe9EfC4GuII6O-gRQ" name="City" column="City" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+            <algorithm xmi:id="_1dLTAUe9EfC4GuII6O-gRQ" algorithmType="EXACT" algorithmParameters=""/>
+          </matchKeys>
+        </matchRules>
+        <appliedBlockKeys xmi:id="_cA3bQEe-EfC4GuII6O-gRQ" name="BLOCK_KEY" column="BLOCK_KEY"/>
+      </builtInMatchRuleDefinition>
+    </indicators>
+  </results>
+  <parameters xmi:id="_QvFafke9EfC4GuII6O-gRQ" analysisType="Match Analysis"/>
+  <contextType xmi:id="_Q4CiIEe9EfC4GuII6O-gRQ" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.analysis:Analysis>

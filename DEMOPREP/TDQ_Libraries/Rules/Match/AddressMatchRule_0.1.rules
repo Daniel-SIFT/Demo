@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.rules:MatchRuleDefinition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.rules="http://dataquality.rules" xmi:id="_zzzE8Ee-EfC4GuII6O-gRQ" name="AddressMatchRule">
+  <taggedValue xmi:id="_zzzE8Ue-EfC4GuII6O-gRQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_zzzE8ke-EfC4GuII6O-gRQ" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+  <taggedValue xmi:id="_zzzE80e-EfC4GuII6O-gRQ" tag="Purpose" value="test"/>
+  <taggedValue xmi:id="_zzzE9Ee-EfC4GuII6O-gRQ" tag="Description" value="test"/>
+  <taggedValue xmi:id="_zzzE9Ue-EfC4GuII6O-gRQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_zzzE9ke-EfC4GuII6O-gRQ" tag="Validation_Status" value="true"/>
+  <blockKeys xmi:id="_zzzE90e-EfC4GuII6O-gRQ" name="Country_code" column="Country_code">
+    <preAlgorithm xmi:id="_zzzE-Ee-EfC4GuII6O-gRQ" algorithmType="NON_ALGO" algorithmParameters=""/>
+    <algorithm xmi:id="_zzzE-Ue-EfC4GuII6O-gRQ" algorithmType="exact" algorithmParameters=""/>
+    <postAlgorithm xmi:id="_zzzE-ke-EfC4GuII6O-gRQ" algorithmType="NON_ALGO" algorithmParameters=""/>
+  </blockKeys>
+  <matchRules xmi:id="_zzzE-0e-EfC4GuII6O-gRQ" name="Match Rule 1" matchInterval="0.75">
+    <matchKeys xmi:id="_zzzE_Ee-EfC4GuII6O-gRQ" name="Address_line" column="Address_line" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="Any order">
+      <algorithm xmi:id="_zzzE_Ue-EfC4GuII6O-gRQ" algorithmType="Q_GRAMS" algorithmParameters=""/>
+    </matchKeys>
+    <matchKeys xmi:id="_zzzE_ke-EfC4GuII6O-gRQ" name="Customer_code" column="Customer_code" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+      <algorithm xmi:id="_zzzE_0e-EfC4GuII6O-gRQ" algorithmType="EXACT" algorithmParameters=""/>
+    </matchKeys>
+    <matchKeys xmi:id="_zzzFAEe-EfC4GuII6O-gRQ" name="City" column="City" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+      <algorithm xmi:id="_zzzFAUe-EfC4GuII6O-gRQ" algorithmType="EXACT" algorithmParameters=""/>
+    </matchKeys>
+  </matchRules>
+  <appliedBlockKeys xmi:id="_zzzFAke-EfC4GuII6O-gRQ" name="BLOCK_KEY" column="BLOCK_KEY"/>
+</dataquality.rules:MatchRuleDefinition>

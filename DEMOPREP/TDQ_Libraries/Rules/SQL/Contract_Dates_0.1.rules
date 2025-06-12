@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.rules="http://dataquality.rules" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
+  <dataquality.rules:WhereRule xmi:id="_qW1U4Ee2EfC4GuII6O-gRQ" name="Contract_Dates" supplierDependency="_0UZxQEe2EfC4GuII6O-gRQ" criticalityLevel="1" whereExpression="Begin_dt &lt; End_dt">
+    <taggedValue xmi:id="_qW1U4Ue2EfC4GuII6O-gRQ" tag="Status" value="development"/>
+    <taggedValue xmi:id="_qW1U4ke2EfC4GuII6O-gRQ" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+    <taggedValue xmi:id="_qW1U40e2EfC4GuII6O-gRQ" tag="Purpose" value="Contract rule"/>
+    <taggedValue xmi:id="_qW1U5Ee2EfC4GuII6O-gRQ" tag="Description" value="Rule"/>
+    <taggedValue xmi:id="_qW1U5Ue2EfC4GuII6O-gRQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_qW1U5ke2EfC4GuII6O-gRQ" tag="Validation_Status" value="true"/>
+    <categories href="../../.Talend.definition#_8i9eQBI5Ed6TWL6NwMMHzQ"/>
+    <sqlGenericExpression xmi:id="_qW1U50e2EfC4GuII6O-gRQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+  </dataquality.rules:WhereRule>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_0UZxQEe2EfC4GuII6O-gRQ" kind="Usage" supplier="_qW1U4Ee2EfC4GuII6O-gRQ">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/BusinessRuleAnalysis_0.1.ana#_aCeVkUe2EfC4GuII6O-gRQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

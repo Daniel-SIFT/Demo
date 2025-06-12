@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.schema="http://dataquality.indicators.schema" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:id="_HGTDoEevEfC4GuII6O-gRQ" name="Database Server Connection Analysis" creationDate="2025-06-13T00:03:06.637+0700">
+  <clientDependency href="../../metadata/connections/Talend101_0.1.item#_xWjRsGT5Ee-g7JvTHx_dZw"/>
+  <taggedValue xmi:id="_HGTDoUevEfC4GuII6O-gRQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_HGTDokevEfC4GuII6O-gRQ" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+  <taggedValue xmi:id="_HGTDo0evEfC4GuII6O-gRQ" tag="Purpose"/>
+  <taggedValue xmi:id="_HGTDpEevEfC4GuII6O-gRQ" tag="Description"/>
+  <taggedValue xmi:id="_HGTDpUevEfC4GuII6O-gRQ" tag="Version" value="0.1"/>
+  <context xmi:id="_HGTDpkevEfC4GuII6O-gRQ">
+    <connection href="../../metadata/connections/Talend101_0.1.item#_BnnFsGEmEe-y9rLusI6B8Q"/>
+    <analysedElements xsi:type="TalendMetadata:DatabaseConnection" href="../../metadata/connections/Talend101_0.1.item#_BnnFsGEmEe-y9rLusI6B8Q"/>
+  </context>
+  <results xmi:id="_HGTDp0evEfC4GuII6O-gRQ">
+    <resultMetadata xmi:id="_HGTDqEevEfC4GuII6O-gRQ" executionDate="2025-06-13T00:03:29.819+0700" executionDuration="79" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+    <indicators xsi:type="dataquality.indicators.schema:ConnectionIndicator" xmi:id="_HGTDqUevEfC4GuII6O-gRQ" computed="true" tableCount="3" tableRowCount="276472" catalogCount="2">
+      <analyzedElement xsi:type="TalendMetadata:DatabaseConnection" href="../../metadata/connections/Talend101_0.1.item#_BnnFsGEmEe-y9rLusI6B8Q"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Connection_Overview_0.1.definition#_nZEo8MYSEd27NP4lvE0A4w"/>
+      <catalogIndicators xmi:id="_KgWvsEevEfC4GuII6O-gRQ">
+        <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/Talend101_0.1.item#_BpNoMGEmEe-y9rLusI6B8Q"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+      </catalogIndicators>
+      <catalogIndicators xmi:id="_Kg5iQEevEfC4GuII6O-gRQ" tableCount="3" tableRowCount="276472">
+        <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/Talend101_0.1.item#_WgKm8GE8Ee-y9rLusI6B8Q"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+        <tableIndicators xmi:id="_Kg5iQUevEfC4GuII6O-gRQ" rowCount="34" tableName="business">
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_Kg5iQkevEfC4GuII6O-gRQ" rowCount="275958" tableName="customers">
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_Kg5iQ0evEfC4GuII6O-gRQ" rowCount="480" tableName="detailcalllogs">
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+      </catalogIndicators>
+    </indicators>
+  </results>
+  <parameters xmi:id="_HGTDrEevEfC4GuII6O-gRQ" analysisType="Connection Analysis"/>
+</dataquality.analysis:Analysis>

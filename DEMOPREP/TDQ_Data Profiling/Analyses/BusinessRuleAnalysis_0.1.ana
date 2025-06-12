@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:dataquality.rules="http://dataquality.rules" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_aCeVkUe2EfC4GuII6O-gRQ" name="BusinessRuleAnalysis" creationDate="2025-06-13T00:55:20.550+0700" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/StagingDB_CRM_0.1.item#_uExFEGssEemiyPj-HC5GLw"/>
+    <clientDependency href="../../TDQ_Libraries/Rules/SQL/Contract_Dates_0.1.rules#_0UZxQEe2EfC4GuII6O-gRQ"/>
+    <taggedValue xmi:id="_aCeVkke2EfC4GuII6O-gRQ" tag="Status" value="development"/>
+    <taggedValue xmi:id="_aCeVk0e2EfC4GuII6O-gRQ" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+    <taggedValue xmi:id="_aCeVlEe2EfC4GuII6O-gRQ" tag="Purpose" value="BR Demo"/>
+    <taggedValue xmi:id="_aCeVlUe2EfC4GuII6O-gRQ" tag="Description" value="BR Demo"/>
+    <taggedValue xmi:id="_aCeVlke2EfC4GuII6O-gRQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_7b28IUe2EfC4GuII6O-gRQ" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_7b4xUEe2EfC4GuII6O-gRQ" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_aCeVl0e2EfC4GuII6O-gRQ">
+      <connection href="../../metadata/connections/StagingDB_CRM_0.1.item#_xM_ucGp1Eem0SqmV0vh_Ag"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TC7xKEe-i863zj7Jq_g"/>
+    </context>
+    <results xmi:id="_aCeVmEe2EfC4GuII6O-gRQ">
+      <resultMetadata xmi:id="_aCeVmUe2EfC4GuII6O-gRQ" executionDate="2025-06-13T00:59:07.002+0700" executionDuration="47" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_aCeVmke2EfC4GuII6O-gRQ" count="800" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TC7xKEe-i863zj7Jq_g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_7yD1oEe2EfC4GuII6O-gRQ" body="SELECT COUNT(*) FROM `dataquality`.`contract` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_7prVsEe2EfC4GuII6O-gRQ" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_7prVsUe2EfC4GuII6O-gRQ" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_7prVske2EfC4GuII6O-gRQ" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_7prVs0e2EfC4GuII6O-gRQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_7b3jMEe2EfC4GuII6O-gRQ" count="800" computed="true" userCount="793">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TC7xKEe-i863zj7Jq_g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Rules/SQL/Contract_Dates_0.1.rules#_qW1U4Ee2EfC4GuII6O-gRQ"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_7yD1oUe2EfC4GuII6O-gRQ" body="SELECT COUNT(*) FROM `dataquality`.`contract`   WHERE (Begin_dt &lt; End_dt)" language="MySQL"/>
+        <builtInIndicatorDefinition xsi:type="dataquality.rules:WhereRule" xmi:id="_7xSZkEe2EfC4GuII6O-gRQ" name="Contract_Dates" criticalityLevel="1" whereExpression="Begin_dt &lt; End_dt">
+          <taggedValue xmi:id="_7xSZkUe2EfC4GuII6O-gRQ" tag="Status" value="development"/>
+          <taggedValue xmi:id="_7xSZkke2EfC4GuII6O-gRQ" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+          <taggedValue xmi:id="_7xSZk0e2EfC4GuII6O-gRQ" tag="Purpose" value="Contract rule"/>
+          <taggedValue xmi:id="_7xSZlEe2EfC4GuII6O-gRQ" tag="Description" value="Rule"/>
+          <taggedValue xmi:id="_7xSZlUe2EfC4GuII6O-gRQ" tag="Version" value="0.1"/>
+          <taggedValue xmi:id="_7xSZlke2EfC4GuII6O-gRQ" tag="Validation_Status" value="true"/>
+          <sqlGenericExpression xmi:id="_7xSZl0e2EfC4GuII6O-gRQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_aCeVm0e2EfC4GuII6O-gRQ" dataFilter="_7b-38Ee2EfC4GuII6O-gRQ" analysisType="Table Analysis"/>
+    <contextType xmi:id="_7b28IEe2EfC4GuII6O-gRQ" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_7b-38Ee2EfC4GuII6O-gRQ" name="BusinessRuleAnalysis">
+    <ranges xmi:id="_7b-38Ue2EfC4GuII6O-gRQ">
+      <expressions xmi:id="_7b-38ke2EfC4GuII6O-gRQ">
+        <expression xsi:type="relational:TdExpression" xmi:id="_7b-380e2EfC4GuII6O-gRQ" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

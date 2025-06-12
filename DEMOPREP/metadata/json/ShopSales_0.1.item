@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_-EWb0UVaEfClHaBa-wdAXQ" name="ShopSales" dataPackage="_-EWb10VaEfClHaBa-wdAXQ" JSONFilePath="C:/TalendDemoFiles/DIBasics/Files/ShopSales.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_-EWb0kVaEfClHaBa-wdAXQ" LimitBoucle="50" AbsoluteXPathQuery="$.ShopSales[*]">
+      <schemaTargets xmi:id="_-EWb00VaEfClHaBa-wdAXQ" RelativeXPathQuery="ShopName" TagName="ShopName"/>
+      <schemaTargets xmi:id="_-EWb1EVaEfClHaBa-wdAXQ" RelativeXPathQuery="Quantity" TagName="Quantity"/>
+      <schemaTargets xmi:id="_-EWb1UVaEfClHaBa-wdAXQ" RelativeXPathQuery="CustomerName" TagName="CustomerName"/>
+      <schemaTargets xmi:id="_-EWb1kVaEfClHaBa-wdAXQ" RelativeXPathQuery="Product" TagName="Product"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_-EWb10VaEfClHaBa-wdAXQ" name="default" dataManager="_-EWb0UVaEfClHaBa-wdAXQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_-EWb2EVaEfClHaBa-wdAXQ" id="_2tIWoEVaEfClHaBa-wdAXQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-EWb2UVaEfClHaBa-wdAXQ" label="ShopName" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-EWb2kVaEfClHaBa-wdAXQ" label="Quantity" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-EWb20VaEfClHaBa-wdAXQ" label="CustomerName" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-EWb3EVaEfClHaBa-wdAXQ" label="Product" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
