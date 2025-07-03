@@ -1,0 +1,24 @@
+{
+  "itemId" : "_2qM5oM1jEe2597WgYzpUkg",
+  "contextList" : [ {
+    "contextName" : "Production",
+    "repoId" : "_JytUAM1CEe2xVMPMsDMR5g",
+    "parameterList" : [ {
+      "id" : "_JzAO9M1CEe2xVMPMsDMR5g",
+      "name" : "LOCAL_ROOT_DIRECTORY"
+    }, {
+      "id" : "_JzAO9c1CEe2xVMPMsDMR5g",
+      "name" : "HDFS_ROOT_DIRECTORY"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_JytUAM1CEe2xVMPMsDMR5g",
+    "parameterList" : [ {
+      "id" : "_JzAO8c1CEe2xVMPMsDMR5g",
+      "name" : "LOCAL_ROOT_DIRECTORY"
+    }, {
+      "id" : "_JzAO8s1CEe2xVMPMsDMR5g",
+      "name" : "HDFS_ROOT_DIRECTORY"
+    } ]
+  } ]
+}

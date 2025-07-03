@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_qtIs8LxJEe-i863zj7Jq_g" name="WrongEmail Column Analysis" creationDate="2024-12-17T14:36:45.612+0700" defaultContext="Default">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_qtIs8LxJEe-i863zj7Jq_g" name="WrongEmail Column Analysis" supplierDependency="_tQvIgEgqEfC1DtONvNykNw" creationDate="2024-12-17T14:36:45.612+0700" defaultContext="Default">
     <clientDependency href="../../metadata/connections/Talend101_0.1.item#_xWjRsGT5Ee-g7JvTHx_dZw"/>
     <clientDependency href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_xWrNgmT5Ee-g7JvTHx_dZw"/>
     <taggedValue xmi:id="_qtIs8bxJEe-i863zj7Jq_g" tag="Status" value="development"/>
@@ -17,7 +17,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_Eq9BZmEuEe-y9rLusI6B8Q"/>
     </context>
     <results xmi:id="_qtIs97xJEe-i863zj7Jq_g">
-      <resultMetadata xmi:id="_qtIs-LxJEe-i863zj7Jq_g" executionDate="2025-06-11T16:57:46.826+0700" executionDuration="6726" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+      <resultMetadata xmi:id="_qtIs-LxJEe-i863zj7Jq_g" executionDate="2025-06-13T13:03:53.731+0700" executionDuration="4992" message="" executionNumber="4" lastRunOk="true" lastExecutionNumberOk="4"/>
       <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_pBoQmLxNEe-i863zj7Jq_g" count="137979" computed="true" distinctValueCount="117546">
         <parameters xmi:id="_pBoQmbxNEe-i863zj7Jq_g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_Eq9BZmEuEe-y9rLusI6B8Q"/>
@@ -79,6 +79,17 @@
           <charactersMapping xmi:id="_pdE2ibxNEe-i863zj7Jq_g" name="Characters mapping on Hive" language="Hive" charactersToReplace="0123456789abcdefghijklmnopqrstuvwxyz?aê???éèù??üABCDEFGHIJKLMNOPQRSTUVWXYZ??ê???éèù??ü" replacementCharacters="9999999999aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
         </builtInIndicatorDefinition>
       </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_LeGc0EgcEfC1DtONvNykNw" computed="true">
+        <parameters xmi:id="_LeGc0UgcEfC1DtONvNykNw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_Eq9BZmEuEe-y9rLusI6B8Q"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Lz2DUEgcEfC1DtONvNykNw" body="SELECT COUNT(*) FROM `talend101dev`.`customers` WHERE `Email` IS NULL " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_Lp42EEgcEfC1DtONvNykNw" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_Lp42EUgcEfC1DtONvNykNw" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_Lp42EkgcEfC1DtONvNykNw" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_Lp42E0gcEfC1DtONvNykNw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
       <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_pBoQqLxNEe-i863zj7Jq_g" name="Email Address" count="275958" computed="true" matchingValueCount="265012" notMatchingValueCount="10946">
         <parameters xmi:id="_pBoQqbxNEe-i863zj7Jq_g">
           <dataValidDomain xmi:id="_pBoQqrxNEe-i863zj7Jq_g">
@@ -100,4 +111,7 @@
       </expressions>
     </ranges>
   </dataquality.domain:Domain>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_tQvIgEgqEfC1DtONvNykNw" kind="Usage" supplier="_qtIs8LxJEe-i863zj7Jq_g">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/test_0.1.rep#_xNjigEatEfCWz8NsTr6vaA"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>

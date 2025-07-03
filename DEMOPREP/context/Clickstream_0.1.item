@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_JzAO8M1CEe2xVMPMsDMR5g" confirmationNeeded="false" name="Development">
+    <contextParameter xmi:id="_JzAO8c1CEe2xVMPMsDMR5g" comment="Local directory" name="LOCAL_ROOT_DIRECTORY" prompt="LOCAL_ROOT_DIRECTORY?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/StudentFiles/BDBasics/Clickstream/&quot;"/>
+    <contextParameter xmi:id="_JzAO8s1CEe2xVMPMsDMR5g" comment="Cluster directory" name="HDFS_ROOT_DIRECTORY" prompt="HDFS_ROOT_DIRECTORY?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/user/student/clickstream/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_JzAO881CEe2xVMPMsDMR5g" confirmationNeeded="false" name="Production">
+    <contextParameter xmi:id="_JzAO9M1CEe2xVMPMsDMR5g" comment="Local directory" name="LOCAL_ROOT_DIRECTORY" prompt="LOCAL_ROOT_DIRECTORY?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/StudentFiles/BDBasics/Clickstream/&quot;"/>
+    <contextParameter xmi:id="_JzAO9c1CEe2xVMPMsDMR5g" comment="Cluster directory" name="HDFS_ROOT_DIRECTORY" prompt="HDFS_ROOT_DIRECTORY?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/user/student/clickstream/&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

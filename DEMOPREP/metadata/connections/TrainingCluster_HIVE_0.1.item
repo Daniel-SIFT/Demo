@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_RyUb4MyzEe2mLKPLWhKjOg" DatabaseType="Hive" URL="jdbc:hive2://hadoopserver:10000/default" Port="10000" Username="student" ServerName="hadoopserver" SID="default" DbmsId="hive_id" ProductId="HIVE" supportNLS="false">
+  <parameters xmi:id="_RyUb4cyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+  <parameters xmi:id="_RyUb4syzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="hadoopserver:8030"/>
+  <parameters xmi:id="_RyUb48yzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+  <parameters xmi:id="_RyUb5MyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://hadoopserver"/>
+  <parameters xmi:id="_RyUb5cyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_USERNAME" value="student"/>
+  <parameters xmi:id="_RyUb5syzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_SLUAIMyyEe2mLKPLWhKjOg"/>
+  <parameters xmi:id="_RyUb58yzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_RyUb6MyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HBASE_VERSION" value="SPARK_3_1_x"/>
+  <parameters xmi:id="_RyUb6cyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="hadoopserver:8032"/>
+  <parameters xmi:id="_RyUb6syzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="hadoopserver:10020"/>
+  <parameters xmi:id="_RyUb68yzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HIVE_VERSION" value="SPARK_3_1_x"/>
+  <parameters xmi:id="_RyUb7MyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+  <parameters xmi:id="_RyUb7cyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_DB_SERVER" value="hadoopserver"/>
+  <parameters xmi:id="_RyUb7syzEe2mLKPLWhKjOg" key="HIVE_AUTHENTICATION_USERNAME" value="hive"/>
+  <parameters xmi:id="_RyUb78yzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HIVE_GOOGLE_PROJECT_ID" value="my-google-project"/>
+  <parameters xmi:id="_RyUb8MyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HIVE_GOOGLE_CLUSTER_ID" value="my-cluster-id"/>
+  <parameters xmi:id="_RyUb8cyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
+  <parameters xmi:id="_RyUb8syzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_RyUb88yzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_PATH_TO_GOOGLE_CREDENTIALS" value=""/>
+  <parameters xmi:id="_RyUb9MyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_RyUb9cyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_DEFINE_PATH_TO_GOOGLE_CREDENTIALS"/>
+  <parameters xmi:id="_RyUb9syzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="SPARK"/>
+  <parameters xmi:id="_RyUb98yzEe2mLKPLWhKjOg" key="HIVE_AUTHENTICATION_PASSWORD" value="hive-password"/>
+  <parameters xmi:id="_RyUb-MyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_MAPRDB_VERSION" value="SPARK_3_1_x"/>
+  <parameters xmi:id="_RyUb-cyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="SPARK"/>
+  <parameters xmi:id="_RyUb-syzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HIVE_GOOGLE_REGION" value="global"/>
+  <parameters xmi:id="_RyUb-8yzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+  <parameters xmi:id="_RyUb_MyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="SPARK"/>
+  <parameters xmi:id="_RyUb_cyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+  <parameters xmi:id="_RyUb_syzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_RyUb_8yzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE"/>
+  <parameters xmi:id="_RyUcAMyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_RyUcAcyzEe2mLKPLWhKjOg" key="HIVE_AUTHENTICATION_METASTOREURL" value="thrift://hadoopserver:9083"/>
+  <parameters xmi:id="_RyUcAsyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HIVE_GOOGLE_JARS_BUCKET" value="gs://my-bucket/talend/jars"/>
+  <parameters xmi:id="_RyUcA8yzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_RyUcBMyzEe2mLKPLWhKjOg" key="HIVE_SERVER_VERSION" value="HIVE2"/>
+  <parameters xmi:id="_RyUcBcyzEe2mLKPLWhKjOg" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+</TalendMetadata:DatabaseConnection>

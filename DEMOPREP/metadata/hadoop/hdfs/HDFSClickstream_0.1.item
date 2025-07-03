@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendHDFS="http://www.talend.org/hdfs" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendHDFS:HDFSConnection xmi:id="_mWWQoM1jEe2597WgYzpUkg" name="HDFSClickstream" label="HDFSClickstream" dataPackage="_7R7JUM18Ee2uKrPeajwPwg" relativeHadoopClusterId="_SLUAIMyyEe2mLKPLWhKjOg" userName="student" rowSeparator="&quot;\n&quot;" fieldSeparator="&quot;\t&quot;"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_7R7JUM18Ee2uKrPeajwPwg" name="HDFS" dataManager="_mWWQoM1jEe2597WgYzpUkg">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_7R7JUc18Ee2uKrPeajwPwg" name="urlmap" id="_gm4DAM18Ee2uKrPeajwPwg" label="urlmap">
+      <taggedValue xmi:id="_7R7JUs18Ee2uKrPeajwPwg" tag="Comment" value=""/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7R7JU818Ee2uKrPeajwPwg" label="url" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7R7JVM18Ee2uKrPeajwPwg" label="category" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <additionalProperties xmi:id="_7R7JVc18Ee2uKrPeajwPwg" key="HDFS_PATH" value="/user/student/clickstream/input/urlmap.tsv"/>
+      <additionalProperties xmi:id="_7R7JVs18Ee2uKrPeajwPwg" key="HDFS_FILE_TYPE" value="TEXT"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_7R7JV818Ee2uKrPeajwPwg" name="states" id="_hAL64M18Ee2uKrPeajwPwg" label="states">
+      <taggedValue xmi:id="_7R7JWM18Ee2uKrPeajwPwg" tag="Comment" value=""/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7R7JWc18Ee2uKrPeajwPwg" label="Postal" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7R7JWs18Ee2uKrPeajwPwg" label="State" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7R7JW818Ee2uKrPeajwPwg" label="Capital" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7R7JXM18Ee2uKrPeajwPwg" label="MostPopulousCity" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <additionalProperties xmi:id="_7R7JXc18Ee2uKrPeajwPwg" key="HDFS_PATH" value="/user/student/clickstream/input/states.tsv"/>
+      <additionalProperties xmi:id="_7R7JXs18Ee2uKrPeajwPwg" key="HDFS_FILE_TYPE" value="TEXT"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_7R7JX818Ee2uKrPeajwPwg" name="regusers" id="_hTq3kM18Ee2uKrPeajwPwg" label="regusers">
+      <taggedValue xmi:id="_7R7JYM18Ee2uKrPeajwPwg" tag="Comment" value=""/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7R7JYc18Ee2uKrPeajwPwg" label="SWID" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7R7JYs18Ee2uKrPeajwPwg" label="BIRTH_DT" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7R7JY818Ee2uKrPeajwPwg" label="GENDER__CD" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <additionalProperties xmi:id="_7R7JZM18Ee2uKrPeajwPwg" key="HDFS_PATH" value="/user/student/clickstream/input/regusers.tsv"/>
+      <additionalProperties xmi:id="_7R7JZc18Ee2uKrPeajwPwg" key="HDFS_FILE_TYPE" value="TEXT"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.rules:MatchRuleDefinition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.rules="http://dataquality.rules" xmi:id="_eMBs0EgiEfC1DtONvNykNw" name="test">
+  <taggedValue xmi:id="_eMBs0UgiEfC1DtONvNykNw" tag="Status" value="development"/>
+  <taggedValue xmi:id="_eMBs0kgiEfC1DtONvNykNw" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+  <taggedValue xmi:id="_eMBs00giEfC1DtONvNykNw" tag="Purpose"/>
+  <taggedValue xmi:id="_eMBs1EgiEfC1DtONvNykNw" tag="Description"/>
+  <taggedValue xmi:id="_eMBs1UgiEfC1DtONvNykNw" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_eMBs1kgiEfC1DtONvNykNw" tag="Validation_Status" value="true"/>
+  <blockKeys xmi:id="_eMBs10giEfC1DtONvNykNw" name="Country_code" column="Country_code">
+    <preAlgorithm xmi:id="_eMBs2EgiEfC1DtONvNykNw" algorithmType="NON_ALGO" algorithmParameters=""/>
+    <algorithm xmi:id="_eMBs2UgiEfC1DtONvNykNw" algorithmType="exact" algorithmParameters=""/>
+    <postAlgorithm xmi:id="_eMBs2kgiEfC1DtONvNykNw" algorithmType="NON_ALGO" algorithmParameters=""/>
+  </blockKeys>
+  <matchRules xmi:id="_eMBs20giEfC1DtONvNykNw" name="Match Rule 1" matchInterval="0.75">
+    <matchKeys xmi:id="_eMBs3EgiEfC1DtONvNykNw" name="Address_line" column="Address_line" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="Any order">
+      <algorithm xmi:id="_eMBs3UgiEfC1DtONvNykNw" algorithmType="Q_GRAMS" algorithmParameters=""/>
+    </matchKeys>
+    <matchKeys xmi:id="_eMBs3kgiEfC1DtONvNykNw" name="Customer_code" column="Customer_code" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+      <algorithm xmi:id="_eMBs30giEfC1DtONvNykNw" algorithmType="EXACT" algorithmParameters=""/>
+    </matchKeys>
+    <matchKeys xmi:id="_eMBs4EgiEfC1DtONvNykNw" name="City" column="City" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+      <algorithm xmi:id="_eMBs4UgiEfC1DtONvNykNw" algorithmType="EXACT" algorithmParameters=""/>
+    </matchKeys>
+  </matchRules>
+  <appliedBlockKeys xmi:id="_eMBs4kgiEfC1DtONvNykNw" name="BLOCK_KEY" column="BLOCK_KEY"/>
+  <survivorshipKeys xmi:id="_eMBs40giEfC1DtONvNykNw" name="Address_line" allowManualResolution="true">
+    <function xmi:id="_eMBs5EgiEfC1DtONvNykNw" algorithmType="Concatenate" algorithmParameters=","/>
+  </survivorshipKeys>
+  <survivorshipKeys xmi:id="_eMBs5UgiEfC1DtONvNykNw" name="Customer_code" allowManualResolution="true">
+    <function xmi:id="_eMBs5kgiEfC1DtONvNykNw" algorithmType="Concatenate" algorithmParameters=","/>
+  </survivorshipKeys>
+  <survivorshipKeys xmi:id="_eMBs50giEfC1DtONvNykNw" name="City" allowManualResolution="true">
+    <function xmi:id="_eMBs6EgiEfC1DtONvNykNw" algorithmType="Concatenate" algorithmParameters=","/>
+  </survivorshipKeys>
+</dataquality.rules:MatchRuleDefinition>
