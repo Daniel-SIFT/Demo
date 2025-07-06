@@ -11,24 +11,24 @@
     <analysedElements xsi:type="TalendMetadata:DatabaseConnection" href="../../metadata/connections/Talend101_0.1.item#_BnnFsGEmEe-y9rLusI6B8Q"/>
   </context>
   <results xmi:id="_HGTDp0evEfC4GuII6O-gRQ">
-    <resultMetadata xmi:id="_HGTDqEevEfC4GuII6O-gRQ" executionDate="2025-06-13T00:03:29.819+0700" executionDuration="79" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+    <resultMetadata xmi:id="_HGTDqEevEfC4GuII6O-gRQ" executionDate="2025-07-07T00:46:52.713+0700" executionDuration="468" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
     <indicators xsi:type="dataquality.indicators.schema:ConnectionIndicator" xmi:id="_HGTDqUevEfC4GuII6O-gRQ" computed="true" tableCount="3" tableRowCount="276472" catalogCount="2">
       <analyzedElement xsi:type="TalendMetadata:DatabaseConnection" href="../../metadata/connections/Talend101_0.1.item#_BnnFsGEmEe-y9rLusI6B8Q"/>
       <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Connection_Overview_0.1.definition#_nZEo8MYSEd27NP4lvE0A4w"/>
-      <catalogIndicators xmi:id="_KgWvsEevEfC4GuII6O-gRQ">
+      <catalogIndicators xmi:id="_M5ufQFqREfCfiYyBXVoX4Q">
         <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/Talend101_0.1.item#_BpNoMGEmEe-y9rLusI6B8Q"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
       </catalogIndicators>
-      <catalogIndicators xmi:id="_Kg5iQEevEfC4GuII6O-gRQ" tableCount="3" tableRowCount="276472">
+      <catalogIndicators xmi:id="_M6WxYFqREfCfiYyBXVoX4Q" tableCount="3" tableRowCount="276472">
         <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/Talend101_0.1.item#_WgKm8GE8Ee-y9rLusI6B8Q"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
-        <tableIndicators xmi:id="_Kg5iQUevEfC4GuII6O-gRQ" rowCount="34" tableName="business">
+        <tableIndicators xmi:id="_M6WxYVqREfCfiYyBXVoX4Q" rowCount="34" tableName="business">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
         </tableIndicators>
-        <tableIndicators xmi:id="_Kg5iQkevEfC4GuII6O-gRQ" rowCount="275958" tableName="customers">
+        <tableIndicators xmi:id="_M6WxYlqREfCfiYyBXVoX4Q" rowCount="275958" tableName="customers">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
         </tableIndicators>
-        <tableIndicators xmi:id="_Kg5iQ0evEfC4GuII6O-gRQ" rowCount="480" tableName="detailcalllogs">
+        <tableIndicators xmi:id="_M6WxY1qREfCfiYyBXVoX4Q" rowCount="480" tableName="detailcalllogs">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
         </tableIndicators>
       </catalogIndicators>

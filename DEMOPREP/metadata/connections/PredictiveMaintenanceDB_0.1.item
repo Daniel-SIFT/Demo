@@ -97,7 +97,7 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_Z5Q_ihwiEfC_NOLURaV59A" name="failure" id="failure" label="failure" length="255" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_Z5Q_ixwiEfC_NOLURaV59A" tag="Comment" value=""/>
-        <taggedValue xmi:id="_UMnc2UezEfC4GuII6O-gRQ" tag="Content Type" value="Nominal"/>
+        <taggedValue xmi:id="_UMnc2UezEfC4GuII6O-gRQ" tag="Content Type" value="Other"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_Z5Q_jBwiEfC_NOLURaV59A" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_Z5Q_jRwiEfC_NOLURaV59A" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
