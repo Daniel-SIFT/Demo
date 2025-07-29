@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_2-Dd8GOrEfCp-_XNp5Q95Q" name="data" supplierDependency="_AAAmoGOsEfCp-_XNp5Q95Q" dataPackage="_2-Dd8WOrEfCp-_XNp5Q95Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/danie/Desktop/data.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_2-Dd8WOrEfCp-_XNp5Q95Q" name="default" dataManager="_2-Dd8GOrEfCp-_XNp5Q95Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_2-Dd8mOrEfCp-_XNp5Q95Q" id="_u7fVsGOrEfCp-_XNp5Q95Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2-Dd82OrEfCp-_XNp5Q95Q" id="_Workload" label="_Workload" length="20" precision="19" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2-Dd9GOrEfCp-_XNp5Q95Q" id="equipment_id" label="equipment_id" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2-Dd9WOrEfCp-_XNp5Q95Q" id="equipment_no" label="equipment_no" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_AAAmoWOsEfCp-_XNp5Q95Q" tag="Content Type" value="Nominal"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_AAAmoGOsEfCp-_XNp5Q95Q" kind="Usage" supplier="_2-Dd8GOrEfCp-_XNp5Q95Q">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/Dupe_0.1.ana#_sFXdIGOrEfCp-_XNp5Q95Q"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

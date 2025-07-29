@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.domain.pattern:Pattern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.domain.pattern="http://dataquality.domain.pattern" xmi:id="_67XwwFrnEfCfiYyBXVoX4Q" name="emailreg">
+  <taggedValue xmi:id="_67XwwVrnEfCfiYyBXVoX4Q" tag="Status" value="development"/>
+  <taggedValue xmi:id="_67XwwlrnEfCfiYyBXVoX4Q" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+  <taggedValue xmi:id="_67Xww1rnEfCfiYyBXVoX4Q" tag="Purpose" value="reg"/>
+  <taggedValue xmi:id="_67XwxFrnEfCfiYyBXVoX4Q" tag="Description" value="reg"/>
+  <taggedValue xmi:id="_67XwxVrnEfCfiYyBXVoX4Q" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_67XwxlrnEfCfiYyBXVoX4Q" tag="Validation_Status" value="true"/>
+  <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_67Xwx1rnEfCfiYyBXVoX4Q" expressionType="REGEXP">
+    <expression xmi:id="_67XwyFrnEfCfiYyBXVoX4Q" body="'^[A-Z][a-z][a-z][a-z][a-z]\.[A-Z][a-z][a-z][a-z][a-z][a-z]@[a-z][a-z][a-z][a-z][a-z][a-z][a-z]\.[a-z][a-z][a-z]$'" language="MySQL"/>
+  </components>
+</dataquality.domain.pattern:Pattern>
