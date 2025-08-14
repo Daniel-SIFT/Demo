@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:dataquality.rules="http://dataquality.rules" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_aCeVkUe2EfC4GuII6O-gRQ" name="BusinessRuleAnalysis" creationDate="2025-06-13T00:55:20.550+0700" defaultContext="Default">
     <clientDependency href="../../metadata/connections/StagingDB_CRM_0.1.item#_uExFEGssEemiyPj-HC5GLw"/>
-    <clientDependency href="../../TDQ_Libraries/Rules/SQL/Contract_Dates_0.1.rules#_0UZxQEe2EfC4GuII6O-gRQ"/>
     <taggedValue xmi:id="_aCeVkke2EfC4GuII6O-gRQ" tag="Status" value="development"/>
     <taggedValue xmi:id="_aCeVk0e2EfC4GuII6O-gRQ" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
     <taggedValue xmi:id="_aCeVlEe2EfC4GuII6O-gRQ" tag="Purpose" value="BR Demo"/>
@@ -12,32 +11,96 @@
     <taggedValue xmi:id="_7b4xUEe2EfC4GuII6O-gRQ" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
     <context xmi:id="_aCeVl0e2EfC4GuII6O-gRQ">
       <connection href="../../metadata/connections/StagingDB_CRM_0.1.item#_xM_ucGp1Eem0SqmV0vh_Ag"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TCrxKEe-i863zj7Jq_g"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TDLxKEe-i863zj7Jq_g"/>
       <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TC7xKEe-i863zj7Jq_g"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TDrxKEe-i863zj7Jq_g"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TCLxKEe-i863zj7Jq_g"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TDbxKEe-i863zj7Jq_g"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TCbxKEe-i863zj7Jq_g"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TD7xKEe-i863zj7Jq_g"/>
     </context>
     <results xmi:id="_aCeVmEe2EfC4GuII6O-gRQ">
-      <resultMetadata xmi:id="_aCeVmUe2EfC4GuII6O-gRQ" executionDate="2025-06-13T00:59:07.002+0700" executionDuration="47" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_aCeVmke2EfC4GuII6O-gRQ" count="800" computed="true">
-        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TC7xKEe-i863zj7Jq_g"/>
+      <resultMetadata xmi:id="_aCeVmUe2EfC4GuII6O-gRQ" executionDate="2025-08-08T11:03:49.625+0700" executionDuration="371" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_nSWRwHQMEfCLncKUDxF_ZQ" count="100" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TCrxKEe-i863zj7Jq_g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
-        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_7yD1oEe2EfC4GuII6O-gRQ" body="SELECT COUNT(*) FROM `dataquality`.`contract` " language="MySQL"/>
-        <builtInIndicatorDefinition xmi:id="_7prVsEe2EfC4GuII6O-gRQ" name="Row Count" label="Row Count">
-          <taggedValue xmi:id="_7prVsUe2EfC4GuII6O-gRQ" tag="Description" value="counts the number of rows"/>
-          <taggedValue xmi:id="_7prVske2EfC4GuII6O-gRQ" tag="Purpose" value="evaluates the number of records"/>
-          <sqlGenericExpression xmi:id="_7prVs0e2EfC4GuII6O-gRQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_sGQssHQMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM `dataquality`.`claim` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_sF0AwHQMEfCLncKUDxF_ZQ" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_sF0AwXQMEfCLncKUDxF_ZQ" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_sF0AwnQMEfCLncKUDxF_ZQ" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_sF0Aw3QMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_7b3jMEe2EfC4GuII6O-gRQ" count="800" computed="true" userCount="793">
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_nSWRwXQMEfCLncKUDxF_ZQ" count="268" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TDLxKEe-i863zj7Jq_g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_sGQssXQMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM `dataquality`.`country` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_sF45QHQMEfCLncKUDxF_ZQ" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_sF45QXQMEfCLncKUDxF_ZQ" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_sF45QnQMEfCLncKUDxF_ZQ" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_sF45Q3QMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_nSWRwnQMEfCLncKUDxF_ZQ" count="800" computed="true">
+        <parameters xmi:id="_nTmO8HQMEfCLncKUDxF_ZQ"/>
         <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TC7xKEe-i863zj7Jq_g"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Rules/SQL/Contract_Dates_0.1.rules#_qW1U4Ee2EfC4GuII6O-gRQ"/>
-        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_7yD1oUe2EfC4GuII6O-gRQ" body="SELECT COUNT(*) FROM `dataquality`.`contract`   WHERE (Begin_dt &lt; End_dt)" language="MySQL"/>
-        <builtInIndicatorDefinition xsi:type="dataquality.rules:WhereRule" xmi:id="_7xSZkEe2EfC4GuII6O-gRQ" name="Contract_Dates" criticalityLevel="1" whereExpression="Begin_dt &lt; End_dt">
-          <taggedValue xmi:id="_7xSZkUe2EfC4GuII6O-gRQ" tag="Status" value="development"/>
-          <taggedValue xmi:id="_7xSZkke2EfC4GuII6O-gRQ" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
-          <taggedValue xmi:id="_7xSZk0e2EfC4GuII6O-gRQ" tag="Purpose" value="Contract rule"/>
-          <taggedValue xmi:id="_7xSZlEe2EfC4GuII6O-gRQ" tag="Description" value="Rule"/>
-          <taggedValue xmi:id="_7xSZlUe2EfC4GuII6O-gRQ" tag="Version" value="0.1"/>
-          <taggedValue xmi:id="_7xSZlke2EfC4GuII6O-gRQ" tag="Validation_Status" value="true"/>
-          <sqlGenericExpression xmi:id="_7xSZl0e2EfC4GuII6O-gRQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_sGQssnQMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM `dataquality`.`contract` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_sF9KsHQMEfCLncKUDxF_ZQ" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_sF9KsXQMEfCLncKUDxF_ZQ" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_sF9KsnQMEfCLncKUDxF_ZQ" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_sF9Ks3QMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_nSWRw3QMEfCLncKUDxF_ZQ" count="975" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TDrxKEe-i863zj7Jq_g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_sGQss3QMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM `dataquality`.`customer_clean_country_codes` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_sF_m8HQMEfCLncKUDxF_ZQ" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_sF_m8XQMEfCLncKUDxF_ZQ" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_sF_m8nQMEfCLncKUDxF_ZQ" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_sF_m83QMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_nSWRxHQMEfCLncKUDxF_ZQ" count="968" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TCLxKEe-i863zj7Jq_g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_sGQstHQMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM `dataquality`.`address` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_sGCDMHQMEfCLncKUDxF_ZQ" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_sGCDMXQMEfCLncKUDxF_ZQ" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_sGCDMnQMEfCLncKUDxF_ZQ" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_sGCDM3QMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_nSWRxXQMEfCLncKUDxF_ZQ" count="1003" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TDbxKEe-i863zj7Jq_g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_sGQstXQMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM `dataquality`.`customer` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_sGEfcHQMEfCLncKUDxF_ZQ" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_sGEfcXQMEfCLncKUDxF_ZQ" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_sGEfcnQMEfCLncKUDxF_ZQ" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_sGEfc3QMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_nSWRxnQMEfCLncKUDxF_ZQ" count="936" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TCbxKEe-i863zj7Jq_g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_sGQstnQMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM `dataquality`.`address_master` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_sGIw4HQMEfCLncKUDxF_ZQ" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_sGIw4XQMEfCLncKUDxF_ZQ" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_sGIw4nQMEfCLncKUDxF_ZQ" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_sGIw43QMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_nSWRx3QMEfCLncKUDxF_ZQ" count="330" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TD7xKEe-i863zj7Jq_g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_sGQst3QMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM `dataquality`.`customer_iban` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_sGL0MHQMEfCLncKUDxF_ZQ" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_sGL0MXQMEfCLncKUDxF_ZQ" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_sGL0MnQMEfCLncKUDxF_ZQ" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_sGL0M3QMEfCLncKUDxF_ZQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
     </results>

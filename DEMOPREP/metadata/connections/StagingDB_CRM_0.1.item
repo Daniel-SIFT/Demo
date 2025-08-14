@@ -106,7 +106,7 @@
   </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_uExFEGssEemiyPj-HC5GLw" kind="Usage" supplier="_xM_ucGp1Eem0SqmV0vh_Ag">
     <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/CRM_Analysis/Match_Address_T-Swoosh_Master_0.1.ana#_NyGEYWsrEemiyPj-HC5GLw"/>
-    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/BusinessRuleAnalysis_0.1.ana#_aCeVkUe2EfC4GuII6O-gRQ"/>
     <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/AddressMatch_0.1.ana#_QvFacUe9EfC4GuII6O-gRQ"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/BusinessRuleAnalysis_0.1.ana#_aCeVkUe2EfC4GuII6O-gRQ"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
