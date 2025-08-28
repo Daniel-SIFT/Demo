@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_4HTIQH8mEfCznqwDohVetA" name="WrongEmail Column Analysis" creationDate="2025-08-22T14:08:59.958+0700" defaultContext="Default">
+  <clientDependency href="../Analyses/ErrorIDAnalysis_0.1.ana#_mFEYQH8uEfCznqwDohVetA"/>
+  <taggedValue xmi:id="_4HTIQX8mEfCznqwDohVetA" tag="OutputFolder" value="G:\My Drive\Talend\Report"/>
+  <taggedValue xmi:id="_4HTIQn8mEfCznqwDohVetA" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_4HTIQ38mEfCznqwDohVetA" tag="REP_DBINFO_DBVERSION" value="MYSQL_8"/>
+  <taggedValue xmi:id="_4HTIRH8mEfCznqwDohVetA" tag="REP_DBINFO_HOST" value="localhost"/>
+  <taggedValue xmi:id="_4HTIRX8mEfCznqwDohVetA" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="_4HTIRn8mEfCznqwDohVetA" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_4HTIR38mEfCznqwDohVetA" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_4HTISH8mEfCznqwDohVetA" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_4HTISX8mEfCznqwDohVetA" tag="REP_DBINFO_USER" value="root"/>
+  <taggedValue xmi:id="_4HTISn8mEfCznqwDohVetA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:WnaKMX7/JdFPvPT4X2TCeckRwWV7fgyVMQCK9ToIvkttaw=="/>
+  <taggedValue xmi:id="_4HTIS38mEfCznqwDohVetA" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_4HTITH8mEfCznqwDohVetA" tag="REP_DBINFO_URL" value="jdbc:mysql://localhost:3306/talend_dq?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_4HTITX8mEfCznqwDohVetA" tag="REP_DBINFO_DRIVER" value="com.mysql.cj.jdbc.Driver"/>
+  <taggedValue xmi:id="_4HTITn8mEfCznqwDohVetA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
+  <taggedValue xmi:id="_4HTIT38mEfCznqwDohVetA" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_4HTIUH8mEfCznqwDohVetA" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+  <taggedValue xmi:id="_mEphgH8uEfCznqwDohVetA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_mEphgX8uEfCznqwDohVetA" tag="Description" value=""/>
+  <taggedValue xmi:id="_mEphgn8uEfCznqwDohVetA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_mFAG0H8uEfCznqwDohVetA" tag="OutputFileName" value="Report"/>
+  <taggedValue xmi:id="_mFAG0X8uEfCznqwDohVetA" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_mFAG0n8uEfCznqwDohVetA" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_mFAG038uEfCznqwDohVetA" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_mFBU8X8uEfCznqwDohVetA" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_mFBU8n8uEfCznqwDohVetA" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/ErrorIDAnalysis_0.1.ana#_WiONkNMYEe-YaM0DFnTzOQ"/>
+  </analysisMap>
+  <context xmi:id="_mFBU8H8uEfCznqwDohVetA" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>
