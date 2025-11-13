@@ -10,4 +10,16 @@
 		<nature>org.talend.core.talendnature</nature>
 		<nature>com.oaklandsw.transform.runtime.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.ReportTest-20250828-1456-00024.pdf</name>
+			<type>1</type>
+			<location>G:/My Drive/Talend/Report/ReportTest-20250828-1456-00024.pdf</location>
+		</link>
+		<link>
+			<name>.ReportTest-20250828-1952-00027.pdf</name>
+			<type>1</type>
+			<location>G:/My Drive/Talend/Report/ReportTest-20250828-1952-00027.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>

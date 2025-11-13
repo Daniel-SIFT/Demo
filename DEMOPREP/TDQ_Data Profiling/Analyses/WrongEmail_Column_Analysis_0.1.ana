@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_qtIs8LxJEe-i863zj7Jq_g" name="WrongEmail Column Analysis" supplierDependency="_tQvIgEgqEfC1DtONvNykNw" creationDate="2024-12-17T14:36:45.612+0700" defaultContext="Default">
     <clientDependency href="../../metadata/connections/Talend101_0.1.item#_xWjRsGT5Ee-g7JvTHx_dZw"/>
     <clientDependency href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_xWrNgmT5Ee-g7JvTHx_dZw"/>
@@ -17,7 +17,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_Eq9BZmEuEe-y9rLusI6B8Q"/>
     </context>
     <results xmi:id="_qtIs97xJEe-i863zj7Jq_g">
-      <resultMetadata xmi:id="_qtIs-LxJEe-i863zj7Jq_g" executionDate="2025-07-07T00:51:03.833+0700" executionDuration="5968" message="" executionNumber="6" lastRunOk="true" lastExecutionNumberOk="6"/>
+      <resultMetadata xmi:id="_qtIs-LxJEe-i863zj7Jq_g" executionDate="2025-09-29T15:32:38.973+0700" executionDuration="10374" message="" executionNumber="11" lastRunOk="true" lastExecutionNumberOk="11"/>
       <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_pBoQmLxNEe-i863zj7Jq_g" count="137979" computed="true" distinctValueCount="117546">
         <parameters xmi:id="_pBoQmbxNEe-i863zj7Jq_g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_Eq9BZmEuEe-y9rLusI6B8Q"/>
@@ -29,24 +29,7 @@
           <sqlGenericExpression xmi:id="_pcbWM7xNEe-i863zj7Jq_g" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_pBoQmrxNEe-i863zj7Jq_g" count="137979" computed="true" uniqueValueCount="0">
-        <parameters xmi:id="_pBoQm7xNEe-i863zj7Jq_g"/>
-        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_Eq9BZmEuEe-y9rLusI6B8Q"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
-        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_pda0sbxNEe-i863zj7Jq_g" body="SELECT COUNT(*) FROM (SELECT `Email`, COUNT(*) mycount FROM `talend101dev`.`customers`  GROUP BY `Email` HAVING mycount = 1) AS myquery" language="MySQL"/>
-        <builtInIndicatorDefinition xmi:id="_pcx7gLxNEe-i863zj7Jq_g" name="Unique Count" label="Unique Count">
-          <taggedValue xmi:id="_pcx7gbxNEe-i863zj7Jq_g" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
-          <taggedValue xmi:id="_pcx7grxNEe-i863zj7Jq_g" tag="Purpose" value="evaluates the number of unique records"/>
-          <sqlGenericExpression xmi:id="_pcx7g7xNEe-i863zj7Jq_g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
-          <sqlGenericExpression xmi:id="_pcx7hLxNEe-i863zj7Jq_g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
-          <sqlGenericExpression xmi:id="_pcx7hbxNEe-i863zj7Jq_g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
-          <sqlGenericExpression xmi:id="_pcx7hrxNEe-i863zj7Jq_g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
-          <sqlGenericExpression xmi:id="_pcx7h7xNEe-i863zj7Jq_g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
-          <sqlGenericExpression xmi:id="_pcx7iLxNEe-i863zj7Jq_g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
-          <sqlGenericExpression xmi:id="_pcx7ibxNEe-i863zj7Jq_g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
-        </builtInIndicatorDefinition>
-      </indicators>
-      <indicators xsi:type="dataquality.indicators:PatternFreqIndicator" xmi:id="_pBoQprxNEe-i863zj7Jq_g" computed="true" distinctValueCount="10" valueToFreq="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C7708000000100000000A74001A416161616161612E41616161616140616161616161612E6161617372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000A347400184161616161612E416161616140616161616161612E6161617371007E00030000000000000D1A74001A4161616161612E4161616161616140616161616161612E6161617371007E00030000000000000A74740019416161616161612E416161616140616161616161612E6161617371007E000300000000000009F074001841616161612E41616161616140616161616161612E6161617371007E000300000000000010FC74001741616161612E416161616140616161616161612E6161617371007E000300000000000010F874001941616161612E4161616161616140616161616161612E6161617371007E00030000000000000BF4740016416161612E416161616140616161616161612E6161617371007E00030000000000000B7A740017416161612E41616161616140616161616161612E6161617371007E00030000000000000B347400194161616161612E41616161616140616161616161612E6161617371007E00030000000000000D7678">
+      <indicators xsi:type="dataquality.indicators:PatternFreqIndicator" xmi:id="_pBoQprxNEe-i863zj7Jq_g" computed="true" distinctValueCount="10" valueToFreq="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C7708000000100000000A74001A416161616161612E41616161616140616161616161612E6161617372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000F4E7400184161616161612E416161616140616161616161612E6161617371007E000300000000000013A774001A4161616161612E4161616161616140616161616161612E6161617371007E00030000000000000FAE740019416161616161612E416161616140616161616161612E6161617371007E00030000000000000EE874001841616161612E41616161616140616161616161612E6161617371007E0003000000000000197A74001741616161612E416161616140616161616161612E6161617371007E0003000000000000197474001941616161612E4161616161616140616161616161612E6161617371007E000300000000000011EE740016416161612E416161616140616161616161612E6161617371007E00030000000000001137740017416161612E41616161616140616161616161612E6161617371007E000300000000000010CE7400194161616161612E41616161616140616161616161612E6161617371007E0003000000000000143178">
         <parameters xmi:id="_pBoQp7xNEe-i863zj7Jq_g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Talend101_0.1.item#_Eq9BZmEuEe-y9rLusI6B8Q"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Frequency Statistics/Pattern_Frequency_Table_0.1.definition#_kQzTsJR-Ed2XO-JvLwVAwg"/>
@@ -90,7 +73,7 @@
           <sqlGenericExpression xmi:id="_Lp42E0gcEfC1DtONvNykNw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_pBoQqLxNEe-i863zj7Jq_g" name="Email Address" count="275958" computed="true" matchingValueCount="265012" notMatchingValueCount="10946">
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_pBoQqLxNEe-i863zj7Jq_g" name="Email Address" count="413937" computed="true" matchingValueCount="397518" notMatchingValueCount="16419">
         <parameters xmi:id="_pBoQqbxNEe-i863zj7Jq_g">
           <dataValidDomain xmi:id="_pBoQqrxNEe-i863zj7Jq_g">
             <patterns href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_rC5TcD4XEd24WPpU35gV1A"/>
@@ -104,6 +87,9 @@
     <parameters xmi:id="_qtIs-bxJEe-i863zj7Jq_g" dataFilter="_pB59YLxNEe-i863zj7Jq_g" analysisType="Multiple Column Analysis"/>
     <contextType xmi:id="_pBoQkLxNEe-i863zj7Jq_g" confirmationNeeded="false" hide="false" name="Default"/>
   </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_tQvIgEgqEfC1DtONvNykNw" kind="Usage" supplier="_qtIs8LxJEe-i863zj7Jq_g">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/DQReport_0.1.rep#_Hi7voIPkEfCXg8-4jys-hQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
   <dataquality.domain:Domain xmi:id="_pB59YLxNEe-i863zj7Jq_g" name="WrongEmail Column Analysis">
     <ranges xmi:id="_pB59YbxNEe-i863zj7Jq_g">
       <expressions xmi:id="_pB59YrxNEe-i863zj7Jq_g">
@@ -111,5 +97,4 @@
       </expressions>
     </ranges>
   </dataquality.domain:Domain>
-  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_tQvIgEgqEfC1DtONvNykNw" kind="Usage" supplier="_qtIs8LxJEe-i863zj7Jq_g"/>
 </xmi:XMI>

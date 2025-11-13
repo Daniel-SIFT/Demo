@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.reports="http://dataquality.reports" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_Hi7voIPkEfCXg8-4jys-hQ" name="DQReport" creationDate="2025-08-28T14:53:43.052+0700" logo="C:\Users\danie\Desktop\SIFT Logo.jpg" defaultContext="Default">
+  <clientDependency href="../Analyses/BusinessRuleAnalysis_0.1.ana#_TXe7wIPkEfCXg8-4jys-hQ"/>
+  <clientDependency href="../Analyses/WrongEmail_Column_Analysis_0.1.ana#_tQvIgEgqEfC1DtONvNykNw"/>
+  <taggedValue xmi:id="_Hi7voYPkEfCXg8-4jys-hQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_Hi7vooPkEfCXg8-4jys-hQ" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+  <taggedValue xmi:id="_Hi7vo4PkEfCXg8-4jys-hQ" tag="Purpose" value="Report Test"/>
+  <taggedValue xmi:id="_Hi7vpIPkEfCXg8-4jys-hQ" tag="Description" value="Report Test"/>
+  <taggedValue xmi:id="_Hi7vpYPkEfCXg8-4jys-hQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_Hi7vpoPkEfCXg8-4jys-hQ" tag="OutputFolder" value="G:\My Drive\Talend\Report"/>
+  <taggedValue xmi:id="_Hi7vp4PkEfCXg8-4jys-hQ" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_Hi7vqIPkEfCXg8-4jys-hQ" tag="REP_DBINFO_DBVERSION" value="MYSQL_8"/>
+  <taggedValue xmi:id="_Hi7vqYPkEfCXg8-4jys-hQ" tag="REP_DBINFO_HOST" value="localhost"/>
+  <taggedValue xmi:id="_Hi7vqoPkEfCXg8-4jys-hQ" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="_Hi7vq4PkEfCXg8-4jys-hQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_Hi7vrIPkEfCXg8-4jys-hQ" tag="REP_DBINFO_DBNAME" value="talend_dqdatamart"/>
+  <taggedValue xmi:id="_Hi7vrYPkEfCXg8-4jys-hQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_Hi7vroPkEfCXg8-4jys-hQ" tag="REP_DBINFO_USER" value="root"/>
+  <taggedValue xmi:id="_Hi7vr4PkEfCXg8-4jys-hQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:t8Xh3c82PTwSespm/91vyjdnF1NAW1+jiP8ITnxRtLGdcQ=="/>
+  <taggedValue xmi:id="_Hi7vsIPkEfCXg8-4jys-hQ" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_Hi7vsYPkEfCXg8-4jys-hQ" tag="REP_DBINFO_URL" value="jdbc:mysql://localhost:3306/talend_dqdatamart?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_Hi7vsoPkEfCXg8-4jys-hQ" tag="REP_DBINFO_DRIVER" value="com.mysql.cj.jdbc.Driver"/>
+  <taggedValue xmi:id="_Hi7vs4PkEfCXg8-4jys-hQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
+  <taggedValue xmi:id="_Hi7vtIPkEfCXg8-4jys-hQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_TXdGkIPkEfCXg8-4jys-hQ" tag="OutputFileName" value="ReportTest"/>
+  <taggedValue xmi:id="_TXdGkYPkEfCXg8-4jys-hQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_TXdGkoPkEfCXg8-4jys-hQ" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_TXdGk4PkEfCXg8-4jys-hQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_TXdtoYPkEfCXg8-4jys-hQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <presentationParams xmi:id="_TXdGlIPkEfCXg8-4jys-hQ" type="BOTTOM_RIGHT_PRESENTATIONKEY">
+    <formula xmi:id="_TXdGlYPkEfCXg8-4jys-hQ">
+      <expression xsi:type="relational:TdExpression" xmi:id="_TXdGloPkEfCXg8-4jys-hQ" body="Page Number"/>
+    </formula>
+  </presentationParams>
+  <presentationParams xmi:id="_TXdGl4PkEfCXg8-4jys-hQ" type="TOP_LEFT_PRESENTATIONKEY">
+    <formula xmi:id="_TXdGmIPkEfCXg8-4jys-hQ">
+      <expression xsi:type="relational:TdExpression" xmi:id="_TXdGmYPkEfCXg8-4jys-hQ" body="Report Author"/>
+    </formula>
+  </presentationParams>
+  <presentationParams xmi:id="_TXdGmoPkEfCXg8-4jys-hQ" type="TOP_RIGHT_PRESENTATIONKEY">
+    <formula xmi:id="_TXdGm4PkEfCXg8-4jys-hQ">
+      <expression xsi:type="relational:TdExpression" xmi:id="_TXdGnIPkEfCXg8-4jys-hQ" body="Creation Date"/>
+    </formula>
+  </presentationParams>
+  <analysisMap xmi:id="_TXdtooPkEfCXg8-4jys-hQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/BusinessRuleAnalysis_0.1.ana#_aCeVkUe2EfC4GuII6O-gRQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_TXdto4PkEfCXg8-4jys-hQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/WrongEmail_Column_Analysis_0.1.ana#_qtIs8LxJEe-i863zj7Jq_g"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_fXPSUIPkEfCXg8-4jys-hQ" executionDate="2025-08-28T19:52:16.245+0700" executionDuration="9387" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+  <context xmi:id="_TXdtoIPkEfCXg8-4jys-hQ" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>
