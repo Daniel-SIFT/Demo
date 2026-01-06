@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:TacokitSnowflakeConnection xmi:id="_-m1F0NjeEfCIA_NHL94n9Q" name="ChurnDB" properties="configuration.snowflakeAuth.password&#xA;&#xA;enc:system.encryption.key.v2:IU7AnVyKA+0e5wznFru6eXmNVFuQV2j8oAgMf4L0OH2tCN/6cQkIpME/fw==&#xA;&#xA;configuration.snowflakeAuth.userId&#xA;&#xA;danieldaewah&#xA;&#xA;configuration.snowflakeAuth.scope&#xA;&#xA;&#xA;&#xA;configuration.database&#xA;&#xA;CHURN_DB&#xA;&#xA;configuration.loginTimeout&#xA;&#xA;15&#xA;&#xA;configuration.snowflakeAuth.oauthUsername&#xA;&#xA;&#xA;&#xA;configuration.jdbcUrlSuffix&#xA;&#xA;.snowflakecomputing.com&#xA;&#xA;configuration.snowflakeAuth.authenticationType&#xA;&#xA;BASIC&#xA;&#xA;__TACOKIT_CONFIG_ID&#xA;&#xA;c25vd2ZsYWtlI1Nub3dmbGFrZSNkYXRhc3RvcmUjU25vd2ZsYWtlRGF0YVN0b3Jl&#xA;&#xA;configuration.snowflakeAuth.oauthPassword&#xA;&#xA;enc:system.encryption.key.v2:lHBATmeUdbjfKsT+xOmmCblpmv2pljI8Lcpicg==&#xA;&#xA;configuration.snowflakeAuth.keyAlias&#xA;&#xA;&#xA;&#xA;configuration.snowflakeAuth.clientId&#xA;&#xA;&#xA;&#xA;configuration.snowflakeAuth.clientSecret&#xA;&#xA;enc:system.encryption.key.v2:UUFDYdor6SaztEpsQhgPoX6Rl/6yEfJkxiv9Uw==&#xA;&#xA;configuration.jdbcParameters&#xA;&#xA;&#xA;&#xA;configuration.role&#xA;&#xA;&#xA;&#xA;configuration.snowflakeAuth.grantType&#xA;&#xA;CLIENT_CREDENTIALS&#xA;&#xA;configuration.snowflakeAuth.oauthTokenEndpoint&#xA;&#xA;&#xA;&#xA;configuration.dbSchema&#xA;&#xA;LANDING&#xA;&#xA;configuration.warehouse&#xA;&#xA;COMPUTE_WH&#xA;&#xA;__TACOKIT_CONFIG_PARENT_ID&#xA;&#xA;c25vd2ZsYWtlI1Nub3dmbGFrZQ&#xA;&#xA;configuration.autoCommit&#xA;&#xA;true&#xA;&#xA;configuration.account&#xA;&#xA;CCUIWYZ-EVB58927&#xA;&#xA;" label="ChurnDB" dataPackage="_4H4f0erOEfCq-oVUwln9uw" DatabaseType="Snowflake" ProductId="SNOWFLAKE" supportNLS="false"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_4H4f0erOEfCq-oVUwln9uw" name="CHURN_DB" dataManager="_-m1F0NjeEfCIA_NHL94n9Q">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_4H4f0urOEfCq-oVUwln9uw" name="LANDING">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_EES0ENjfEfCIA_NHL94n9Q" name="service_data" id="_EEK4QNjfEfCIA_NHL94n9Q" label="service_data">
+        <feature xsi:type="relational:TdColumn" xmi:id="_EES0E9jfEfCIA_NHL94n9Q" name="AccountID" label="AccountID" length="7" precision="-1" talendType="id_String" key="true" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_EES0FNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="AccountID"/>
+          <initialValue xmi:id="_EES0FdjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EES0FtjfEfCIA_NHL94n9Q" name="ServiceRating" label="ServiceRating" length="-1" precision="-1" talendType="id_Double" originalLength="-1">
+          <taggedValue xmi:id="_EES0F9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="ServiceRating"/>
+          <initialValue xmi:id="_EES0GNjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EES0GdjfEfCIA_NHL94n9Q" name="ServiceTickets" label="ServiceTickets" length="38" talendType="id_BigDecimal" originalLength="-1">
+          <taggedValue xmi:id="_EES0GtjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="ServiceTickets"/>
+          <initialValue xmi:id="_EES0G9jfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EES0HNjfEfCIA_NHL94n9Q" name="LastServiceDate" label="LastServiceDate" length="8" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EES0HdjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="LastServiceDate"/>
+          <initialValue xmi:id="_EES0HtjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EES0H9jfEfCIA_NHL94n9Q" name="LastTicket" label="LastTicket" length="38" talendType="id_BigDecimal" originalLength="-1">
+          <taggedValue xmi:id="_EES0INjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="LastTicket"/>
+          <initialValue xmi:id="_EES0IdjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EES0ItjfEfCIA_NHL94n9Q" name="Review" label="Review" length="128" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EES0I9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="Review"/>
+          <initialValue xmi:id="_EES0JNjfEfCIA_NHL94n9Q"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_EQutkNjfEfCIA_NHL94n9Q" name="service_data__ct" id="_EQnY0NjfEfCIA_NHL94n9Q" label="service_data__ct">
+        <feature xsi:type="relational:TdColumn" xmi:id="_EQutk9jfEfCIA_NHL94n9Q" name="header__change_seq" label="header__change_seq" length="35" precision="-1" talendType="id_String" key="true" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_EQutlNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__change_seq"/>
+          <initialValue xmi:id="_EQutldjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EQutltjfEfCIA_NHL94n9Q" name="header__change_oper" label="header__change_oper" length="1" precision="-1" talendType="id_String" key="true" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_EQutl9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__change_oper"/>
+          <initialValue xmi:id="_EQutmNjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EQutmdjfEfCIA_NHL94n9Q" name="header__change_mask" label="header__change_mask" length="256" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EQutmtjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__change_mask"/>
+          <initialValue xmi:id="_EQutm9jfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EQutnNjfEfCIA_NHL94n9Q" name="header__operation" label="header__operation" length="12" precision="-1" talendType="id_String" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_EQutndjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__operation"/>
+          <initialValue xmi:id="_EQutntjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EQutn9jfEfCIA_NHL94n9Q" name="header__timestamp" label="header__timestamp" length="-1" precision="-1" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" originalLength="-1">
+          <taggedValue xmi:id="_EQutoNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__timestamp"/>
+          <taggedValue xmi:id="_EQutodjfEfCIA_NHL94n9Q" tag="di.date.timestamp" value="true"/>
+          <taggedValue xmi:id="_EQutotjfEfCIA_NHL94n9Q" tag="di.column.logicalType" value="timestamp-millis"/>
+          <initialValue xmi:id="_EQuto9jfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EQutpNjfEfCIA_NHL94n9Q" name="AccountID" label="AccountID" length="7" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EQutpdjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="AccountID"/>
+          <initialValue xmi:id="_EQutptjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EQutp9jfEfCIA_NHL94n9Q" name="ServiceRating" label="ServiceRating" length="-1" precision="-1" talendType="id_Double" originalLength="-1">
+          <taggedValue xmi:id="_EQutqNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="ServiceRating"/>
+          <initialValue xmi:id="_EQutqdjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EQutqtjfEfCIA_NHL94n9Q" name="ServiceTickets" label="ServiceTickets" length="38" talendType="id_BigDecimal" originalLength="-1">
+          <taggedValue xmi:id="_EQutq9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="ServiceTickets"/>
+          <initialValue xmi:id="_EQutrNjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EQutrdjfEfCIA_NHL94n9Q" name="LastServiceDate" label="LastServiceDate" length="8" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EQutrtjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="LastServiceDate"/>
+          <initialValue xmi:id="_EQutr9jfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EQutsNjfEfCIA_NHL94n9Q" name="LastTicket" label="LastTicket" length="38" talendType="id_BigDecimal" originalLength="-1">
+          <taggedValue xmi:id="_EQutsdjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="LastTicket"/>
+          <initialValue xmi:id="_EQutstjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EQuts9jfEfCIA_NHL94n9Q" name="Review" label="Review" length="128" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EQuttNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="Review"/>
+          <initialValue xmi:id="_EQuttdjfEfCIA_NHL94n9Q"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_EdG8sNjfEfCIA_NHL94n9Q" name="subscriptions" id="_EdCEMNjfEfCIA_NHL94n9Q" label="subscriptions">
+        <feature xsi:type="relational:TdColumn" xmi:id="_EdG8s9jfEfCIA_NHL94n9Q" name="AccountID" label="AccountID" length="7" precision="-1" talendType="id_String" key="true" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_EdG8tNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="AccountID"/>
+          <initialValue xmi:id="_EdG8tdjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EdG8ttjfEfCIA_NHL94n9Q" name="RepeatCustomer" label="RepeatCustomer" length="3" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EdG8t9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="RepeatCustomer"/>
+          <initialValue xmi:id="_EdG8uNjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EdG8udjfEfCIA_NHL94n9Q" name="Promotion" label="Promotion" length="3" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EdG8utjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="Promotion"/>
+          <initialValue xmi:id="_EdG8u9jfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EdG8vNjfEfCIA_NHL94n9Q" name="PlanType" label="PlanType" length="11" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EdG8vdjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="PlanType"/>
+          <initialValue xmi:id="_EdG8vtjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EdG8v9jfEfCIA_NHL94n9Q" name="BaseFee" label="BaseFee" length="-1" precision="-1" talendType="id_Double" originalLength="-1">
+          <taggedValue xmi:id="_EdG8wNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="BaseFee"/>
+          <initialValue xmi:id="_EdG8wdjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EdG8wtjfEfCIA_NHL94n9Q" name="AdditionalFeatureSpend" label="AdditionalFeatureSpend" length="38" talendType="id_BigDecimal" originalLength="-1">
+          <taggedValue xmi:id="_EdG8w9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="AdditionalFeatureSpend"/>
+          <initialValue xmi:id="_EdG8xNjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EdG8xdjfEfCIA_NHL94n9Q" name="NumberOfPenalties" label="NumberOfPenalties" length="38" talendType="id_BigDecimal" originalLength="-1">
+          <taggedValue xmi:id="_EdG8xtjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="NumberOfPenalties"/>
+          <initialValue xmi:id="_EdG8x9jfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EdG8yNjfEfCIA_NHL94n9Q" name="StartDate" label="StartDate" length="8" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EdG8ydjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="StartDate"/>
+          <initialValue xmi:id="_EdG8ytjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EdG8y9jfEfCIA_NHL94n9Q" name="CancelDate" label="CancelDate" length="8" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EdG8zNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="CancelDate"/>
+          <initialValue xmi:id="_EdG8zdjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EdG8ztjfEfCIA_NHL94n9Q" name="StartMonth" label="StartMonth" length="3" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EdG8z9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="StartMonth"/>
+          <initialValue xmi:id="_EdG80NjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EdG80djfEfCIA_NHL94n9Q" name="StartWeek" label="StartWeek" length="3" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EdG80tjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="StartWeek"/>
+          <initialValue xmi:id="_EdG809jfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EdG81NjfEfCIA_NHL94n9Q" name="CustomerTenure" label="CustomerTenure" length="38" talendType="id_BigDecimal" originalLength="-1">
+          <taggedValue xmi:id="_EdG81djfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="CustomerTenure"/>
+          <initialValue xmi:id="_EdG81tjfEfCIA_NHL94n9Q"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_EnTagNjfEfCIA_NHL94n9Q" name="subscriptions__ct" id="_EnOiANjfEfCIA_NHL94n9Q" label="subscriptions__ct">
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTag9jfEfCIA_NHL94n9Q" name="header__change_seq" label="header__change_seq" length="35" precision="-1" talendType="id_String" key="true" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_EnTahNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__change_seq"/>
+          <initialValue xmi:id="_EnTahdjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTahtjfEfCIA_NHL94n9Q" name="header__change_oper" label="header__change_oper" length="1" precision="-1" talendType="id_String" key="true" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_EnTah9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__change_oper"/>
+          <initialValue xmi:id="_EnTaiNjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTaidjfEfCIA_NHL94n9Q" name="header__change_mask" label="header__change_mask" length="256" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EnTaitjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__change_mask"/>
+          <initialValue xmi:id="_EnTai9jfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTajNjfEfCIA_NHL94n9Q" name="header__operation" label="header__operation" length="12" precision="-1" talendType="id_String" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_EnTajdjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__operation"/>
+          <initialValue xmi:id="_EnTajtjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTaj9jfEfCIA_NHL94n9Q" name="header__timestamp" label="header__timestamp" length="-1" precision="-1" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" originalLength="-1">
+          <taggedValue xmi:id="_EnTakNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__timestamp"/>
+          <taggedValue xmi:id="_EnTakdjfEfCIA_NHL94n9Q" tag="di.date.timestamp" value="true"/>
+          <taggedValue xmi:id="_EnTaktjfEfCIA_NHL94n9Q" tag="di.column.logicalType" value="timestamp-millis"/>
+          <initialValue xmi:id="_EnTak9jfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTalNjfEfCIA_NHL94n9Q" name="AccountID" label="AccountID" length="7" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EnTaldjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="AccountID"/>
+          <initialValue xmi:id="_EnTaltjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTal9jfEfCIA_NHL94n9Q" name="RepeatCustomer" label="RepeatCustomer" length="3" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EnTamNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="RepeatCustomer"/>
+          <initialValue xmi:id="_EnTamdjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTamtjfEfCIA_NHL94n9Q" name="Promotion" label="Promotion" length="3" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EnTam9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="Promotion"/>
+          <initialValue xmi:id="_EnTanNjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTandjfEfCIA_NHL94n9Q" name="PlanType" label="PlanType" length="11" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EnTantjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="PlanType"/>
+          <initialValue xmi:id="_EnTan9jfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTaoNjfEfCIA_NHL94n9Q" name="BaseFee" label="BaseFee" length="-1" precision="-1" talendType="id_Double" originalLength="-1">
+          <taggedValue xmi:id="_EnTaodjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="BaseFee"/>
+          <initialValue xmi:id="_EnTaotjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTao9jfEfCIA_NHL94n9Q" name="AdditionalFeatureSpend" label="AdditionalFeatureSpend" length="38" talendType="id_BigDecimal" originalLength="-1">
+          <taggedValue xmi:id="_EnTapNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="AdditionalFeatureSpend"/>
+          <initialValue xmi:id="_EnTapdjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTaptjfEfCIA_NHL94n9Q" name="NumberOfPenalties" label="NumberOfPenalties" length="38" talendType="id_BigDecimal" originalLength="-1">
+          <taggedValue xmi:id="_EnTap9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="NumberOfPenalties"/>
+          <initialValue xmi:id="_EnTaqNjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTaqdjfEfCIA_NHL94n9Q" name="StartDate" label="StartDate" length="8" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EnTaqtjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="StartDate"/>
+          <initialValue xmi:id="_EnTaq9jfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTarNjfEfCIA_NHL94n9Q" name="CancelDate" label="CancelDate" length="8" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EnTardjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="CancelDate"/>
+          <initialValue xmi:id="_EnTartjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTar9jfEfCIA_NHL94n9Q" name="StartMonth" label="StartMonth" length="3" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EnTasNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="StartMonth"/>
+          <initialValue xmi:id="_EnTasdjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTastjfEfCIA_NHL94n9Q" name="StartWeek" label="StartWeek" length="3" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_EnTas9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="StartWeek"/>
+          <initialValue xmi:id="_EnTatNjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EnTatdjfEfCIA_NHL94n9Q" name="CustomerTenure" label="CustomerTenure" length="38" talendType="id_BigDecimal" originalLength="-1">
+          <taggedValue xmi:id="_EnTattjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="CustomerTenure"/>
+          <initialValue xmi:id="_EnTat9jfEfCIA_NHL94n9Q"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_ExsFkNjfEfCIA_NHL94n9Q" name="usage_data" id="_Exl-8NjfEfCIA_NHL94n9Q" label="usage_data">
+        <feature xsi:type="relational:TdColumn" xmi:id="_ExsFk9jfEfCIA_NHL94n9Q" name="AccountID" label="AccountID" length="7" precision="-1" talendType="id_String" key="true" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_ExsFlNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="AccountID"/>
+          <initialValue xmi:id="_ExsFldjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_ExsFltjfEfCIA_NHL94n9Q" name="CurrentPeriodUsage" label="CurrentPeriodUsage" length="-1" precision="-1" talendType="id_Double" originalLength="-1">
+          <taggedValue xmi:id="_ExsFl9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="CurrentPeriodUsage"/>
+          <initialValue xmi:id="_ExsFmNjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_ExsFmdjfEfCIA_NHL94n9Q" name="PriorPeriodUsage" label="PriorPeriodUsage" length="-1" precision="-1" talendType="id_Double" originalLength="-1">
+          <taggedValue xmi:id="_ExsFmtjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="PriorPeriodUsage"/>
+          <initialValue xmi:id="_ExsFm9jfEfCIA_NHL94n9Q"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_E8JpINjfEfCIA_NHL94n9Q" name="usage_data__ct" id="_E8EwoNjfEfCIA_NHL94n9Q" label="usage_data__ct">
+        <feature xsi:type="relational:TdColumn" xmi:id="_E8JpI9jfEfCIA_NHL94n9Q" name="header__change_seq" label="header__change_seq" length="35" precision="-1" talendType="id_String" key="true" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_E8JpJNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__change_seq"/>
+          <initialValue xmi:id="_E8JpJdjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_E8JpJtjfEfCIA_NHL94n9Q" name="header__change_oper" label="header__change_oper" length="1" precision="-1" talendType="id_String" key="true" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_E8JpJ9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__change_oper"/>
+          <initialValue xmi:id="_E8JpKNjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_E8JpKdjfEfCIA_NHL94n9Q" name="header__change_mask" label="header__change_mask" length="256" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_E8JpKtjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__change_mask"/>
+          <initialValue xmi:id="_E8JpK9jfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_E8JpLNjfEfCIA_NHL94n9Q" name="header__operation" label="header__operation" length="12" precision="-1" talendType="id_String" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_E8JpLdjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__operation"/>
+          <initialValue xmi:id="_E8JpLtjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_E8JpL9jfEfCIA_NHL94n9Q" name="header__timestamp" label="header__timestamp" length="-1" precision="-1" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" originalLength="-1">
+          <taggedValue xmi:id="_E8JpMNjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="header__timestamp"/>
+          <taggedValue xmi:id="_E8JpMdjfEfCIA_NHL94n9Q" tag="di.date.timestamp" value="true"/>
+          <taggedValue xmi:id="_E8JpMtjfEfCIA_NHL94n9Q" tag="di.column.logicalType" value="timestamp-millis"/>
+          <initialValue xmi:id="_E8JpM9jfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_E8JpNNjfEfCIA_NHL94n9Q" name="AccountID" label="AccountID" length="7" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_E8JpNdjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="AccountID"/>
+          <initialValue xmi:id="_E8JpNtjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_E8JpN9jfEfCIA_NHL94n9Q" name="CurrentPeriodUsage" label="CurrentPeriodUsage" length="-1" precision="-1" talendType="id_Double" originalLength="-1">
+          <taggedValue xmi:id="_E8JpONjfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="CurrentPeriodUsage"/>
+          <initialValue xmi:id="_E8JpOdjfEfCIA_NHL94n9Q"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_E8JpOtjfEfCIA_NHL94n9Q" name="PriorPeriodUsage" label="PriorPeriodUsage" length="-1" precision="-1" talendType="id_Double" originalLength="-1">
+          <taggedValue xmi:id="_E8JpO9jfEfCIA_NHL94n9Q" tag="AVRO_TECHNICAL_KEY" value="PriorPeriodUsage"/>
+          <initialValue xmi:id="_E8JpPNjfEfCIA_NHL94n9Q"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
