@@ -114,6 +114,8 @@
   }, {
     "id" : "org.talend.lite.dq.feature.feature.group"
   }, {
+    "id" : "org.talend.lite.esb.ai.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.esb.apidesigner.feature.feature.group"
   }, {
     "id" : "org.talend.lite.metadata.bridge.feature.feature.group"
@@ -128,6 +130,8 @@
   }, {
     "id" : "org.talend.studio.components.di.cyberark.feature.feature.group"
   }, {
+    "id" : "org.talend.studio.components.tck.aws.bedrock.feature.feature.group"
+  }, {
     "id" : "org.talend.studio.components.tck.box.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.chunk.feature.feature.group"
@@ -136,7 +140,11 @@
   }, {
     "id" : "org.talend.studio.components.tck.cyberarkrest.connector.feature.feature.group"
   }, {
+    "id" : "org.talend.studio.components.tck.dsql4json.feature.feature.group"
+  }, {
     "id" : "org.talend.studio.components.tck.embeddingAI.feature.feature.group"
+  }, {
+    "id" : "org.talend.studio.components.tck.gemini.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.google.analytics.feature.feature.group"
   }, {
