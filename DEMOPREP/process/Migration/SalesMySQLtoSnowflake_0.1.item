@@ -5,15 +5,15 @@
     <contextParameter comment="" name="Talend101_Database" prompt="Talend101_Database?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="talend101dev" internalId="_HBypMbB0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="Talend101_AdditionalParams" prompt="Talend101_AdditionalParams?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_HBypMrB0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="Talend101_Login" prompt="Talend101_Login?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="root" internalId="_HBypM7B0Ee-H_bNmfwnbOw"/>
-    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v1:9/HVNC9P30WhZEtp65UDW8Y9Aj2lQG6MjPU7xapuiKnauQ==" internalId="_HBypNLB0Ee-H_bNmfwnbOw"/>
+    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v2:abDg9cAQlpNAO3vhDMSCpWL2oIJ9SKXwEzIqbTLDwKkc2A==" internalId="_HBypNLB0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_HBypNbB0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Server" prompt="SalesDB_Server?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="localhost" internalId="_jufMQLB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Database" prompt="SalesDB_Database?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="demodev" internalId="_jufMQbB2Ee-H_bNmfwnbOw"/>
-    <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v1:c01SBxDcx0RZbm+iLpwDwFhp3WSGAf45onA+p1dGnQMUrg==" internalId="_jufMQrB2Ee-H_bNmfwnbOw"/>
+    <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v2:dKYkszKRqtUYd/7zQOYWVwEj9LE5yWvCUYRV5boo/3HHtQ==" internalId="_jufMQrB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_AdditionalParams" prompt="SalesDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="noDatetimeStringSync=true" internalId="_jufMQ7B2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Login" prompt="SalesDB_Login?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="root" internalId="_jufMRLB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Port" prompt="SalesDB_Port?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="3306" internalId="_jufMRbB2Ee-H_bNmfwnbOw"/>
-    <contextParameter comment="" name="SalesDB1_Password" prompt="SalesDB1_Password?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_Password" value="enc:system.encryption.key.v1:gM9BTlN8BbbQZEnfn8DuFfkUzMrFH3Kdav38s6lLIbQ7kg==" internalId="_XkPkgDbfEfC9B51LFSKqog"/>
+    <contextParameter comment="" name="SalesDB1_Password" prompt="SalesDB1_Password?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_Password" value="enc:system.encryption.key.v2:oVzJvdMXjDNbXEY+mCyEoys5wYqTeli9a0nbWJch6HTTqg==" internalId="_XkPkgDbfEfC9B51LFSKqog"/>
     <contextParameter comment="" name="SalesDB1_Database" prompt="SalesDB1_Database?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="demodev" internalId="_XkQLkDbfEfC9B51LFSKqog"/>
     <contextParameter comment="" name="SalesDB1_Login" prompt="SalesDB1_Login?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="root" internalId="_XkQLkTbfEfC9B51LFSKqog"/>
     <contextParameter comment="" name="SalesDB1_Server" prompt="SalesDB1_Server?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="localhost" internalId="_XkQLkjbfEfC9B51LFSKqog"/>
@@ -25,15 +25,15 @@
     <contextParameter comment="" name="Talend101_Database" prompt="Talend101_Database?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="talend101" internalId="_HBypN7B0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="Talend101_AdditionalParams" prompt="Talend101_AdditionalParams?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_HBypOLB0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="Talend101_Login" prompt="Talend101_Login?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="root" internalId="_HBypObB0Ee-H_bNmfwnbOw"/>
-    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v1:5LQ9GII7zf7OI9W7zZv8wkEz6CmTszdMKrFBd6p220Z/ng==" internalId="_HBypOrB0Ee-H_bNmfwnbOw"/>
+    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v2:XhX/aAnhRyhY3TFzBM8bTUMKcoedF64S3vdcBu9u6GSLtA==" internalId="_HBypOrB0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_HBypO7B0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Server" prompt="SalesDB_Server?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="localhost" internalId="_jufMRrB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Database" prompt="SalesDB_Database?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="demo" internalId="_jufMR7B2Ee-H_bNmfwnbOw"/>
-    <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v1:Kp5jZ3kzHIwsJKDJL7V7cHbPivVh8GGN+ibBimRcj28E2w==" internalId="_jufMSLB2Ee-H_bNmfwnbOw"/>
+    <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v2:hqeYlgwBkM39/jyW7o+FhBJzFQbRHF+oo9w/lC7b+uUvpg==" internalId="_jufMSLB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_AdditionalParams" prompt="SalesDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="noDatetimeStringSync=true" internalId="_jufMSbB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Login" prompt="SalesDB_Login?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="root" internalId="_jufMSrB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Port" prompt="SalesDB_Port?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="3306" internalId="_jufMS7B2Ee-H_bNmfwnbOw"/>
-    <contextParameter comment="" name="SalesDB1_Password" prompt="SalesDB1_Password?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_Password" value="enc:system.encryption.key.v1:Nvhcy45o28oWHHVvwNEX0hMAwvBldSEkW7U2icl/j7Xczg==" internalId="_XkQLlTbfEfC9B51LFSKqog"/>
+    <contextParameter comment="" name="SalesDB1_Password" prompt="SalesDB1_Password?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_Password" value="enc:system.encryption.key.v2:bNpDUvXXne46RkzWwKAJtXY4RjRUd3B/E+V3Lqq4k9oy/Q==" internalId="_XkQLlTbfEfC9B51LFSKqog"/>
     <contextParameter comment="" name="SalesDB1_Database" prompt="SalesDB1_Database?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="demodev" internalId="_XkQLljbfEfC9B51LFSKqog"/>
     <contextParameter comment="" name="SalesDB1_Login" prompt="SalesDB1_Login?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="root" internalId="_XkQLlzbfEfC9B51LFSKqog"/>
     <contextParameter comment="" name="SalesDB1_Server" prompt="SalesDB1_Server?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="localhost" internalId="_XkQLmDbfEfC9B51LFSKqog"/>
@@ -45,15 +45,15 @@
     <contextParameter comment="" name="Talend101_Database" prompt="Talend101_Database?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="talend101dev" internalId="_HBypPbB0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="Talend101_AdditionalParams" prompt="Talend101_AdditionalParams?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_HBypPrB0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="Talend101_Login" prompt="Talend101_Login?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="root" internalId="_HBypP7B0Ee-H_bNmfwnbOw"/>
-    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v1:JSBsfgFKqyq4x8tXn+NdjzYUciJ9K1hWydrSBnejvnMBow==" internalId="_HBypQLB0Ee-H_bNmfwnbOw"/>
+    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v2:5tgitG4nw8UWN/u8dz/fVLjHb4XoSFfwLQeQ1bLk+Q2X7A==" internalId="_HBypQLB0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_HBypQbB0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Server" prompt="SalesDB_Server?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="localhost" internalId="_jufMTLB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Database" prompt="SalesDB_Database?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="demodev" internalId="_jufMTbB2Ee-H_bNmfwnbOw"/>
-    <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v1:0yY0TKydoh1e2CoTd3fLe3o2DrQGTsbX6znw8KG/q2cMOg==" internalId="_jufMTrB2Ee-H_bNmfwnbOw"/>
+    <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v2:xUEwrfJupnNoTACcjgzS04u3Pg+sgz5eI+kbyR0cXW97KQ==" internalId="_jufMTrB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_AdditionalParams" prompt="SalesDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="noDatetimeStringSync=true" internalId="_jufMT7B2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Login" prompt="SalesDB_Login?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="root" internalId="_jufMULB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Port" prompt="SalesDB_Port?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="3306" internalId="_jufMUbB2Ee-H_bNmfwnbOw"/>
-    <contextParameter comment="" name="SalesDB1_Password" prompt="SalesDB1_Password?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_Password" value="enc:system.encryption.key.v1:idSuhurK388mcq4kEtw4e3P6ZkeCTROAgWrrYHTyRTyatQ==" internalId="_XkQLmzbfEfC9B51LFSKqog"/>
+    <contextParameter comment="" name="SalesDB1_Password" prompt="SalesDB1_Password?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_Password" value="enc:system.encryption.key.v2:I1PCw9gr5WDiGo8y1nE50YUwjlH+ZvCMTtq7s0JOOA+9lg==" internalId="_XkQLmzbfEfC9B51LFSKqog"/>
     <contextParameter comment="" name="SalesDB1_Database" prompt="SalesDB1_Database?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="demodev" internalId="_XkQLnDbfEfC9B51LFSKqog"/>
     <contextParameter comment="" name="SalesDB1_Login" prompt="SalesDB1_Login?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="root" internalId="_XkQLnTbfEfC9B51LFSKqog"/>
     <contextParameter comment="" name="SalesDB1_Server" prompt="SalesDB1_Server?" promptNeeded="false" repositoryContextId="_RuTE0DbfEfC9B51LFSKqog" type="id_String" value="localhost" internalId="_XkQLnjbfEfC9B51LFSKqog"/>
@@ -171,7 +171,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.SalesDB1_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.SalesDB1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:m1z53vkNBMI8D9Em/egvnpkaeC0fZ89SArLHd2KxfdhnPZ6c1koWlXM+0Rcfl8ty1iMiTTM="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.SalesDB1_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;salescustomers&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -344,7 +344,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.SalesDB1_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.SalesDB1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8sMCydeDUjX46fKNdjj/3yoQ5NOVpoZVeu5nkgFKdJ5ke0JztvaS4b4ITW4v9YodnBSrCXI="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.SalesDB1_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;salesproducts&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -469,7 +469,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.SalesDB1_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.SalesDB1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PQ/OVG8U978s5XgzSr0ykr8eCL4PiHQ1l7g9P/P3lCkcxQJWJZlCgiYh9okWBObaBC9G/YI="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.SalesDB1_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;salesstaging&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -602,7 +602,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.SalesDB1_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.SalesDB1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fVN8c54B9TeLCVpIsM020NN4pBqet9+eXbwlPLPMcsyL6aNbv7UL8fCeK0q42qNNbAQwElo="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.SalesDB1_Password"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_dSbU4PoQEeiN-rovZB9rdA - salestotal" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;salestotal&quot;"/>

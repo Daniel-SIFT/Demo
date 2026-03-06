@@ -5,7 +5,7 @@
     <contextParameter comment="" name="Talend101_Database" prompt="Talend101_Database?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="talend101dev" internalId="_gabEEaM8Ee-SKpKLT6NSMQ"/>
     <contextParameter comment="" name="Talend101_AdditionalParams" prompt="Talend101_AdditionalParams?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_gabEEqM8Ee-SKpKLT6NSMQ"/>
     <contextParameter comment="" name="Talend101_Login" prompt="Talend101_Login?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="root" internalId="_gabEE6M8Ee-SKpKLT6NSMQ"/>
-    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v1:lxFHjCM0kkZwRsaEPENJCiJWrfC/6GmdCbHXnKSgVemfLQ==" internalId="_gabrIKM8Ee-SKpKLT6NSMQ"/>
+    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v2:02p/D4oDykgCZ5zK3E0z1sVdejGZPzHpDEd85Alpd4iUeg==" internalId="_gabrIKM8Ee-SKpKLT6NSMQ"/>
     <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_gabrIaM8Ee-SKpKLT6NSMQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Production">
@@ -13,7 +13,7 @@
     <contextParameter comment="" name="Talend101_Database" prompt="Talend101_Database?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="talend101" internalId="_gabrI6M8Ee-SKpKLT6NSMQ"/>
     <contextParameter comment="" name="Talend101_AdditionalParams" prompt="Talend101_AdditionalParams?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_gabrJKM8Ee-SKpKLT6NSMQ"/>
     <contextParameter comment="" name="Talend101_Login" prompt="Talend101_Login?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="root" internalId="_gabrJaM8Ee-SKpKLT6NSMQ"/>
-    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v1:xrXsMcBxv7Q5c5a3v/bVek019BPSmaZzWUs1WMAtCLP9ZA==" internalId="_gabrJqM8Ee-SKpKLT6NSMQ"/>
+    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v2:cXa7jDuv0WECgqGbLGo7pYzxfvcv/rtAMFYhjegJ+50DJw==" internalId="_gabrJqM8Ee-SKpKLT6NSMQ"/>
     <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_gabrJ6M8Ee-SKpKLT6NSMQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Development">
@@ -21,7 +21,7 @@
     <contextParameter comment="" name="Talend101_Database" prompt="Talend101_Database?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="talend101dev" internalId="_gabrKaM8Ee-SKpKLT6NSMQ"/>
     <contextParameter comment="" name="Talend101_AdditionalParams" prompt="Talend101_AdditionalParams?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_gabrKqM8Ee-SKpKLT6NSMQ"/>
     <contextParameter comment="" name="Talend101_Login" prompt="Talend101_Login?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="root" internalId="_gabrK6M8Ee-SKpKLT6NSMQ"/>
-    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v1:QZJaIneYkntE3rD9TwJUr3QsJ2ZA/As9gGq7WB+sOOApvw==" internalId="_gabrLKM8Ee-SKpKLT6NSMQ"/>
+    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v2:A9kb08rS3S2xKIx1izPqWPoih4n/mdaT7RKb/BRYSR82iA==" internalId="_gabrLKM8Ee-SKpKLT6NSMQ"/>
     <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_gabrLaM8Ee-SKpKLT6NSMQ"/>
   </context>
   <parameters>

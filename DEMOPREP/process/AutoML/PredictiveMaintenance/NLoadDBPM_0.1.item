@@ -6,7 +6,7 @@
     <contextParameter comment="" name="PredictiveMaintenanceDB_Port" prompt="PredictiveMaintenanceDB_Port?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_String" value="3306" internalId="_QQQA0ipaEfCVW4wUXwrwFw"/>
     <contextParameter comment="" name="PredictiveMaintenanceDB_Database" prompt="PredictiveMaintenanceDB_Database?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_String" value="predictivemaintenancedev" internalId="_QQQA0ypaEfCVW4wUXwrwFw"/>
     <contextParameter comment="" name="PredictiveMaintenanceDB_Server" prompt="PredictiveMaintenanceDB_Server?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_String" value="localhost" internalId="_QQQA1CpaEfCVW4wUXwrwFw"/>
-    <contextParameter comment="" name="PredictiveMaintenanceDB_Password" prompt="PredictiveMaintenanceDB_Password?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_Password" value="enc:system.encryption.key.v1:FjxhXCVP4F4Eg8QQmI0dsopdT841oGxra3uxsCUbe3QCzg==" internalId="_QQQA1SpaEfCVW4wUXwrwFw"/>
+    <contextParameter comment="" name="PredictiveMaintenanceDB_Password" prompt="PredictiveMaintenanceDB_Password?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_Password" value="enc:system.encryption.key.v2:KCDwURQ94Bd5aaYawbtO2cTSyAncX3C/1ob5P4MMvsvX5Q==" internalId="_QQQA1SpaEfCVW4wUXwrwFw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Production">
     <contextParameter comment="" name="PredictiveMaintenanceDB_Login" prompt="PredictiveMaintenanceDB_Login?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_String" value="root" internalId="_QQQA1ipaEfCVW4wUXwrwFw"/>
@@ -14,7 +14,7 @@
     <contextParameter comment="" name="PredictiveMaintenanceDB_Port" prompt="PredictiveMaintenanceDB_Port?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_String" value="3306" internalId="_QQQA2CpaEfCVW4wUXwrwFw"/>
     <contextParameter comment="" name="PredictiveMaintenanceDB_Database" prompt="PredictiveMaintenanceDB_Database?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_String" value="predictivemaintenanceprod" internalId="_QQQA2SpaEfCVW4wUXwrwFw"/>
     <contextParameter comment="" name="PredictiveMaintenanceDB_Server" prompt="PredictiveMaintenanceDB_Server?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_String" value="localhost" internalId="_QQQA2ipaEfCVW4wUXwrwFw"/>
-    <contextParameter comment="" name="PredictiveMaintenanceDB_Password" prompt="PredictiveMaintenanceDB_Password?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_Password" value="enc:system.encryption.key.v1:v42p8XuiLZf6cR6CdZmd+CsrUgdFwOyQp0CGwhCF5FBnrw==" internalId="_QQQA2ypaEfCVW4wUXwrwFw"/>
+    <contextParameter comment="" name="PredictiveMaintenanceDB_Password" prompt="PredictiveMaintenanceDB_Password?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_Password" value="enc:system.encryption.key.v2:GL4JlWqhPNQDyadSg7PgACEYdxSLvBi4Z7Q1BT7mOxjrIw==" internalId="_QQQA2ypaEfCVW4wUXwrwFw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Development">
     <contextParameter comment="" name="PredictiveMaintenanceDB_Login" prompt="PredictiveMaintenanceDB_Login?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_String" value="root" internalId="_QQRO8CpaEfCVW4wUXwrwFw"/>
@@ -22,7 +22,7 @@
     <contextParameter comment="" name="PredictiveMaintenanceDB_Port" prompt="PredictiveMaintenanceDB_Port?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_String" value="3306" internalId="_QQRO8ipaEfCVW4wUXwrwFw"/>
     <contextParameter comment="" name="PredictiveMaintenanceDB_Database" prompt="PredictiveMaintenanceDB_Database?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_String" value="predictivemaintenancedev" internalId="_QQRO8ypaEfCVW4wUXwrwFw"/>
     <contextParameter comment="" name="PredictiveMaintenanceDB_Server" prompt="PredictiveMaintenanceDB_Server?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_String" value="localhost" internalId="_QQRO9CpaEfCVW4wUXwrwFw"/>
-    <contextParameter comment="" name="PredictiveMaintenanceDB_Password" prompt="PredictiveMaintenanceDB_Password?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_Password" value="enc:system.encryption.key.v1:I3778WdXDco/FoKm/swcbGLFSjk3RG7SfhOJZZVGCGh0/Q==" internalId="_QQRO9SpaEfCVW4wUXwrwFw"/>
+    <contextParameter comment="" name="PredictiveMaintenanceDB_Password" prompt="PredictiveMaintenanceDB_Password?" promptNeeded="false" repositoryContextId="_SQ9HIBweEfC_NOLURaV59A" type="id_Password" value="enc:system.encryption.key.v2:VKjcCe7G4f9hm4wMdHuqizA48fiI5ncJgb8+4WNnQdq4GA==" internalId="_QQRO9SpaEfCVW4wUXwrwFw"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -225,7 +225,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.PredictiveMaintenanceDB_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.PredictiveMaintenanceDB_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.PredictiveMaintenanceDB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rKozGrJA17Z4upoPrweMEne9f3hejqfZacRgQM33tvWFlhqREdVCWYvalvT45J9g5v1o/pqVD2kKvFMZ2SpslopSoXQ="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.PredictiveMaintenanceDB_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;errortest&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>

@@ -263,7 +263,7 @@
     <elementParameter field="TEXT" name="configuration.dataset.datastore.jiraURL" value="context.jira_basic_url"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authenticationType" value="BASIC"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.user" value="context.jira_username"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pass" value="enc:system.encryption.key.v1:fiixAnvfj0oJJ4ltT1DYbc3pDpOlrLMedRAgCwDriU8kWSJzWx/FV5zKw6Osb2FkIA=="/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.pass" value="context.jira_password"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.resourceType" value="ISSUE"/>
     <elementParameter field="CHECK" name="configuration.useJQL" value="true"/>
     <elementParameter field="TEXT" name="configuration.jql" value=""/>

@@ -5,7 +5,7 @@
     <contextParameter comment="" name="Talend101_Database" prompt="Talend101_Database?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="talend101" internalId="_1bDJ4UeuEfC4GuII6O-gRQ"/>
     <contextParameter comment="" name="Talend101_AdditionalParams" prompt="Talend101_AdditionalParams?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_1bDJ4keuEfC4GuII6O-gRQ"/>
     <contextParameter comment="" name="Talend101_Login" prompt="Talend101_Login?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="root" internalId="_1bDJ40euEfC4GuII6O-gRQ"/>
-    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v1:KgxbUxBcHBVOaqjoruDs6ooVBXBj40J1pijzsleFn/gJRg==" internalId="_1bDw8EeuEfC4GuII6O-gRQ"/>
+    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v2:EnVgoz/Q5sju7UhqTjvvf5pITaV0ggkgyc5DRVQWHV5RCA==" internalId="_1bDw8EeuEfC4GuII6O-gRQ"/>
     <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_1bDw8UeuEfC4GuII6O-gRQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Development">
@@ -13,7 +13,7 @@
     <contextParameter comment="" name="Talend101_Database" prompt="Talend101_Database?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="talend101dev" internalId="_1bDw80euEfC4GuII6O-gRQ"/>
     <contextParameter comment="" name="Talend101_AdditionalParams" prompt="Talend101_AdditionalParams?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_1bDw9EeuEfC4GuII6O-gRQ"/>
     <contextParameter comment="" name="Talend101_Login" prompt="Talend101_Login?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="root" internalId="_1bDw9UeuEfC4GuII6O-gRQ"/>
-    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v1:sCZtQifXBfyOyeDvDm44Ttq6UIBFMiXEyHgKM5Ddpm/nhQ==" internalId="_1bDw9keuEfC4GuII6O-gRQ"/>
+    <contextParameter comment="" name="Talend101_Password" prompt="Talend101_Password?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_Password" value="enc:system.encryption.key.v2:0oOJb2gr2xBzfU6ju7Xdfelb+z6mdpcMvUjxyepLicqTLw==" internalId="_1bDw9keuEfC4GuII6O-gRQ"/>
     <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_1bDw90euEfC4GuII6O-gRQ"/>
   </context>
   <parameters>
@@ -125,7 +125,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.Talend101_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.Talend101_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:r8mZtPNRzK5+/YDAeUrA3MtUcFELXdlozEVeFQ8sSfK9LOAy7PUiHsNNWP06btJgmS2rg+9/"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.Talend101_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customers&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
