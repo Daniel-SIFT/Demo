@@ -112,7 +112,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;dataquality&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:sM5SrzWs+04ezuspEv329u8m/i61V5IlUTRod8UVb5QOeVFO"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Wc9da2TYTDxuXFpGUaOHVMc8eCsroM6QzH9RNY8xlZ7OTCg="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;address&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>

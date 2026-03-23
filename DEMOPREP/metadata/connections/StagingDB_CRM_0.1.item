@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_xM_ucGp1Eem0SqmV0vh_Ag" name="StagingDB_CRM" supplierDependency="_uExFEGssEemiyPj-HC5GLw" id="_xMGWkGp1Eem0SqmV0vh_Ag" label="StagingDB_CRM" dataPackage="_Oqvn3aVhEe-mrPJUjk1Gqw" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/dataquality?noDatetimeStringSync=true" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="enc:system.encryption.key.v1:laI/gprX5ax5V31diCDUuMjHQydT1DuQaeZQm8NKzMOm8w==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="dataquality" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+  <TalendMetadata:DatabaseConnection xmi:id="_xM_ucGp1Eem0SqmV0vh_Ag" name="StagingDB_CRM" supplierDependency="_uExFEGssEemiyPj-HC5GLw" id="_xMGWkGp1Eem0SqmV0vh_Ag" label="StagingDB_CRM" dataPackage="_Oqvn3aVhEe-mrPJUjk1Gqw" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/dataquality?noDatetimeStringSync=true" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="enc:system.encryption.key.v1:bQLwnTpexhz9DpaelSn0Ldn1Ym68613wNhaM+OCPF5eo" ServerName="localhost" DatasourceName="" FileFieldName="" SID="dataquality" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
     <taggedValue xmi:id="_ZYVH8WWqEem0SqmV0vh_Ag" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_ZbnFcGWqEem0SqmV0vh_Ag" tag="package filter" value=""/>
     <taggedValue xmi:id="_Zbw2cGWqEem0SqmV0vh_Ag" tag="Status" value=""/>
@@ -10,7 +10,7 @@
     <taggedValue xmi:id="_Zbw2dGWqEem0SqmV0vh_Ag" tag="Author" value=""/>
     <taggedValue xmi:id="_Zbw2dWWqEem0SqmV0vh_Ag" tag="otherParameter"/>
     <taggedValue xmi:id="_Zbw2dmWqEem0SqmV0vh_Ag" tag="DB ProductName" value="MySQL"/>
-    <taggedValue xmi:id="_Zbw2d2WqEem0SqmV0vh_Ag" tag="DB ProductVersion" value="5.7.33-log"/>
+    <taggedValue xmi:id="_Zbw2d2WqEem0SqmV0vh_Ag" tag="DB ProductVersion" value="8.0.45"/>
     <taggedValue xmi:id="_Zbw2eGWqEem0SqmV0vh_Ag" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_ZYVH8mWqEem0SqmV0vh_Ag" key="CONN_PARA_KEY_USERNAME" value="root"/>
     <parameters xmi:id="_08TRwGp1Eem0SqmV0vh_Ag" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>

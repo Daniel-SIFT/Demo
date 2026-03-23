@@ -112,7 +112,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;dataquality&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vxgGv9LxjA0bv9GGWDkhYZB2+QGSqbKZeEGO86BNCGigA5Bz"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:dU0qZpnibzLWyKtanXoLh8U7beQaccLyGKaswNlAOixl6qg="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customer_iban&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -400,7 +400,7 @@
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
 </talendfile:ProcessType>
