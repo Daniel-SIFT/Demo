@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x19d1a03ba8f' V1='4' name='SampledData' incarnation='8'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SampledData'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+    </child>
+    <child t='167' id='4' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='origin' description='The base quantity that a measured value of zero represents. In addition, this provides the units of the entire measurement serie...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>The base quantity that a measured value of zero represents. In addition, this provides the units of the entire measurement series.</longDesc>
+      <child t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+      </child>
+      <child t='167' id='6' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value' description='The value of the measured amount. The value includes an implicit precision in the presentation of the value.'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='7' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='comparator' description='How the value should be understood and represented - whether the actual value is greater or less than the stated value due to me...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is "&lt;" , then the real value is &lt; stated value.</longDesc>
+        <child t='167' id='8' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&lt;' description='&lt;'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='9' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&lt;=' description='&lt;='>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='10' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&gt;=' description='&gt;='>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='11' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&gt;' description='&gt;'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='12' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ad' description='ad'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='13' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='unit' description='A human-readable form of the unit.'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='14' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='The identification of the system that provides the coded form of the unit.'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='15' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='code' description='A computer processable form of the unit in some unit representation system.'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='16' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='interval' description='Amount of intervalUnits between samples, e.g. milliseconds for time-based sampling.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='17' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='intervalUnit' description='The measurement unit in which the sample interval is expressed.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='18' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='factor' description='A correction factor that is applied to the sampled data points before they are added to the origin.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='19' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='lowerLimit' description='The lower limit of detection of the measured points. This is needed if any of the data points have the value "L" (lower than det...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>The lower limit of detection of the measured points. This is needed if any of the data points have the value "L" (lower than detection limit).</longDesc>
+    </child>
+    <child t='167' id='20' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='upperLimit' description='The upper limit of detection of the measured points. This is needed if any of the data points have the value "U" (higher than de...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>The upper limit of detection of the measured points. This is needed if any of the data points have the value "U" (higher than detection limit).</longDesc>
+    </child>
+    <child t='167' id='21' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='dimensions' description='The number of sample points at each time point. If this value is greater than one, then the dimensions will be interlaced - all ...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>The number of sample points at each time point. If this value is greater than one, then the dimensions will be interlaced - all the sample points for a point in time will be recorded at once.</longDesc>
+    </child>
+    <child t='167' id='22' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='codeMap' description='Reference to ConceptMap that defines the codes used in the data.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='23' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='offsets' description='A series of data points which are decimal values separated by a single space (character u20).  The units in which the offsets ar...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>A series of data points which are decimal values separated by a single space (character u20).  The units in which the offsets are expressed are found in intervalUnit.  The absolute point at which the measurements begin SHALL be conveyed outside the scope of this datatype, e.g. Observation.effectiveDateTime for a timing offset.</longDesc>
+    </child>
+    <child t='167' id='24' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='data' description='A series of data points which are decimal values or codes separated by a single space (character u20). The special codes "E" (er...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>A series of data points which are decimal values or codes separated by a single space (character u20). The special codes "E" (error), "L" (below detection limit) and "U" (above detection limit) are also defined for used in place of decimal values.</longDesc>
+    </child>
+  </rootElem>
+  <defaultRep t='177' id='25' V177='1' V170='10' V697='1' V690='1' padOutput='true' encoding='UTF-8' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='JSON'>
+  </defaultRep>
+  <child t='162' id='26' V1='4' name='Representations'>
+    <child t='177' idref='25'/>
+  </child>
+  <child t='165' id='27' V1='4' name='Document Bindings'>
+    <child t='166' id='28' V166='5' docType='1' V1='4' name='/SampledData'>
+      <elemNode t='167' idref='2'/>
+    </child>
+  </child>
+</root>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x19d1a03baa4' V1='4' name='Timing_Repeat' incarnation='8'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Timing_Repeat'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+    </child>
+    <child t='167' id='4' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='boundsDuration' description='Either a duration for the length of the timing schedule, a range of possible length, or outer bounds for start and/or end limits...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>Either a duration for the length of the timing schedule, a range of possible length, or outer bounds for start and/or end limits of the timing schedule.</longDesc>
+      <child t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+      </child>
+      <child t='167' id='6' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value' description='The value of the measured amount. The value includes an implicit precision in the presentation of the value.'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='7' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='comparator' description='How the value should be understood and represented - whether the actual value is greater or less than the stated value due to me...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is "&lt;" , then the real value is &lt; stated value.</longDesc>
+        <child t='167' id='8' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&lt;' description='&lt;'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='9' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&lt;=' description='&lt;='>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='10' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&gt;=' description='&gt;='>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='11' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&gt;' description='&gt;'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='12' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ad' description='ad'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='13' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='unit' description='A human-readable form of the unit.'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='14' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='The identification of the system that provides the coded form of the unit.'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='15' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='code' description='A computer processable form of the unit in some unit representation system.'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='16' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='boundsRange' description='Either a duration for the length of the timing schedule, a range of possible length, or outer bounds for start and/or end limits...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>Either a duration for the length of the timing schedule, a range of possible length, or outer bounds for start and/or end limits of the timing schedule.</longDesc>
+      <child t='167' id='17' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+      </child>
+      <child t='167' id='18' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='low' description='The low limit. The boundary is inclusive.'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='19' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+        </child>
+        <child t='167' id='20' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value' description='The value of the measured amount. The value includes an implicit precision in the presentation of the value.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='21' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='comparator' description='How the value should be understood and represented - whether the actual value is greater or less than the stated value due to me...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is "&lt;" , then the real value is &lt; stated value.</longDesc>
+          <child t='167' id='22' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&lt;' description='&lt;'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='23' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&lt;=' description='&lt;='>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='24' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&gt;=' description='&gt;='>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='25' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&gt;' description='&gt;'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='26' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ad' description='ad'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+        <child t='167' id='27' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='unit' description='A human-readable form of the unit.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='28' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='The identification of the system that provides the coded form of the unit.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='29' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='code' description='A computer processable form of the unit in some unit representation system.'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='30' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='high' description='The high limit. The boundary is inclusive.'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='31' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+        </child>
+        <child t='167' id='32' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value' description='The value of the measured amount. The value includes an implicit precision in the presentation of the value.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='33' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='comparator' description='How the value should be understood and represented - whether the actual value is greater or less than the stated value due to me...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is "&lt;" , then the real value is &lt; stated value.</longDesc>
+          <child t='167' id='34' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&lt;' description='&lt;'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='35' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&lt;=' description='&lt;='>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='36' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&gt;=' description='&gt;='>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='37' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='&gt;' description='&gt;'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='38' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ad' description='ad'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+        <child t='167' id='39' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='unit' description='A human-readable form of the unit.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='40' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='The identification of the system that provides the coded form of the unit.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='41' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='code' description='A computer processable form of the unit in some unit representation system.'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+    </child>
+    <child t='167' id='42' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='boundsPeriod' description='Either a duration for the length of the timing schedule, a range of possible length, or outer bounds for start and/or end limits...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>Either a duration for the length of the timing schedule, a range of possible length, or outer bounds for start and/or end limits of the timing schedule.</longDesc>
+      <child t='167' id='43' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+      </child>
+      <child t='167' id='44' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='start' description='The start of the period. The boundary is inclusive.'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='45' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='end' description='The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was cr...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was created. The start may be in the past, and the end date in the future, which means that period is expected/planned to end at that time.</longDesc>
+      </child>
+    </child>
+    <child t='167' id='46' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='count' description='A total count of the desired number of repetitions across the duration of the entire timing specification. If countMax is presen...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>A total count of the desired number of repetitions across the duration of the entire timing specification. If countMax is present, this element indicates the lower bound of the allowed range of count values.</longDesc>
+    </child>
+    <child t='167' id='47' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='countMax' description='If present, indicates that the count is a range - so to perform the action between [count] and [countMax] times.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='48' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='duration' description='How long this thing happens for when it happens. If durationMax is present, this element indicates the lower bound of the allowe...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>How long this thing happens for when it happens. If durationMax is present, this element indicates the lower bound of the allowed range of the duration.</longDesc>
+    </child>
+    <child t='167' id='49' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='durationMax' description='If present, indicates that the duration is a range - so to perform the action between [duration] and [durationMax] time length.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='50' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='durationUnit' description='The units of time for the duration, in UCUM units&#xA;Normal practice is to use the &apos;mo&apos; code as a calendar month when calculating t...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>The units of time for the duration, in UCUM units&#xA;Normal practice is to use the &apos;mo&apos; code as a calendar month when calculating the next occurrence.</longDesc>
+      <child t='167' id='51' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='s' description='s'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='52' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='min' description='min'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='53' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='h' description='h'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='54' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='d' description='d'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='55' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='wk' description='wk'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='56' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='mo' description='mo'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='57' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='a' description='a'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='58' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='frequency' description='The number of times to repeat the action within the specified period. If frequencyMax is present, this element indicates the low...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>The number of times to repeat the action within the specified period. If frequencyMax is present, this element indicates the lower bound of the allowed range of the frequency.</longDesc>
+    </child>
+    <child t='167' id='59' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='frequencyMax' description='If present, indicates that the frequency is a range - so to repeat between [frequency] and [frequencyMax] times within the perio...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>If present, indicates that the frequency is a range - so to repeat between [frequency] and [frequencyMax] times within the period or period range.</longDesc>
+    </child>
+    <child t='167' id='60' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='period' description='Indicates the duration of time over which repetitions are to occur; e.g. to express "3 times per day", 3 would be the frequency ...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>Indicates the duration of time over which repetitions are to occur; e.g. to express "3 times per day", 3 would be the frequency and "1 day" would be the period. If periodMax is present, this element indicates the lower bound of the allowed range of the period length.</longDesc>
+    </child>
+    <child t='167' id='61' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='periodMax' description='If present, indicates that the period is a range from [period] to [periodMax], allowing expressing concepts such as "do this onc...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>If present, indicates that the period is a range from [period] to [periodMax], allowing expressing concepts such as "do this once every 3-5 days.</longDesc>
+    </child>
+    <child t='167' id='62' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='periodUnit' description='The units of time for the period in UCUM units&#xA;Normal practice is to use the &apos;mo&apos; code as a calendar month when calculating the ...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>The units of time for the period in UCUM units&#xA;Normal practice is to use the &apos;mo&apos; code as a calendar month when calculating the next occurrence.</longDesc>
+      <child t='167' id='63' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='s' description='s'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='64' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='min' description='min'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='65' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='h' description='h'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='66' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='d' description='d'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='67' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='wk' description='wk'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='68' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='mo' description='mo'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='69' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='a' description='a'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='70' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='dayOfWeek' description='If one or more days of week is provided, then the action happens only on the specified day(s).'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='71' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='timeOfDay' description='Specified time of day for action to take place.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='72' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='when' description='An approximate time period during the day, potentially linked to an event of daily living that indicates when the action should ...' checksumValid='true' checksum='g9RHHn94/lQZ6hBjFBW3rvxjKRE='>
+      <structNode t='150' idref='1'/>
+      <longDesc>An approximate time period during the day, potentially linked to an event of daily living that indicates when the action should occur.</longDesc>
+      <child t='167' id='73' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MORN' description='MORN'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='74' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MORN.early' description='MORN.early'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='75' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MORN.late' description='MORN.late'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='76' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NOON' description='NOON'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='77' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='AFT' description='AFT'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='78' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='AFT.early' description='AFT.early'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='79' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='AFT.late' description='AFT.late'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='80' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EVE' description='EVE'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='81' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EVE.early' description='EVE.early'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='82' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EVE.late' description='EVE.late'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='83' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NIGHT' description='NIGHT'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='84' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PHS' description='PHS'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='85' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='IMD' description='IMD'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='86' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HS' description='HS'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='87' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='WAKE' description='WAKE'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='88' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='C' description='C'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='89' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CM' description='CM'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='90' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CD' description='CD'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='91' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CV' description='CV'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='92' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='AC' description='AC'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='93' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ACM' description='ACM'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='94' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ACD' description='ACD'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='95' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ACV' description='ACV'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='96' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PC' description='PC'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='97' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PCM' description='PCM'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='98' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PCD' description='PCD'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='99' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PCV' description='PCV'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='100' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='offset' description='The number of minutes from the event. If the event code does not indicate whether the minutes is before or after the event, then...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>The number of minutes from the event. If the event code does not indicate whether the minutes is before or after the event, then the offset is assumed to be after the event.</longDesc>
+    </child>
+  </rootElem>
+  <defaultRep t='177' id='101' V177='1' V170='10' V697='1' V690='1' padOutput='true' encoding='UTF-8' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='JSON'>
+  </defaultRep>
+  <child t='162' id='102' V1='4' name='Representations'>
+    <child t='177' idref='101'/>
+  </child>
+  <child t='165' id='103' V1='4' name='Document Bindings'>
+    <child t='166' id='104' V166='5' docType='1' V1='4' name='/Timing_Repeat'>
+      <elemNode t='167' idref='2'/>
+    </child>
+  </child>
+</root>

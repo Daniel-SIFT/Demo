@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x19d1a03ba89' V1='4' name='Person' incarnation='10'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Person'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='resourceType' description='This is a Person resource'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='4' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Person' description='Person'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='6' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='meta' description='The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not alwa...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.</longDesc>
+      <child t='167' id='7' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+      </child>
+      <child t='167' id='8' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='versionId' description='The version specific identifier, as it appears in the version portion of the URL. This value changes when the resource is create...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>The version specific identifier, as it appears in the version portion of the URL. This value changes when the resource is created, updated, or deleted.</longDesc>
+      </child>
+      <child t='167' id='9' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='lastUpdated' description='When the resource last changed - e.g. when the version changed.'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='10' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='source' description='A uri that identifies the source system of the resource. This provides a minimal amount of [[[Provenance]]] information that can...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>A uri that identifies the source system of the resource. This provides a minimal amount of [[[Provenance]]] information that can be used to track or differentiate the source of information in the resource. The source may identify another FHIR server, document, message, database, etc.</longDesc>
+      </child>
+      <child t='167' id='11' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='profile' description='A list of profiles (references to [[[StructureDefinition]]] resources) that this resource claims to conform to. The URL is a ref...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>A list of profiles (references to [[[StructureDefinition]]] resources) that this resource claims to conform to. The URL is a reference to [[[StructureDefinition.url]]].</longDesc>
+      </child>
+      <child t='167' id='12' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='security' description='Security labels applied to this resource. These tags connect specific resources to the overall security policy and infrastructur...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Security labels applied to this resource. These tags connect specific resources to the overall security policy and infrastructure.</longDesc>
+        <child t='167' id='13' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+        </child>
+        <child t='167' id='14' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='The identification of the code system that defines the meaning of the symbol in the code.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='15' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='version' description='The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.</longDesc>
+        </child>
+        <child t='167' id='16' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='code' description='A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).</longDesc>
+        </child>
+        <child t='167' id='17' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='display' description='A representation of the meaning of the code in the system, following the rules of the system.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='18' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='userSelected' description='Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='19' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='tag' description='Tags applied to this resource. Tags are intended to be used to identify and relate resources to process and workflow, and applic...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Tags applied to this resource. Tags are intended to be used to identify and relate resources to process and workflow, and applications are not required to consider the tags when interpreting the meaning of a resource.</longDesc>
+        <child t='167' id='20' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+        </child>
+        <child t='167' id='21' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='The identification of the code system that defines the meaning of the symbol in the code.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='22' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='version' description='The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.</longDesc>
+        </child>
+        <child t='167' id='23' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='code' description='A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).</longDesc>
+        </child>
+        <child t='167' id='24' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='display' description='A representation of the meaning of the code in the system, following the rules of the system.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='25' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='userSelected' description='Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+    </child>
+    <child t='167' id='26' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='implicitRules' description='A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc.</longDesc>
+    </child>
+    <child t='167' id='27' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='language' description='The base language in which the resource is written.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='28' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='text' description='A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a...'>
+      <structNode t='150' idref='1'/>
+      <longDesc>A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it "clinically safe" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.</longDesc>
+      <child t='167' id='29' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+      </child>
+      <child t='167' id='30' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='status' description='The status of the narrative - whether it&apos;s entirely generated (from just the defined data or the extensions too), or whether a h...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>The status of the narrative - whether it&apos;s entirely generated (from just the defined data or the extensions too), or whether a human authored it and it may contain additional data.</longDesc>
+        <child t='167' id='31' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='generated' description='generated'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='32' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='extensions' description='extensions'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='33' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='additional' description='additional'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='34' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='empty' description='empty'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='35' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='div' description='The actual narrative content, a stripped down version of XHTML.'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='36' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='identifier' description='Identifier for a person within a particular scope.'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='37' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+      </child>
+      <child t='167' id='38' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='use' description='The purpose of this identifier.'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='39' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='usual' description='usual'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='40' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='official' description='official'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='41' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='temp' description='temp'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='42' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='secondary' description='secondary'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='43' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='old' description='old'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='44' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='type' description='A coded type for the identifier that can be used to determine which identifier to use for a specific purpose.'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='45' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+        </child>
+        <child t='167' id='46' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='coding' description='A reference to a code defined by a terminology system.'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='47' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+            <structNode t='150' idref='1'/>
+            <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+          </child>
+          <child t='167' id='48' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='The identification of the code system that defines the meaning of the symbol in the code.'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='49' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='version' description='The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the...'>
+            <structNode t='150' idref='1'/>
+            <longDesc>The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.</longDesc>
+          </child>
+          <child t='167' id='50' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='code' description='A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding...'>
+            <structNode t='150' idref='1'/>
+            <longDesc>A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).</longDesc>
+          </child>
+          <child t='167' id='51' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='display' description='A representation of the meaning of the code in the system, following the rules of the system.'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='52' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='userSelected' description='Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+        <child t='167' id='53' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='text' description='A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.</longDesc>
+        </child>
+      </child>
+      <child t='167' id='54' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='Establishes the namespace for the value - that is, an absolute URL that describes a set values that are unique.'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='55' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value' description='The portion of the identifier typically relevant to the user and which is unique within the context of the system.'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='56' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='period' description='Time period during which identifier is/was valid for use.'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='57' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+        </child>
+        <child t='167' id='58' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='start' description='The start of the period. The boundary is inclusive.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='59' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='end' description='The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was cr...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was created. The start may be in the past, and the end date in the future, which means that period is expected/planned to end at that time.</longDesc>
+        </child>
+      </child>
+      <child t='167' id='60' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='assigner' description='Organization that issued/manages the identifier.'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='61' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+        </child>
+        <child t='167' id='62' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='reference' description='A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is r...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with &apos;#&apos;) refer to contained resources.</longDesc>
+        </child>
+        <child t='167' id='63' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='type' description='The expected type of the target of the reference. If both Reference.type and Reference.reference are populated and Reference.ref...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>The expected type of the target of the reference. If both Reference.type and Reference.reference are populated and Reference.reference is a FHIR URL, both SHALL be consistent.&#xA;&#xA;The type is the Canonical URL of Resource Definition that is the type this reference refers to. References are URLs that are relative to http://hl7.org/fhir/StructureDefinition/ e.g. "Patient" is a reference to http://hl7.org/fhir/StructureDefinition/Patient. Absolute URLs are only allowed for logical models (and can only be used in references in logical models, not resources).</longDesc>
+        </child>
+        <child t='167' id='64' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='identifier' description='An identifier for the target resource. This is used when there is no way to reference the other resource directly, either becaus...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>An identifier for the target resource. This is used when there is no way to reference the other resource directly, either because the entity it represents is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.</longDesc>
+        </child>
+        <child t='167' id='65' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='display' description='Plain text narrative that identifies the resource in addition to the resource reference.'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+    </child>
+    <child t='167' id='66' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='active' description='Whether this person&apos;s record is in active use.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='67' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='name' description='A name associated with the person.' checksumValid='true' checksum='cwxZ7daxWP1V5je858y2YTMik6E='>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='68' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+      </child>
+      <child t='167' id='69' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='use' description='Identifies the purpose for this name.'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='70' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='usual' description='usual'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='71' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='official' description='official'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='72' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='temp' description='temp'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='73' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='nickname' description='nickname'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='74' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='anonymous' description='anonymous'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='75' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='old' description='old'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='76' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='maiden' description='maiden'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='77' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='text' description='Specifies the entire name as it should be displayed e.g. on an application UI. This may be provided instead of or as well as the...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Specifies the entire name as it should be displayed e.g. on an application UI. This may be provided instead of or as well as the specific parts.</longDesc>
+      </child>
+      <child t='167' id='78' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='family' description='The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of hi...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.</longDesc>
+      </child>
+      <child t='167' id='79' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='given' description='Given name.'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='80' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='prefix' description='Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the start of the name.</longDesc>
+      </child>
+      <child t='167' id='81' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='suffix' description='Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the end of the name.</longDesc>
+      </child>
+      <child t='167' id='82' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='period' description='Indicates the period of time when this name was valid for the named person.'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='83' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+        </child>
+        <child t='167' id='84' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='start' description='The start of the period. The boundary is inclusive.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='85' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='end' description='The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was cr...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was created. The start may be in the past, and the end date in the future, which means that period is expected/planned to end at that time.</longDesc>
+        </child>
+      </child>
+    </child>
+    <child t='167' id='86' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='telecom' description='A contact detail for the person, e.g. a telephone number or an email address.'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='87' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+      </child>
+      <child t='167' id='88' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='Telecommunications form for contact point - what communications system is required to make use of the contact.'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='89' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='phone' description='phone'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='90' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='fax' description='fax'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='91' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='email' description='email'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='92' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='pager' description='pager'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='93' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='url' description='url'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='94' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='sms' description='sms'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='95' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='other' description='other'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='96' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value' description='The actual contact point details, in a form that is meaningful to the designated communication system (i.e. phone number or emai...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>The actual contact point details, in a form that is meaningful to the designated communication system (i.e. phone number or email address).</longDesc>
+      </child>
+      <child t='167' id='97' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='use' description='Identifies the purpose for the contact point.'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='98' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='home' description='home'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='99' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='work' description='work'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='100' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='temp' description='temp'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='101' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='old' description='old'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='102' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='mobile' description='mobile'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='103' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='rank' description='Specifies a preferred order in which to use a set of contacts. ContactPoints with lower rank values are more preferred than thos...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Specifies a preferred order in which to use a set of contacts. ContactPoints with lower rank values are more preferred than those with higher rank values.</longDesc>
+      </child>
+      <child t='167' id='104' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='period' description='Time period when the contact point was/is in use.'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='105' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+        </child>
+        <child t='167' id='106' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='start' description='The start of the period. The boundary is inclusive.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='107' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='end' description='The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was cr...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was created. The start may be in the past, and the end date in the future, which means that period is expected/planned to end at that time.</longDesc>
+        </child>
+      </child>
+    </child>
+    <child t='167' id='108' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='gender' description='Administrative Gender.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='109' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='birthDate' description='The birth date for the person.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='110' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='deceasedBoolean' description='Indicates if the individual is deceased or not.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='111' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='deceasedDateTime' description='Indicates if the individual is deceased or not.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='112' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x19d1a03ba35' inheritsInThisStruct='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/fhir.schema/Address.xml' V281='13' V1='4' name='address' description='One or more addresses for the person.' checksumValid='true' checksum='Ac3Vefc4PVmG6K4yNSEbFfemC7c='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='113' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/fhir.schema/Address.xml' V281='13' V1='4' name='address' description='One or more addresses for the person.'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='114' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Address'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='115' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='maritalStatus' description='This field contains a person&apos;s most recent marital (civil) status.'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='116' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+      </child>
+      <child t='167' id='117' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='coding' description='A reference to a code defined by a terminology system.'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='118' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+        </child>
+        <child t='167' id='119' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='The identification of the code system that defines the meaning of the symbol in the code.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='120' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='version' description='The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.</longDesc>
+        </child>
+        <child t='167' id='121' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='code' description='A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).</longDesc>
+        </child>
+        <child t='167' id='122' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='display' description='A representation of the meaning of the code in the system, following the rules of the system.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='123' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='userSelected' description='Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='124' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='text' description='A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.</longDesc>
+      </child>
+    </child>
+    <child t='167' id='125' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x19d1a03ba3e' inheritsInThisStruct='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/fhir.schema/Attachment.xml' V281='13' V1='4' name='photo' description='An image that can be displayed as a thumbnail of the person to enhance the identification of the individual.' checksumValid='true' checksum='roZhB2i0GK3vL8UqD0oiNUAEI3o='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='126' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/fhir.schema/Attachment.xml' V281='13' V1='4' name='photo' description='An image that can be displayed as a thumbnail of the person to enhance the identification of the individual.'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='127' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Attachment'>
+      </savedOrigCopyAtInheritsFrom>
+    </child>
+    <child t='167' id='128' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='communication' description='A language which may be used to communicate with the person about his or her health.'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='129' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+      </child>
+      <child t='167' id='130' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='language' description='The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for t...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. "en" for English, or "en-US" for American English versus "en-AU" for Australian English.</longDesc>
+        <child t='167' id='131' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+        </child>
+        <child t='167' id='132' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='coding' description='A reference to a code defined by a terminology system.'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='133' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+            <structNode t='150' idref='1'/>
+            <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+          </child>
+          <child t='167' id='134' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='The identification of the code system that defines the meaning of the symbol in the code.'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='135' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='version' description='The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the...'>
+            <structNode t='150' idref='1'/>
+            <longDesc>The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.</longDesc>
+          </child>
+          <child t='167' id='136' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='code' description='A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding...'>
+            <structNode t='150' idref='1'/>
+            <longDesc>A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).</longDesc>
+          </child>
+          <child t='167' id='137' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='display' description='A representation of the meaning of the code in the system, following the rules of the system.'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='138' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='userSelected' description='Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+        <child t='167' id='139' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='text' description='A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.</longDesc>
+        </child>
+      </child>
+      <child t='167' id='140' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='preferred' description='Indicates whether or not the person prefers this language (over other languages he masters up a certain level).'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='141' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='managingOrganization' description='The organization that is the custodian of the person record.'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='142' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+      </child>
+      <child t='167' id='143' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='reference' description='A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is r...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with &apos;#&apos;) refer to contained resources.</longDesc>
+      </child>
+      <child t='167' id='144' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='type' description='The expected type of the target of the reference. If both Reference.type and Reference.reference are populated and Reference.ref...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>The expected type of the target of the reference. If both Reference.type and Reference.reference are populated and Reference.reference is a FHIR URL, both SHALL be consistent.&#xA;&#xA;The type is the Canonical URL of Resource Definition that is the type this reference refers to. References are URLs that are relative to http://hl7.org/fhir/StructureDefinition/ e.g. "Patient" is a reference to http://hl7.org/fhir/StructureDefinition/Patient. Absolute URLs are only allowed for logical models (and can only be used in references in logical models, not resources).</longDesc>
+      </child>
+      <child t='167' id='145' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='identifier' description='An identifier for the target resource. This is used when there is no way to reference the other resource directly, either becaus...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>An identifier for the target resource. This is used when there is no way to reference the other resource directly, either because the entity it represents is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.</longDesc>
+        <child t='167' id='146' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+        </child>
+        <child t='167' id='147' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='use' description='The purpose of this identifier.'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='148' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='usual' description='usual'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='149' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='official' description='official'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='150' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='temp' description='temp'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='151' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='secondary' description='secondary'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='152' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='old' description='old'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+        <child t='167' id='153' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='type' description='A coded type for the identifier that can be used to determine which identifier to use for a specific purpose.'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='154' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+            <structNode t='150' idref='1'/>
+            <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+          </child>
+          <child t='167' id='155' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='coding' description='A reference to a code defined by a terminology system.'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='156' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+              <structNode t='150' idref='1'/>
+              <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+            </child>
+            <child t='167' id='157' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='The identification of the code system that defines the meaning of the symbol in the code.'>
+              <structNode t='150' idref='1'/>
+            </child>
+            <child t='167' id='158' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='version' description='The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the...'>
+              <structNode t='150' idref='1'/>
+              <longDesc>The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.</longDesc>
+            </child>
+            <child t='167' id='159' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='code' description='A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding...'>
+              <structNode t='150' idref='1'/>
+              <longDesc>A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).</longDesc>
+            </child>
+            <child t='167' id='160' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='display' description='A representation of the meaning of the code in the system, following the rules of the system.'>
+              <structNode t='150' idref='1'/>
+            </child>
+            <child t='167' id='161' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='userSelected' description='Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).'>
+              <structNode t='150' idref='1'/>
+            </child>
+          </child>
+          <child t='167' id='162' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='text' description='A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents...'>
+            <structNode t='150' idref='1'/>
+            <longDesc>A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.</longDesc>
+          </child>
+        </child>
+        <child t='167' id='163' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='Establishes the namespace for the value - that is, an absolute URL that describes a set values that are unique.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='164' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value' description='The portion of the identifier typically relevant to the user and which is unique within the context of the system.'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='165' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='period' description='Time period during which identifier is/was valid for use.'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='166' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+            <structNode t='150' idref='1'/>
+            <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+          </child>
+          <child t='167' id='167' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='start' description='The start of the period. The boundary is inclusive.'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='168' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='end' description='The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was cr...'>
+            <structNode t='150' idref='1'/>
+            <longDesc>The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was created. The start may be in the past, and the end date in the future, which means that period is expected/planned to end at that time.</longDesc>
+          </child>
+        </child>
+        <child t='167' id='169' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='assigner' description='Organization that issued/manages the identifier.'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='170' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='display' description='Plain text narrative that identifies the resource in addition to the resource reference.'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='171' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='link' description='Link to a resource that concerns the same actual person.'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='172' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+        <structNode t='150' idref='1'/>
+        <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+      </child>
+      <child t='167' id='173' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='target' description='The resource to which this actual person is associated.'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='174' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+        </child>
+        <child t='167' id='175' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='reference' description='A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is r...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with &apos;#&apos;) refer to contained resources.</longDesc>
+        </child>
+        <child t='167' id='176' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='type' description='The expected type of the target of the reference. If both Reference.type and Reference.reference are populated and Reference.ref...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>The expected type of the target of the reference. If both Reference.type and Reference.reference are populated and Reference.reference is a FHIR URL, both SHALL be consistent.&#xA;&#xA;The type is the Canonical URL of Resource Definition that is the type this reference refers to. References are URLs that are relative to http://hl7.org/fhir/StructureDefinition/ e.g. "Patient" is a reference to http://hl7.org/fhir/StructureDefinition/Patient. Absolute URLs are only allowed for logical models (and can only be used in references in logical models, not resources).</longDesc>
+        </child>
+        <child t='167' id='177' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='identifier' description='An identifier for the target resource. This is used when there is no way to reference the other resource directly, either becaus...'>
+          <structNode t='150' idref='1'/>
+          <longDesc>An identifier for the target resource. This is used when there is no way to reference the other resource directly, either because the entity it represents is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.</longDesc>
+          <child t='167' id='178' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+            <structNode t='150' idref='1'/>
+            <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+          </child>
+          <child t='167' id='179' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='use' description='The purpose of this identifier.'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='180' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='usual' description='usual'>
+              <structNode t='150' idref='1'/>
+            </child>
+            <child t='167' id='181' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='official' description='official'>
+              <structNode t='150' idref='1'/>
+            </child>
+            <child t='167' id='182' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='temp' description='temp'>
+              <structNode t='150' idref='1'/>
+            </child>
+            <child t='167' id='183' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='secondary' description='secondary'>
+              <structNode t='150' idref='1'/>
+            </child>
+            <child t='167' id='184' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='old' description='old'>
+              <structNode t='150' idref='1'/>
+            </child>
+          </child>
+          <child t='167' id='185' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='type' description='A coded type for the identifier that can be used to determine which identifier to use for a specific purpose.'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='186' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+              <structNode t='150' idref='1'/>
+              <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+            </child>
+            <child t='167' id='187' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='coding' description='A reference to a code defined by a terminology system.'>
+              <structNode t='150' idref='1'/>
+              <child t='167' id='188' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+                <structNode t='150' idref='1'/>
+                <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+              </child>
+              <child t='167' id='189' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='The identification of the code system that defines the meaning of the symbol in the code.'>
+                <structNode t='150' idref='1'/>
+              </child>
+              <child t='167' id='190' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='version' description='The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the...'>
+                <structNode t='150' idref='1'/>
+                <longDesc>The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.</longDesc>
+              </child>
+              <child t='167' id='191' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='code' description='A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding...'>
+                <structNode t='150' idref='1'/>
+                <longDesc>A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).</longDesc>
+              </child>
+              <child t='167' id='192' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='display' description='A representation of the meaning of the code in the system, following the rules of the system.'>
+                <structNode t='150' idref='1'/>
+              </child>
+              <child t='167' id='193' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='userSelected' description='Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).'>
+                <structNode t='150' idref='1'/>
+              </child>
+            </child>
+            <child t='167' id='194' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='text' description='A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents...'>
+              <structNode t='150' idref='1'/>
+              <longDesc>A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.</longDesc>
+            </child>
+          </child>
+          <child t='167' id='195' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='system' description='Establishes the namespace for the value - that is, an absolute URL that describes a set values that are unique.'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='196' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value' description='The portion of the identifier typically relevant to the user and which is unique within the context of the system.'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='197' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='period' description='Time period during which identifier is/was valid for use.'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='198' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='id' description='Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces...'>
+              <structNode t='150' idref='1'/>
+              <longDesc>Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.</longDesc>
+            </child>
+            <child t='167' id='199' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='start' description='The start of the period. The boundary is inclusive.'>
+              <structNode t='150' idref='1'/>
+            </child>
+            <child t='167' id='200' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='end' description='The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was cr...'>
+              <structNode t='150' idref='1'/>
+              <longDesc>The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was created. The start may be in the past, and the end date in the future, which means that period is expected/planned to end at that time.</longDesc>
+            </child>
+          </child>
+          <child t='167' id='201' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='assigner' description='Organization that issued/manages the identifier.'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+        <child t='167' id='202' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='display' description='Plain text narrative that identifies the resource in addition to the resource reference.'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='203' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='assurance' description='Level of assurance that this link is associated with the target resource.'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+  </rootElem>
+  <defaultRep t='177' id='204' V177='1' V170='10' V697='1' V690='1' padOutput='true' encoding='UTF-8' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='JSON'>
+  </defaultRep>
+  <child t='162' id='205' V1='4' name='Representations'>
+    <child t='177' idref='204'/>
+  </child>
+  <child t='165' id='206' V1='4' name='Document Bindings'>
+    <child t='166' id='207' V166='5' docType='1' V1='4' name='/Person'>
+      <elemNode t='167' idref='2'/>
+    </child>
+  </child>
+</root>
