@@ -1,0 +1,50 @@
+{
+   "customers":[
+      {
+         "firstName":"John",
+         "lastName":"Smith",
+         "age":25,
+         "address":{
+            "streetAddress":"21 2nd Street",
+            "city":"New York",
+            "state":"NY",
+            "postalCode":"10021"
+         },
+         "phoneNumber":[
+            {
+               "type":"home",
+               "number":"202-555-0109"
+            },
+            {
+               "type":"mobile",
+               "number":"202-555-0181"
+            }
+         ]
+      },
+      {
+         "firstName":"Jane",
+         "lastName":"Doe",
+         "age":31,
+         "address":{
+            "streetAddress":"19 4th Street",
+            "city":"New York",
+            "state":"NY",
+            "postalCode":"10021"
+         },
+         "phoneNumber":[
+            {
+               "type":"home",
+               "number":"202-555-0178"
+            },
+            {
+               "type":"mobile",
+               "number":"202-555-0123"
+            },
+            {
+               "type":"work",
+               "number":"202-555-0163"
+            }
+         ]
+      }
+   ]
+}

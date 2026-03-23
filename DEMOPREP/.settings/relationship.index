@@ -327,6 +327,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_2Dr8ICZmEfGIUspMc4G6mg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_-_UvgCZoEfGIUspMc4G6mg",
+    "version" : "0.1",
+    "type" : "mapper"
+  }, {
+    "id" : "d",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_2XZNsOgjEduQrK0t1cU9cw",
     "version" : "0.1",
     "type" : "job"
@@ -5472,5 +5487,20 @@
     "id" : "_1d460GElEe-y9rLusI6B8Q - customers",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_-_UvgCZoEfGIUspMc4G6mg",
+    "version" : "0.1",
+    "type" : "mapper"
+  },
+  "relatedItems" : [ {
+    "id" : "_-l4UwCZoEfGIUspMc4G6mg",
+    "version" : "0.1",
+    "type" : "mapper"
+  }, {
+    "id" : "_BC1mwCZmEfGIUspMc4G6mg",
+    "version" : "0.1",
+    "type" : "mapper"
   } ]
 } ]
