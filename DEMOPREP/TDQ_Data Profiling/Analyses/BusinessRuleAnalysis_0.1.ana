@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:dataquality.reports="http://dataquality.reports" xmlns:dataquality.rules="http://dataquality.rules" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:dataquality.rules="http://dataquality.rules" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_aCeVkUe2EfC4GuII6O-gRQ" name="BusinessRuleAnalysis" supplierDependency="_TXe7wIPkEfCXg8-4jys-hQ" creationDate="2025-06-13T00:55:20.550+0700" defaultContext="Default">
     <clientDependency href="../../metadata/connections/StagingDB_CRM_0.1.item#_uExFEGssEemiyPj-HC5GLw"/>
     <taggedValue xmi:id="_aCeVkke2EfC4GuII6O-gRQ" tag="Status" value="development"/>
@@ -14,7 +14,7 @@
       <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TC7xKEe-i863zj7Jq_g"/>
     </context>
     <results xmi:id="_aCeVmEe2EfC4GuII6O-gRQ">
-      <resultMetadata xmi:id="_aCeVmUe2EfC4GuII6O-gRQ" executionDate="2025-08-28T19:52:16.258+0700" executionDuration="206" message="" executionNumber="5" lastRunOk="true" lastExecutionNumberOk="5"/>
+      <resultMetadata xmi:id="_aCeVmUe2EfC4GuII6O-gRQ" executionDate="2026-03-24T22:43:45.156+0700" executionDuration="179" message="Query not executed for indicator: &quot;Row Count&quot; SQL query: SELECT COUNT(*) FROM `dataquality`.`contract` . Exception: Table 'dataquality.contract' doesn't exist" executionNumber="6" lastExecutionNumberOk="5"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_pSLi0H6REfC0kapxUN4dvg" count="800" computed="true">
         <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TC7xKEe-i863zj7Jq_g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -29,7 +29,7 @@
         <parameters xmi:id="_pTZq0H6REfC0kapxUN4dvg"/>
         <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/StagingDB_CRM_0.1.item#_B27TC7xKEe-i863zj7Jq_g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Rules/SQL/Contract_Dates_0.1.rules#_qW1U4Ee2EfC4GuII6O-gRQ"/>
-        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_rJwIcX6REfC0kapxUN4dvg" body="SELECT COUNT(*) FROM `dataquality`.`contract`   WHERE (Begin_dt &lt; End_dt)" language="MySQL"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_rJwIcX6REfC0kapxUN4dvg" body="SELECT COUNT(*) FROM `dataquality`.`contract`  " language="MySQL"/>
         <builtInIndicatorDefinition xsi:type="dataquality.rules:WhereRule" xmi:id="_rJr3AH6REfC0kapxUN4dvg" name="Contract_Dates" criticalityLevel="1" whereExpression="Begin_dt &lt; End_dt">
           <taggedValue xmi:id="_rJr3AX6REfC0kapxUN4dvg" tag="Status" value="development"/>
           <taggedValue xmi:id="_rJr3An6REfC0kapxUN4dvg" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
@@ -44,9 +44,7 @@
     <parameters xmi:id="_aCeVm0e2EfC4GuII6O-gRQ" dataFilter="_7b-38Ee2EfC4GuII6O-gRQ" analysisType="Table Analysis"/>
     <contextType xmi:id="_7b28IEe2EfC4GuII6O-gRQ" confirmationNeeded="false" hide="false" name="Default"/>
   </dataquality.analysis:Analysis>
-  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_TXe7wIPkEfCXg8-4jys-hQ" kind="Usage" supplier="_aCeVkUe2EfC4GuII6O-gRQ">
-    <client xsi:type="dataquality.reports:TdReport" href="../Reports/DQReport_0.1.rep#_Hi7voIPkEfCXg8-4jys-hQ"/>
-  </orgomg.cwm.objectmodel.core:Dependency>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_TXe7wIPkEfCXg8-4jys-hQ" kind="Usage" supplier="_aCeVkUe2EfC4GuII6O-gRQ"/>
   <dataquality.domain:Domain xmi:id="_7b-38Ee2EfC4GuII6O-gRQ" name="BusinessRuleAnalysis">
     <ranges xmi:id="_7b-38Ue2EfC4GuII6O-gRQ">
       <expressions xmi:id="_7b-38ke2EfC4GuII6O-gRQ">
