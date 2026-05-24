@@ -263,7 +263,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.dataStore.authType" value="PAT"/>
     <elementParameter field="TEXT" name="configuration.dataStore.passwordAuthentication.username" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="configuration.dataStore.passwordAuthentication.password" value="enc:system.encryption.key.v2:69o8vxr5PtmolBXnT17fAm6FeiZjxnWC6RRmaQw8" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.dataStore.patAuthentication.pat" value="enc:system.encryption.key.v1:VDD15NEVaA/Z4lhVmBsnXEuHJte/2G9P+0NNN1BbdE6gvRR8NeVTrMLZMLKWxdX+n6N7Lner5Lx0iPWJfB/Zv6zK/3ywuIIptB4jl7JHdFxQRnUZclzJilgNyJzP7w=="/>
+    <elementParameter field="PASSWORD" name="configuration.dataStore.patAuthentication.pat" value="enc:system.encryption.key.v1:HJUf5aZgISuqNm0czD0w/fETD2Rybt8UOZN0wndama6qdLNHKiGj31AGVOLnM/7sS5QQAHM4NphvjnC4N4pxylNKRIWvr2C7piEy4zLea/etiB/FjVoV3o+iavYfxg=="/>
     <elementParameter field="CHECK" name="configuration.useDynamicSelection" value="false"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.preparationIdentifier" value="63fce679-abf2-4b44-8747-67c0cd9c7bf4">
       <elementValue elementRef="suggestionLabel" value="Demographics Preparation, '/' (Daniel Dae, 12/11/25, 6:40 AM) - 63fce679-abf2-4b44-8747-67c0cd9c7bf4"/>

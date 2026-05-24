@@ -9,7 +9,7 @@
     <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_HBypNbB0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Server" prompt="SalesDB_Server?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="localhost" internalId="_jufMQLB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Database" prompt="SalesDB_Database?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="demodev" internalId="_jufMQbB2Ee-H_bNmfwnbOw"/>
-    <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v2:dKYkszKRqtUYd/7zQOYWVwEj9LE5yWvCUYRV5boo/3HHtQ==" internalId="_jufMQrB2Ee-H_bNmfwnbOw"/>
+    <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v1:go8Yj7b2s3vz8smG87glkaTrBpKz8t9tEkxD9eutePlbRw==" internalId="_jufMQrB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_AdditionalParams" prompt="SalesDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="noDatetimeStringSync=true" internalId="_jufMQ7B2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Login" prompt="SalesDB_Login?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="root" internalId="_jufMRLB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Port" prompt="SalesDB_Port?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="3306" internalId="_jufMRbB2Ee-H_bNmfwnbOw"/>
@@ -29,7 +29,7 @@
     <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_HBypO7B0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Server" prompt="SalesDB_Server?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="localhost" internalId="_jufMRrB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Database" prompt="SalesDB_Database?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="demo" internalId="_jufMR7B2Ee-H_bNmfwnbOw"/>
-    <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v2:hqeYlgwBkM39/jyW7o+FhBJzFQbRHF+oo9w/lC7b+uUvpg==" internalId="_jufMSLB2Ee-H_bNmfwnbOw"/>
+    <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v1:SaqwEdBr3W53NLXSo2UQHQv5/dSzc1nxomEzwwYo8T1TKg==" internalId="_jufMSLB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_AdditionalParams" prompt="SalesDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="noDatetimeStringSync=true" internalId="_jufMSbB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Login" prompt="SalesDB_Login?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="root" internalId="_jufMSrB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Port" prompt="SalesDB_Port?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="3306" internalId="_jufMS7B2Ee-H_bNmfwnbOw"/>
@@ -49,7 +49,7 @@
     <contextParameter comment="" name="Talend101_Server" prompt="Talend101_Server?" promptNeeded="false" repositoryContextId="__O78IGE7Ee-y9rLusI6B8Q" type="id_String" value="localhost" internalId="_HBypQbB0Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Server" prompt="SalesDB_Server?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="localhost" internalId="_jufMTLB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Database" prompt="SalesDB_Database?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="demodev" internalId="_jufMTbB2Ee-H_bNmfwnbOw"/>
-    <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v2:xUEwrfJupnNoTACcjgzS04u3Pg+sgz5eI+kbyR0cXW97KQ==" internalId="_jufMTrB2Ee-H_bNmfwnbOw"/>
+    <contextParameter comment="" name="SalesDB_Password" prompt="SalesDB_Password?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_Password" value="enc:system.encryption.key.v1:JKD7B3mx/F3cpM7R+DfCqwGaeAFn7t1m119ucJiduyKS+w==" internalId="_jufMTrB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_AdditionalParams" prompt="SalesDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="noDatetimeStringSync=true" internalId="_jufMT7B2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Login" prompt="SalesDB_Login?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="root" internalId="_jufMULB2Ee-H_bNmfwnbOw"/>
     <contextParameter comment="" name="SalesDB_Port" prompt="SalesDB_Port?" promptNeeded="false" repositoryContextId="_sXa8wGQeEe-4aopAiWKOxw" type="id_String" value="3306" internalId="_jufMUbB2Ee-H_bNmfwnbOw"/>
@@ -166,12 +166,12 @@
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.SalesDB1_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.SalesDB1_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.SalesDB1_Database"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;demodev&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.SalesDB1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="context.SalesDB1_Password"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:+LKGCgwNcuqTCEb69sJHmVcYd7aXP94MCZSjfveot/R7nWQ="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;salescustomers&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -182,7 +182,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.SalesDB1_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
@@ -340,12 +340,12 @@
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.SalesDB1_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.SalesDB1_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.SalesDB1_Database"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;demodev&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.SalesDB1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="context.SalesDB1_Password"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:aPLUogM5uyOyhI6IRLidBVogajG0eCfE6WCnvn6Kah2s+/M="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;salesproducts&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -356,7 +356,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.SalesDB1_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
@@ -466,12 +466,12 @@
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.SalesDB1_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.SalesDB1_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.SalesDB1_Database"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;demodev&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.SalesDB1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="context.SalesDB1_Password"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:F81gtfRLTm7fP/Gbd/Dyg8ZAlQhNd9c0T/RB5xvXzQLHFwc="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;salesstaging&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -482,7 +482,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.SalesDB1_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
@@ -600,12 +600,12 @@
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.SalesDB1_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.SalesDB1_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.SalesDB1_Database"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;demodev&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.SalesDB1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="context.SalesDB1_Password"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZjGYQaqpKlKnr1d1oHXuXMV+7K8sdbYrzDga57QpjHcagJc="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_dSbU4PoQEeiN-rovZB9rdA - salestotal" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;salestotal&quot;"/>
@@ -618,7 +618,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.SalesDB1_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
