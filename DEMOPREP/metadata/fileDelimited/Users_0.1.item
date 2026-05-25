@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendMetadata:DelimitedFileConnection xmi:id="_UEuMUFXGEfGhjPNtTVrvMQ" name="Users" dataPackage="_UEuMUVXGEfGhjPNtTVrvMQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/danie/OneDrive/Desktop/Users.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_UEuMUFXGEfGhjPNtTVrvMQ" name="Users" supplierDependency="_F9FZXFfhEfGc96tEzSFfAw" id="_UEsXIFXGEfGhjPNtTVrvMQ" dataPackage="_UEuMUVXGEfGhjPNtTVrvMQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/danie/OneDrive/Desktop/Users.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_UEuMUVXGEfGhjPNtTVrvMQ" name="default" dataManager="_UEuMUFXGEfGhjPNtTVrvMQ">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_UEuMUlXGEfGhjPNtTVrvMQ" id="_J0iV8FXGEfGhjPNtTVrvMQ" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UEuMU1XGEfGhjPNtTVrvMQ" label="first_name" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UEuMVFXGEfGhjPNtTVrvMQ" label="last_name" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UEuMVVXGEfGhjPNtTVrvMQ" label="country" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UEuMVlXGEfGhjPNtTVrvMQ" label="phone" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UEuMU1XGEfGhjPNtTVrvMQ" id="first_name" label="first_name" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_F9FZbFfhEfGc96tEzSFfAw" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UEuMVFXGEfGhjPNtTVrvMQ" id="last_name" label="last_name" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_F9FZa1fhEfGc96tEzSFfAw" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UEuMVVXGEfGhjPNtTVrvMQ" id="country" label="country" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_F9FZalfhEfGc96tEzSFfAw" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UEuMVlXGEfGhjPNtTVrvMQ" id="phone" label="phone" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_F9FZXVfhEfGc96tEzSFfAw" tag="Content Type" value="Nominal"/>
+      </feature>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_F9FZXFfhEfGc96tEzSFfAw" kind="Usage" supplier="_UEuMUFXGEfGhjPNtTVrvMQ">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/Phone_Column_Analysis_0.1.ana#_oOhesFfgEfGc96tEzSFfAw"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_oOhesFfgEfGc96tEzSFfAw" name="Phone Column Analysis" creationDate="2026-05-25T09:22:50.882+0700" defaultContext="Default">
+    <clientDependency href="../../metadata/fileDelimited/Users_0.1.item#_F9FZXFfhEfGc96tEzSFfAw"/>
+    <taggedValue xmi:id="_oOhesVfgEfGc96tEzSFfAw" tag="Status" value="Draft"/>
+    <taggedValue xmi:id="_oOheslfgEfGc96tEzSFfAw" tag="Author" value="daniel.d@siftanalyticsgrouppteltd_nfr"/>
+    <taggedValue xmi:id="_oOhes1fgEfGc96tEzSFfAw" tag="Purpose"/>
+    <taggedValue xmi:id="_oOhetFfgEfGc96tEzSFfAw" tag="Description"/>
+    <taggedValue xmi:id="_oOhetVfgEfGc96tEzSFfAw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_seuvoVfgEfGc96tEzSFfAw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_seuvolfgEfGc96tEzSFfAw" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_seuvo1fgEfGc96tEzSFfAw" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_seuvpFfgEfGc96tEzSFfAw" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_oOhetlfgEfGc96tEzSFfAw">
+      <connection href="../../metadata/fileDelimited/Users_0.1.item#_UEuMUFXGEfGhjPNtTVrvMQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/Users_0.1.item#_UEuMVlXGEfGhjPNtTVrvMQ"/>
+    </context>
+    <results xmi:id="_oOhet1fgEfGc96tEzSFfAw">
+      <resultMetadata xmi:id="_oOheuFfgEfGc96tEzSFfAw" executionDate="2026-05-25T09:28:37.599+0700" executionDuration="17" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+      <indicators xsi:type="dataquality.indicators:ValidPhoneCountIndicator" xmi:id="_F9FZUFfhEfGc96tEzSFfAw" count="12" computed="true" validPhoneNumCount="6">
+        <parameters xmi:id="_F9FZUVfhEfGc96tEzSFfAw"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/Users_0.1.item#_UEuMVlXGEfGhjPNtTVrvMQ"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Phone Number Statistics/Valid_Phone_Number_Count_0.1.definition#_wnCBkLEJEeCVE-ofo1XCug"/>
+        <builtInIndicatorDefinition xmi:id="_KvSkEFfhEfGc96tEzSFfAw" name="Valid Phone Number Count" label="Valid Phone Number Count">
+          <taggedValue xmi:id="_KvSkEVfhEfGc96tEzSFfAw" tag="Description" value="counts the valid phone number"/>
+          <taggedValue xmi:id="_KvSkElfhEfGc96tEzSFfAw" tag="Purpose" value="evaluates the valid phone number of records"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:ValidPhoneForRegionCountIndicator" xmi:id="_F9FZUlfhEfGc96tEzSFfAw" count="12" computed="true">
+        <parameters xmi:id="_F9FZU1fhEfGc96tEzSFfAw"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/Users_0.1.item#_UEuMVlXGEfGhjPNtTVrvMQ"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Phone Number Statistics/Valid_Phone_Number_For_Region_Count_0.1.definition#_wnCBkLEJEeCVX-ofo2XCue"/>
+        <builtInIndicatorDefinition xmi:id="_KvZRwFfhEfGc96tEzSFfAw" name="Valid Phone Number For Region Count" label="Valid Phone Number For Region Count">
+          <taggedValue xmi:id="_KvZRwVfhEfGc96tEzSFfAw" tag="Description" value="counts the valid phone number for region"/>
+          <taggedValue xmi:id="_KvZRwlfhEfGc96tEzSFfAw" tag="Purpose" value="evaluates the valid phone number for region of records"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:WellFormIntePhoneCountIndicator" xmi:id="_F9FZVFfhEfGc96tEzSFfAw" count="12" computed="true" wellFormIntePhoneCount="5">
+        <parameters xmi:id="_F9FZVVfhEfGc96tEzSFfAw"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/Users_0.1.item#_UEuMVlXGEfGhjPNtTVrvMQ"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Phone Number Statistics/Well_Formed_International_Phone_Number_Count_0.1.definition#_qqT3kLEhEeCVE-ofo1XCug"/>
+        <builtInIndicatorDefinition xmi:id="_Kvib3lfhEfGc96tEzSFfAw" name="Well Formed International Phone Number Count" label="Well Formed International Phone Number Count">
+          <taggedValue xmi:id="_Kvib31fhEfGc96tEzSFfAw" tag="Description" value="counts the well formed internatonal phone number"/>
+          <taggedValue xmi:id="_Kvib4FfhEfGc96tEzSFfAw" tag="Description" value="evaluates the well formed international phone number of records"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:PossiblePhoneCountIndicator" xmi:id="_F9FZVlfhEfGc96tEzSFfAw" count="12" computed="true" possiblePhoneCount="11">
+        <parameters xmi:id="_F9FZV1fhEfGc96tEzSFfAw"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/Users_0.1.item#_UEuMVlXGEfGhjPNtTVrvMQ"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Phone Number Statistics/Possible_Phone_Number_Count_0.1.definition#_tZdoYce9EeCW47AWa23dHQ"/>
+        <builtInIndicatorDefinition xmi:id="_KvlfAFfhEfGc96tEzSFfAw" name="Possible Phone Number Count" label="Possible Phone Number Count">
+          <taggedValue xmi:id="_KvlfAVfhEfGc96tEzSFfAw" tag="Description" value="counts the possible phone number"/>
+          <taggedValue xmi:id="_KvlfAlfhEfGc96tEzSFfAw" tag="Purpose" value="evaluates the possible phone number of records"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:InvalidRegCodeCountIndicator" xmi:id="_F9FZWFfhEfGc96tEzSFfAw" count="12" computed="true" invalidRegCount="7">
+        <parameters xmi:id="_F9FZWVfhEfGc96tEzSFfAw"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/Users_0.1.item#_UEuMVlXGEfGhjPNtTVrvMQ"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Phone Number Statistics/Invalid_Region_Code_Count_0.1.definition#_LuVZgLEfEeCVE-ofo1XCug"/>
+        <builtInIndicatorDefinition xmi:id="_KvoiUFfhEfGc96tEzSFfAw" name="Invalid Region Code Count" label="Invalid Region Code Count">
+          <taggedValue xmi:id="_KvoiUVfhEfGc96tEzSFfAw" tag="Description" value="counts the invalid region code number"/>
+          <taggedValue xmi:id="_KvoiUlfhEfGc96tEzSFfAw" tag="Purpose" value="evaluates the invalid region code number of records"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:ValidRegCodeCountIndicator" xmi:id="_F9FZWlfhEfGc96tEzSFfAw" count="12" computed="true" validRegCount="5">
+        <parameters xmi:id="_F9FZW1fhEfGc96tEzSFfAw"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/Users_0.1.item#_UEuMVlXGEfGhjPNtTVrvMQ"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Phone Number Statistics/Valid_Region_Code_Count_0.1.definition#_aXbmULEeEeCVE-ofo1XCug"/>
+        <builtInIndicatorDefinition xmi:id="_Kvq-kFfhEfGc96tEzSFfAw" name="Valid Region Code Count" label="Valid Region Code Count">
+          <taggedValue xmi:id="_Kvq-kVfhEfGc96tEzSFfAw" tag="Description" value="counts the valid region code number"/>
+          <taggedValue xmi:id="_Kvq-klfhEfGc96tEzSFfAw" tag="Purpose" value="evaluates the valid region code number of records"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_oOheuVfgEfGc96tEzSFfAw" dataFilter="_seuvpVfgEfGc96tEzSFfAw" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
+    <contextType xmi:id="_seuvoFfgEfGc96tEzSFfAw" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_seuvpVfgEfGc96tEzSFfAw" name="Phone Column Analysis">
+    <ranges xmi:id="_seuvplfgEfGc96tEzSFfAw">
+      <expressions xmi:id="_seuvp1fgEfGc96tEzSFfAw">
+        <expression xsi:type="relational:TdExpression" xmi:id="_seuvqFfgEfGc96tEzSFfAw" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>
